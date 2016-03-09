@@ -1,0 +1,3 @@
+- Source: BlurayDesuYo (DameDesuYo)
+- Tradução: Grilo
+- Revisão: Grilo
