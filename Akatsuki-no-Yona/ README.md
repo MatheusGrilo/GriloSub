@@ -1,3 +1,0 @@
-Source: FFF
-Tradução: Grilo
-Revisão: Ray/Grilo
