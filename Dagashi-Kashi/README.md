@@ -1,0 +1,3 @@
+- Source: Mori & konosweets
+- Tradução: Grilo
+- Revisão: Hakone-chan
