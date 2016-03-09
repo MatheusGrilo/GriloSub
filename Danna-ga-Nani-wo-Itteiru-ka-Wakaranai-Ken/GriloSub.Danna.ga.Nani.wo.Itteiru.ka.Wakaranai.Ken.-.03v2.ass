@@ -1,0 +1,157 @@
+﻿[Script Info]
+Title: GriloSub
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Danna ga Nani Main,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,0,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Danna ga Nani Main I,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,-1,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Sign,One Stroke Script LET,17,&H00FFFFFF,&H0000FFFF,&H00000000,&H00404040,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,0
+Style: Box,Arial Black,20,&H00010101,&H000000FF,&H00010101,&H00000000,-1,0,0,0,100,100,0,0,3,10,0,2,10,10,10,1
+Style: Danna ga Nani ED Song,Arial Rounded MT Bold,50,&H009C9FFD,&H000000FF,&H00625BFF,&H00000000,-1,0,0,0,100,100,2,0,1,5,0,2,70,70,5,1
+Style: Danna ga Nani ED Song Br,CAC Moose,50,&H00010202,&H000000FF,&H00FAFAFA,&H00000000,0,0,0,0,100,100,2,0,1,3,0,8,70,70,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:03.10,Box,title,0,0,0,,{\c&HF9F9F9&\3c&HF9F9F9&\pos(600,464)\fscx277\fscy361}AAAAAA
+Dialogue: 0,0:00:00.00,0:00:03.10,Sign,title,0,0,0,,{\blur0.7\fnCac Moose\c&H3F3F43&\fscx227\fscy231\pos(800,482)\fs25}Meu Irmão Otaku\N Não Pode Ter Tão\N Poucos Amigos (etc)
+Dialogue: 4,0:00:00.00,0:00:03.11,Danna ga Nani Main,,0,0,0,,{\blur0.5\fnAR Christy\1a&HFF&\an1\c&H19191A&\3c&HEFEFEF&}Eu não compreendo o que \Nmeu marido está dizendo.
+Dialogue: 4,0:00:00.00,0:00:03.11,Danna ga Nani Main,,0,0,0,,{\blur0.6\fnAR Christy\bord0\an1\c&H19191A&\3c&HEFEFEF&\pos(70,690)}Eu não compreendo o que \Nmeu marido está dizendo.
+Dialogue: 0,0:00:03.11,0:00:05.23,Danna ga Nani Main I,karou,0,0,0,,Aparentemente, Mayotama-kun é um universitário.
+Dialogue: 0,0:00:05.23,0:00:07.61,Danna ga Nani Main,mayo,0,0,0,,As pessoas sempre pensam que estou no ensino fundamental.
+Dialogue: 0,0:00:07.61,0:00:09.61,Danna ga Nani Main,koaru,0,0,0,,Você está em algum clube?
+Dialogue: 0,0:00:09.61,0:00:11.36,Danna ga Nani Main,mayo,0,0,0,,No clube de pesquisa de mangás,
+Dialogue: 0,0:00:11.36,0:00:14.11,Danna ga Nani Main,,0,0,0,,mas por algum motivo, \N não posso desenhar {\i1}me{\fsp3}u{\i0\fsp0} mangá enquanto estou lá.
+Dialogue: 0,0:00:14.11,0:00:15.16,Danna ga Nani Main,hajime,0,0,0,,É um ciclo interminável, então?
+Dialogue: 0,0:00:15.16,0:00:16.19,Danna ga Nani Main,,0,0,0,,Hã?
+Dialogue: 0,0:00:16.19,0:00:17.24,Danna ga Nani Main,mayo,0,0,0,,De fato.
+Dialogue: 0,0:00:17.24,0:00:19.62,Danna ga Nani Main,kaoru,0,0,0,,“Ciclo... interminável”?
+Dialogue: 0,0:00:19.62,0:00:23.12,Danna ga Nani Main,hajime,0,0,0,,Significa que ele só pode desenhar mangás que serão popular no clube.
+Dialogue: 0,0:00:23.12,0:00:25.12,Danna ga Nani Main,kaoru,0,0,0,,Isso não é ruim?
+Dialogue: 0,0:00:25.12,0:00:29.13,Danna ga Nani Main,mayo,0,0,0,,Apenas pensei que seria capaz de desenhar livremente se estivesse sozinho.
+Dialogue: 0,0:00:29.13,0:00:33.59,Danna ga Nani Main,hajime,0,0,0,,Mas se você sair desse ciclo interminável, \N você provavelmente acabará sozinho, então cuidado.
+Dialogue: 0,0:00:33.59,0:00:35.00,Danna ga Nani Main,kaoru,0,0,0,,Está falando isso por experiência própria?
+Dialogue: 0,0:00:35.00,0:00:36.38,Danna ga Nani Main,kaoru,0,0,0,,Ah...
+Dialogue: 0,0:00:36.38,0:00:40.39,Danna ga Nani Main,kaoru,0,0,0,,Bem, considerando que Mayotama-kun desenha {\i1}ess{\fsp4}e{\fsp0\i0} tipo de mangá...
+Dialogue: 0,0:00:40.39,0:00:43.39,Danna ga Nani Main,hajime,0,0,0,,Então o clube de pesquisas de mangá \N é quem não consegue entender essas coisas.
+Dialogue: 0,0:00:43.39,0:00:46.77,Danna ga Nani Main,mayo,0,0,0,,Bem, tenho outros amigos também.
+Dialogue: 0,0:00:46.77,0:00:48.39,Danna ga Nani Main,mayo,0,0,0,,Muitos deles.
+Dialogue: 0,0:00:48.40,0:00:49.90,Danna ga Nani Main,kaoru,0,0,0,,Você quis dizer na Internet?
+Dialogue: 0,0:00:49.90,0:00:51.65,Danna ga Nani Main,kaoru,0,0,0,,Desculpem! Fui muito longe.
+Dialogue: 0,0:00:51.65,0:00:52.86,Danna ga Nani Main,mayo,0,0,0,,Irmão...
+Dialogue: 0,0:00:52.86,0:00:53.91,Danna ga Nani Main,hajime,0,0,0,,Sim...
+Dialogue: 0,0:00:53.91,0:00:56.11,Danna ga Nani Main,hajime,0,0,0,,Ah, mas estou casado.
+Dialogue: 0,0:00:56.11,0:00:58.95,Danna ga Nani Main,hajime,0,0,0,,Mesmo sem ter amigos, \N tudo estará bem, pois tenho minha esposa.
+Dialogue: 0,0:00:58.95,0:00:59.87,Danna ga Nani Main,kaoru,0,0,0,,Idiota...
+Dialogue: 0,0:00:59.87,0:01:01.12,Danna ga Nani Main,mayo,0,0,0,,Eu fui traído!
+Dialogue: 0,0:01:01.12,0:01:03.65,Danna ga Nani Main,kaoru,0,0,0,,Bem, eu tenho amigos reais.
+Dialogue: 0,0:01:03.65,0:01:05.47,Danna ga Nani Main,kaoru,0,0,0,,Desculpem! Desculpem mesmo!
+Dialogue: 0,0:01:06.36,0:01:09.17,Danna ga Nani Main,mayo,0,0,0,,Neste caso, eu e você devemos nos tornar amigos, irmão!
+Dialogue: 0,0:01:09.17,0:01:10.17,Danna ga Nani Main,hajime,0,0,0,,Isso mesmo!
+Dialogue: 0,0:01:10.17,0:01:11.67,Danna ga Nani Main,mayo,0,0,0,,Nós podemos jogar juntos!
+Dialogue: 0,0:01:11.67,0:01:12.67,Danna ga Nani Main,hajime,0,0,0,,Sim!
+Dialogue: 0,0:01:12.67,0:01:15.80,Danna ga Nani Main,mayo,0,0,0,,Podemos dormir juntos, tomar banho juntos,
+Dialogue: 0,0:01:15.80,0:01:17.43,Danna ga Nani Main,mayo,0,0,0,,talvez até nos “ligarmos” um pouco.
+Dialogue: 0,0:01:17.43,0:01:20.93,Danna ga Nani Main I,announce,0,0,0,,{\an8}Próxima parada: Shingakitsu.
+Dialogue: 0,0:01:20.93,0:01:24.74,Danna ga Nani Main,mayo,0,0,0,,Desde que eu tenha amigos na Internet, não preciso de nenhum na vida real.
+Dialogue: 0,0:01:25.43,0:01:29.44,Box,mayo,0,0,0,,{\c&H44B1FC&\3c&H44B1FC&\fscx515\fscy181\clip(m 501 127 l 1288 125 1290 70 496 62)\pos(661.2,117.2)}AAAA
+Dialogue: 0,0:01:25.43,0:01:29.44,Box,mayo,0,0,0,,{\pos(582,234)\c&H54BCF4&\3c&H54BCF4&\fscx289\fscy499\clip(m 504 173 l 537 630 748 622 724 154)}AAAA
+Dialogue: 0,0:01:25.43,0:01:29.44,Box,mayo,0,0,0,,{\c&HADD3E8&\3c&HADD3E8&\4c&HADD3E8&\pos(926,288)\fscx628\fscy559\clip(m 730 128 l 1286 125 1282 216 832 218 828 160 786 142 754 162 752 184 754 220 737 221)}AAAA
+Dialogue: 0,0:01:25.43,0:01:29.44,Box,mayo,0,0,0,,{\c&HADD3E8&\3c&HADD3E8&\4c&HADD3E8&\fscx628\fscy559\pos(969.2,468.8)\clip(m 862 347 l 891 745 1307 734 1308 347)}AAAA
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&HFF&\blur2\an1\bord4\fnClannad\b1\c&H6FC3F2&\3c&HD9E5F2&\fax0.01\frx1\fry2\fscx244\fscy236\pos(913.6,736.6)\frz3.54\fs27}Iremos ter um\N\Nencontro offline, então nós\N\N achamos que você \N\Ngostaria de participar, Mayotama.
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&H00&\blur2\an1\bord0\fnClannad\b1\c&H6FC3F2&\3c&HD9E5F2&\fax0.01\frx1\fry2\fscx244\fscy236\pos(913.6,736.6)\frz3.54\fs27}Iremos ter um\N\Nencontro offline, então nós\N\N achamos que você \N\Ngostaria de participar, Mayotama.
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&HFF&\blur2\an1\bord4\fnClannad\b1\c&H6B96F7&\3c&HD9E5F2&\frz1\fax0.04\frx3\fry2\fscx244\fscy236\pos(843.2,213.4)\fs25}Um encontro offline
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&H00&\blur2\an1\bord0\fnClannad\b1\c&H6B96F7&\3c&HD9E5F2&\frz1\fax0.04\frx3\fry2\fscx244\fscy236\pos(843.2,213.4)\fs25}Um encontro offline
+Dialogue: 3,0:01:25.43,0:01:29.44,Danna ga Nani Main,mayo,0,0,0,,“Iremos ter um encontro offline, então nós achamos que você gostaria de participar, Mayotama.
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&HFF&\blur2\an1\bord6\fnClannad\b1\c&H70A8F3&\3c&HE1EAEE&\frz1\fax0.04\frx3\fry2\fscx244\fscy236\pos(523.2,247.6)}Entrada
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&HFF&\blur2\an1\bord6\fnClannad\b1\c&H839FF5&\3c&HE1EAEE&\fax0.04\frx3\fry2\fscx211\fscy182\pos(508.8,120)\frz0\fs27}E-mail
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&H00&\blur2\an1\bord0\fnClannad\b1\c&H839FF5&\3c&HE1EAEE&\fax0.04\frx3\fry2\fscx211\fscy182\pos(508.8,120)\frz0\fs27}E-mail
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&HFF&\blur2\an1\bord6\fnClannad\b1\c&H70A8F3&\3c&HE1EAEE&\frz1\fax0.04\frx3\fry2\fscx244\fscy236\pos(531.2,372.4)}Enviados
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&HFF&\blur2\an1\bord6\fnClannad\b1\c&H70A8F3&\3c&HE1EAEE&\frz1.9\fax0.02\frx3\fry2\fscx244\fscy236\pos(539.2,482.8)}Rascunhos
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\1a&HFF&\blur2\an1\bord6\fnClannad\b1\c&H70A8F3&\3c&HE1EAEE&\frz3\fax0.02\frx0\fry\fscx244\fscy236\pos(545.6,595.4)}Lixo
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\blur2.5\an1\bord0\fnClannad\b1\c&H70A8F3&\3c&HE1EAEE&\frz1\fax0.04\frx3\fry2\fscx244\fscy236\pos(523.2,247.6)}Entrada
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\blur2.5\an1\bord0\fnClannad\b1\c&H70A8F3&\3c&HE1EAEE&\frz1\fax0.04\frx3\fry2\fscx244\fscy236\pos(531.2,372.4)}Enviados
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\blur2.5\an1\bord0\fnClannad\b1\c&H70A8F3&\3c&HE1EAEE&\frz1.9\fax0.02\frx3\fry2\fscx244\fscy236\pos(539.2,482.8)}Rascunhos
+Dialogue: 0,0:01:25.44,0:01:29.44,Sign,left,0,0,0,,{\blur2.5\an1\bord0\fnClannad\b1\c&H70A8F3&\3c&HE1EAEE&\frz3\fax0.02\frx0\fry\fscx244\fscy236\pos(545.6,595.4)}Lixo
+Dialogue: 0,0:01:29.44,0:01:31.25,Danna ga Nani Main,mayo,0,0,0,,Será realizado em Ikebukuro.”
+Dialogue: 0,0:01:31.25,0:01:33.44,Danna ga Nani Main,mayo,0,0,0,,É perto, mas...
+Dialogue: 0,0:01:33.44,0:01:34.43,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord2\xshad-2\yshad2\c&HF7F7F7&\3c&H010102&\4c&H1B1A1A&\fscx104\fscy98\pos(121.067,657.867)}Eu não compreendo o que\N meu marido está dizendo
+Dialogue: 0,0:01:33.44,0:01:34.43,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx104\fscy98\pos(121.067,657.867)}Eu não compreendo o que\N meu marido está dizendo
+Dialogue: 0,0:01:34.45,0:01:37.41,Danna ga Nani Main,person,0,0,0,,Olá! Eu sou o coordenador, Destiny Fucker.
+Dialogue: 0,0:01:38.65,0:01:39.46,Danna ga Nani Main,person,0,0,0,,{\an8}Olá.
+Dialogue: 0,0:01:37.41,0:01:39.45,Danna ga Nani Main,person,0,0,0,,Obrigado por terem vindo hoje.
+Dialogue: 0,0:01:39.45,0:01:40.95,Danna ga Nani Main,mob,0,0,0,,Olá.
+Dialogue: 0,0:01:40.95,0:01:43.93,Danna ga Nani Main,mao,0,0,0,,E-Ele parece ser bem legal...
+Dialogue: 0,0:01:44.65,0:01:46.50,Danna ga Nani Main,miki,0,0,0,,Ei, então você apareceu.
+Dialogue: 0,0:01:46.50,0:01:48.46,Danna ga Nani Main,hajime,0,0,0,,Miki-san, o que está fazendo?
+Dialogue: 0,0:01:48.46,0:01:49.88,Danna ga Nani Main,mayo,0,0,0,,Você o conhece, irmão?
+Dialogue: 0,0:01:49.88,0:01:50.71,Danna ga Nani Main,haji,0,0,0,,Sim.
+Dialogue: 0,0:01:50.72,0:01:54.76,Danna ga Nani Main,miki,0,0,0,,É seu primeiro encontro offline, irmãzinha? Você é muito bonita!
+Dialogue: 0,0:01:54.76,0:01:57.43,Danna ga Nani Main,mayo,0,0,0,,Olá... Sou a irmã mais nova, Mayotama.
+Dialogue: 0,0:01:57.43,0:01:58.97,Danna ga Nani Main,miki,0,0,0,,Ah! Então é você!
+Dialogue: 0,0:01:58.97,0:02:01.47,Box,sign,0,0,0,,{\c&HDDE1E3&\3c&HDDE1E3&\pos(526.4,513.2)\fscx182\fscy384\clip(m 386 457 l 396 417 864 423 796 735 439 732 383 625)}AAAAAAAAAAAA
+Dialogue: 0,0:02:01.47,0:02:02.71,Box,,0,0,0,,{\c&HDDE1E3&\3c&HDDE1E3&\pos(526.4,513.2)\fscx182\fscy384\clip(m 406 446 l 462 624 488 640 520 633 552 612 574 598 619 598 620 636 624 662 635 696 689 715 764 718 b 851 661 873 523 865 427 l 420 411)}AAAAAAAAAAAA
+Dialogue: 0,0:01:58.97,0:02:00.22,Sign,sign,0,0,0,,{\blur1\1a&HFF&\bord1.5\fnCAC Moose\c&H545F66&\3c&H5B6F83&\fscx336\fscy370\frz2.308\pos(627.2,568)}Deixe-me \Nexplicar!
+Dialogue: 0,0:01:58.97,0:02:00.22,Sign,sign,0,0,0,,{\blur1\bord0\fnCAC Moose\c&H545F66&\3c&H5B6F83&\fscx336\fscy370\frz2.308\pos(627.2,568)}Deixe-me \Nexplicar!
+Dialogue: 0,0:02:00.22,0:02:01.47,Sign,sign,0,0,0,,{\blur1\1a&HFF&\bord1.5\fnCAC Moose\c&H545F66&\3c&H5B6F83&\fscx336\fscy370\frz2.308\pos(627.2,568)}Mayotama \Né um otaku!
+Dialogue: 0,0:02:00.22,0:02:01.47,Sign,sign,0,0,0,,{\blur1\1a&H00&\bord0\fnCAC Moose\c&H545F66&\3c&H5B6F83&\fscx336\fscy370\frz2.308\pos(627.2,568)}Mayotama \Né um otaku!
+Dialogue: 0,0:02:01.47,0:02:02.72,Sign,sign,0,0,0,,{\blur1\1a&HFF&\bord2\fnCAC Moose\c&H545F66&\3c&H435972&\frz2.308\fscx271\fscy353\pos(678.4,540.8)}Mayotama é um {\alpha&HFF&}......{\alpha&H00&\1a&HFF&\shad0}\Notaku!\N{\alpha&HFF&}......{\alpha&H00&\1a&HFF&\shad0}Um nekama!
+Dialogue: 0,0:02:01.47,0:02:02.72,Sign,sign,0,0,0,,{\blur0.7\1a&H00&\bord0\fnCAC Moose\c&H545F66&\3c&H5B6F83&\frz2.308\fscx271\fscy353\pos(678.4,540.8)}Mayotama é um {\alpha&HFF&}......{\alpha&H00&\1a&H00&\shad0}\Notaku!\N{\alpha&HFF&}......{\alpha&H00&\1a&H00&\shad0}Um nekama!
+Dialogue: 0,0:02:01.47,0:02:02.72,Sign,sign,0,0,0,,{\blur1\b0\1a&HFF&\bord1.8\fnCAC Moose\c&H545F66&\3c&H0E193A&\frz3\fscx56\fscy93\pos(707.2,687.2)\fs25}(Uma pessoa que retrata-se como sexo oposto online.)
+Comment: 0,0:02:01.47,0:02:02.72,Sign,sign,0,0,0,,{\blur0.5\b0\1a&H00&\bord0\fnCAC Moose\c&H545F66&\3c&H435972&\frz3\fscx56\fscy93\pos(707.2,687.2)}(Uma pessoa que retrata-se como sexo oposto online.)
+Dialogue: 0,0:02:01.47,0:02:02.72,Sign,sign,0,0,0,,{\blur1.4\1a&H00&\bord0\fnCAC Moose\c&H0A0BCC&\3c&H5B6F83&\frz2.308\fscx608\fscy451\pos(678.4,540.8)}X
+Dialogue: 0,0:02:02.72,0:02:03.72,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord2\xshad-2\yshad2\c&HF7F7F7&\3c&H050506&\4c&H111010&\fscx104\fscy98\pos(644.267,637.067)}Eu não compreendo o que\N meu marido está dizendo
+Dialogue: 0,0:02:02.72,0:02:03.72,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx104\fscy98\pos(644.267,637.067)}Eu não compreendo o que\N meu marido está dizendo
+Dialogue: 0,0:02:03.71,0:02:06.34,Danna ga Nani Main,miki,0,0,0,,Estive lendo seus livros, Mayotama-sensei.
+Dialogue: 0,0:02:06.34,0:02:08.31,Danna ga Nani Main,mayo,0,0,0,,Não precisa me chamar de sensei...
+Dialogue: 0,0:02:08.31,0:02:10.98,Danna ga Nani Main I,haji,0,0,0,,Certo, se um círculo de amigos se formar com Miki-san no meio,
+Dialogue: 0,0:02:10.98,0:02:12.73,Danna ga Nani Main I,,0,0,0,,ele será capaz de fazer amigos naturalmente.
+Dialogue: 0,0:02:12.73,0:02:15.23,Danna ga Nani Main I,hajim,0,0,0,,Pensando nas condições de OreImo, de qualquer maneira!
+Dialogue: 0,0:02:15.23,0:02:19.74,Danna ga Nani Main I,haji,0,0,0,,Agora tenho que fazer isso... \N tolerar esta situação pelas próximas horas.
+Dialogue: 0,0:02:19.74,0:02:23.99,Danna ga Nani Main,miki,0,0,0,,A propósito, li seu último livro, \N mas os desenhos estavam mais leves que o comum.
+Dialogue: 0,0:02:23.99,0:02:24.62,Danna ga Nani Main,mayo,0,0,0,,Hã?
+Dialogue: 0,0:02:24.62,0:02:29.21,Danna ga Nani Main,miki,0,0,0,,Parecia que você estava tentando atrair mais leitores, \N então o fez mais suscetível.
+Dialogue: 0,0:02:29.21,0:02:32.09,Danna ga Nani Main,miki,0,0,0,,Quer dizer, sempre é bom ter mais leitores,
+Dialogue: 0,0:02:32.09,0:02:34.84,Danna ga Nani Main,miki,0,0,0,,mas você tem que continuar desenhando as coisas da maneira que desejar.
+Dialogue: 0,0:02:34.84,0:02:37.17,Danna ga Nani Main,miki,0,0,0,,Desculpe. Parecia que eu estava te repreendendo.
+Dialogue: 0,0:02:37.17,0:02:38.51,Danna ga Nani Main I,mayo,0,0,0,,Não é nada disso.
+Dialogue: 0,0:02:38.51,0:02:39.51,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord2\xshad-2\yshad2\c&HF7F7F7&\3c&H050506&\4c&H111010&\fscx104\fscy98\pos(639.467,177.867)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:02:38.51,0:02:39.51,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx104\fscy98\pos(639.467,177.867)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:02:39.50,0:02:42.39,Danna ga Nani Main,miki,0,0,0,,Ei! Sua irmã mais nova é bem sincera e é uma boa garota.
+Dialogue: 0,0:02:42.39,0:02:44.52,Danna ga Nani Main,,0,0,0,,Eu poderia, de verdade, ir atrás dela.
+Dialogue: 0,0:02:45.21,0:02:46.52,Danna ga Nani Main,miki,0,0,0,,Tenho permissão para isso!
+Dialogue: 0,0:02:46.52,0:02:47.52,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord2\xshad-2\yshad2\c&HF7F7F7&\3c&H050506&\4c&H111010&\fscx104\fscy98\pos(116.267,637.067)}Eu não compreendo o que\N meu marido está dizendo
+Dialogue: 0,0:02:46.52,0:02:47.52,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx104\fscy98\pos(116.267,637.067)}Eu não compreendo o que\N meu marido está dizendo
+Dialogue: 0,0:02:46.52,0:02:47.52,Sign,sfx left,0,0,0,,{\blur1\fnLast Ninja\pos(355.2,304)\frz21.27\fscx193\fscy251\c&H1F1F1F&}Algazarra
+Dialogue: 0,0:02:46.52,0:02:47.52,Sign,text right,0,0,0,,{\blur0.9\fscx242\fscy247\pos(1131.2,592)\c&H292929&}Indo para casa
+Dialogue: 0,0:02:47.51,0:02:50.14,Danna ga Nani Main,kaoru,0,0,0,,Oh? Então ele fez alguns amigos?
+Dialogue: 0,0:02:50.14,0:02:52.02,Danna ga Nani Main,haji,0,0,0,,Tudo está bem quando acaba bem.
+Dialogue: 0,0:02:52.02,0:02:55.02,Danna ga Nani Main,kaoru,0,0,0,,Aliás, Miki-san não é um de seus amigos?
+Dialogue: 0,0:02:55.02,0:02:58.28,Danna ga Nani Main,haji,0,0,0,,Não, não posso chamá-lo de amigo...
+Dialogue: 0,0:02:58.57,0:03:00.28,Danna ga Nani Main,haji,0,0,0,,Um sacrifício, talvez?
+Dialogue: 0,0:03:00.28,0:03:03.78,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\fn} {\kf47}{\kf40}ii{\kf23}ka{\kf35}gen {\kf20}ni {\kf28}shi{\kf87}te{\kf70} ~
+Dialogue: 0,0:03:00.28,0:03:03.78,Danna ga Nani ED Song Br,,0,0,0,,Estou cansada disso tudo {\fnTimes New Roman\b1}~
+Dialogue: 0,0:03:03.78,0:03:08.29,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf85}{\fn} {\kf19}ho{\kf37}shii {\kf26}ke{\kf107}do ~{\kf10} {\kf30}a{\kf22}na{\kf113}ta
+Dialogue: 0,0:03:03.78,0:03:08.29,Danna ga Nani ED Song Br,,0,0,0,,Eu quero você, meu querido.
+Dialogue: 0,0:03:08.29,0:03:14.29,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&}♠{\kf79} {\kf34}{\fn}ki{\kf30}mi {\kf17}to {\kf39}i{\kf23}ru {\kf45}to {\kf39}nan{\kf27}ka {\kf18}ta{\kf18}no{\kf27}shi{\kf200}i
+Dialogue: 0,0:03:08.29,0:03:14.29,Danna ga Nani ED Song Br,,0,0,0,,Quando estou com você, é meio divertido.
+Dialogue: 0,0:03:14.29,0:03:22.05,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf183}{\kf25}{\fn} fu{\kf21}ta{\kf23}ri{\kf23} de {\kf18}i{\kf20}ru{\kf44} to {\kf22}to{\kf21}te{\kf22}mo {\kf23}u{\kf11}re{\kf32}shi{\kf288}i
+Dialogue: 0,0:03:14.29,0:03:22.05,Danna ga Nani ED Song Br,,0,0,0,,Quando estamos juntos, fico muito feliz.
+Dialogue: 0,0:03:22.05,0:03:27.81,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}{\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\c&H605BFC&\3c&H9F9DFD&}{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se {\kf116}~
+Dialogue: 0,0:03:22.05,0:03:27.81,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\clip(178,694,1092,720)\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se{\kf116} ~
+Dialogue: 0,0:03:22.05,0:03:27.81,Danna ga Nani ED Song Br,,0,0,0,,Não sei a razão, mas estamos felizes agora {\fnTimes New Roman\b1}~
+Dialogue: 0,0:03:00.28,0:03:03.78,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(456,296)}Tradução{\i1\b1\u1}
+Dialogue: 0,0:03:00.28,0:03:03.78,Sign,,0,0,0,,{\an3\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(792,296)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:03.78,0:03:07.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(145.6,406.6)\i0\b0\u0}Revisão{\i1\b1\u1}
+Dialogue: 0,0:03:03.78,0:03:07.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(306,406.6)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:11.79,0:03:14.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(124,415)}Karaokê{\i1\b1\u1}
+Dialogue: 0,0:03:11.79,0:03:14.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(124,274)}Trad. Karaokê{\i1\b1\u1}
+Dialogue: 0,0:03:11.79,0:03:14.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(350,415)}Kaitou Fansub{\i1\b1\u1}
+Dialogue: 0,0:03:11.79,0:03:14.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(350,274)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:27.81,0:03:29.98,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs70\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(520.6,250.6)\i0\b0\u0}GriloSub{\i1\b1\u1}
+Dialogue: 0,0:03:27.81,0:03:29.98,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs50\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(368.6,320.6)\i0\b0\u0}#GriloSub@irc.rizon.net{\i1\b1\u1}
