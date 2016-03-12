@@ -1,0 +1,3 @@
+- Source: caffeine (01-05) & Lemon (06-07)
+- Tradução: Grilo
+- Parceria: Amnésia Fansub
