@@ -1,0 +1,3 @@
+- Source: Pyon (01-03), BossSubs (04), NCNS (05-13)
+- Tradução: Grilo (01-05)
+- Revisão: Grilo
