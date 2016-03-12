@@ -1,0 +1,3 @@
+- Source: Heroine
+- Tradução: Grilo
+- Revisão: Grilo
