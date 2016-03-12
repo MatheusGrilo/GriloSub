@@ -1,0 +1,3 @@
+- Source: CoalGirls
+- Tradução: Grilo
+- Revisão: Grilo & Ray
