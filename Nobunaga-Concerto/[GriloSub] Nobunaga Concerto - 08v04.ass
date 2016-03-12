@@ -1,0 +1,435 @@
+﻿[Script Info]
+Title: GriloSub
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,2.55,0,2,0,0,42,1
+Style: Signs,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,41,41,36,1
+Style: Main Dialogue Top,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,1.5,8,5,5,50,1
+Style: Internal Dialogue,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,1.5,2,5,5,50,1
+Style: Internal Dialogue Top,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,1.5,8,5,5,50,1
+Style: Episode Number,Open Sans Semibold,45,&H00CCCCCC,&H000000FF,&H0000005F,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,41,175,276,1
+Style: Episode Title,Open Sans Semibold,50,&H0000005F,&H000000FF,&H00CCCCCC,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,201,41,48,1
+Style: Flashback Dialogue,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00313335,&H00000000,0,0,0,0,100,100,0,0,1,3,1.5,2,5,5,50,1
+Style: Missing Sign,Open Sans Semibold,50,&H00000000,&H000000FF,&H00D1D1D1,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,41,41,36,1
+Style: OP BR,Monotype Corsiva,40,&H00FFFFFF,&H000000FF,&H00373737,&H96000000,-1,0,0,0,100,100,0,0,1,2,0,3,30,30,8,1
+Style: OP Romaji,Please write me a song,50,&H00FFFFFF,&H00B19D65,&H00373737,&H96F4F4F4,-1,0,0,0,100,100,5,0,1,2,1,7,30,30,10,1
+Style: OP Kanji,Monotype Corsiva,40,&H00FFFFFF,&H00B19D65,&H00373737,&H96000000,0,0,0,0,100,100,0,0,1,2,0,7,30,30,70,1
+Style: Credits GriloSub,Tahoma,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: Locais,Arial,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,4,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.60,0:00:09.07,Main Dialogue,A,0,0,0,,O ataque em Asakura \N mostrará quem realmente é Nobunaga.
+Dialogue: 0,0:00:09.07,0:00:12.81,Main Dialogue,A,0,0,0,,Destrói todos que opõe-se a ele.
+Dialogue: 0,0:00:12.81,0:00:17.58,Main Dialogue,A,0,0,0,,Um dia poderá apontar \N sua espada para Azai.
+Dialogue: 0,0:00:17.58,0:00:19.55,Main Dialogue,A,0,0,0,,Não é verdade?
+Dialogue: 0,0:00:21.10,0:00:22.58,Main Dialogue,A,0,0,0,,Responda, Nagamasa!
+Dialogue: 0,0:00:26.88,0:00:29.34,Main Dialogue,Nagamasa,0,0,0,,A partir de hoje, \N nosso inimigo é
+Dialogue: 0,0:00:32.83,0:00:35.19,Main Dialogue,Nagamasa,0,0,0,,Nobunaga Oda!
+Dialogue: 0,0:00:44.02,0:00:45.98,Episode Number,Text,0,0,0,,Episódio 8
+Dialogue: 0,0:00:44.02,0:00:45.98,Episode Title,Text,0,0,0,,Uma Traição \N Inimaginável
+Dialogue: 0,0:00:46.82,0:00:49.02,Main Dialogue,Oichi,0,0,0,,Chacha!
+Dialogue: 0,0:00:46.15,0:00:50.78,Locais,Oichi,0,0,0,,{\pos(30,600)\fade(100,100)}Ōmi / Castelo Odani
+Dialogue: 0,0:00:49.48,0:00:51.72,Main Dialogue,Oichi,0,0,0,,Chacha!
+Dialogue: 0,0:00:54.54,0:00:55.90,Main Dialogue,Oichi,0,0,0,,Aí está você!
+Dialogue: 0,0:00:57.27,0:01:00.12,Main Dialogue,Oichi,0,0,0,,Chacha, acorde.
+Dialogue: 0,0:01:00.12,0:01:02.03,Main Dialogue,Oichi,0,0,0,,Chacha!
+Dialogue: 0,0:01:07.37,0:01:08.89,Main Dialogue,Oichi,0,0,0,,Que rostinho estranho.
+Dialogue: 0,0:01:08.89,0:01:12.02,Main Dialogue,A,0,0,0,,Estou impressionado com a \N decisão de nosso senhor.
+Dialogue: 0,0:01:12.02,0:01:18.44,Main Dialogue,B,0,0,0,,A reputação de Azai aumentará absurdamente se \N derrotarmos Oda e tomarmos a cabeça de Nobunaga.
+Dialogue: 0,0:01:18.44,0:01:22.24,Main Dialogue,A,0,0,0,,Nobunaga se tornou famoso \N por matar Yoshimoto Imagawa,
+Dialogue: 0,0:01:22.24,0:01:25.25,Main Dialogue,A,0,0,0,,então, agora Azai matará \N Nobunaga e se tornará famoso!
+Dialogue: 0,0:01:25.25,0:01:26.14,Main Dialogue,B,0,0,0,,Isso.
+Dialogue: 0,0:01:26.14,0:01:30.16,Main Dialogue,B,0,0,0,,Tenho certeza que podemos \N derrotá-lo se o cercarmos.
+Dialogue: 0,0:01:30.16,0:01:33.73,Main Dialogue,B,0,0,0,,O teremos como um rato encurralado.
+Dialogue: 0,0:01:34.30,0:01:37.34,Main Dialogue,Oichi,0,0,0,,Meu irmão? Como um rato encurralado?
+Dialogue: 0,0:01:37.34,0:01:41.36,Main Dialogue,Oichi,0,0,0,,Do que esses homens estavam falando?
+Dialogue: 1,0:01:42.72,0:01:45.96,Main Dialogue,Micchan,0,0,0,,As forças de Asakura não \N resistirão o quanto imaginávamos.
+Dialogue: 0,0:01:41.49,0:01:45.91,Locais,Micchan,0,0,0,,{\pos(30,600)\fade(100,100)}Echizen / Castelo Tezutsuyama
+Dialogue: 0,0:01:46.78,0:01:50.38,Main Dialogue,Micchan,0,0,0,,Esperava que seria mais \N difícil tomar sua fortaleza.
+Dialogue: 0,0:01:51.12,0:01:55.94,Main Dialogue,Saburo,0,0,0,,Suas armaduras parecem \N muito pesadas, concordam?
+Dialogue: 0,0:01:55.94,0:01:57.39,Main Dialogue,Hanbei,0,0,0,,De fato.
+Dialogue: 0,0:01:57.39,0:02:02.41,Main Dialogue,Hanbei,0,0,0,,Suas armaduras parecem \N ultrapassadas perante as nossas.
+Dialogue: 0,0:02:02.41,0:02:05.69,Main Dialogue,Saburo,0,0,0,,Eles deveriam livrar-se delas \N para não ficarem tão pesados.
+Dialogue: 0,0:02:05.69,0:02:08.16,Main Dialogue,Saburo,0,0,0,,Poderiam mover-se mais facilmente.
+Dialogue: 0,0:02:08.16,0:02:13.19,Main Dialogue,Micchan,0,0,0,,Meu senhor, se os inimigos se tornarem \N mais rápidos, seria mais difícil combatê-los.
+Dialogue: 0,0:02:13.19,0:02:15.40,Main Dialogue,Saburo,0,0,0,,Ah. Você está certo.
+Dialogue: 0,0:02:15.40,0:02:19.91,Main Dialogue,Ha,0,0,0,,Meu senhor, iremos atacar o \N Castelo Kanegasaki amanhã, não iremos?
+Dialogue: 0,0:02:19.91,0:02:20.93,Main Dialogue,Saburo,0,0,0,,Sim.
+Dialogue: 0,0:02:21.91,0:02:25.70,Main Dialogue,Saburo,0,0,0,,Mas honestamente, preferiria \N que eles se rendessem.
+Dialogue: 0,0:02:27.07,0:02:31.00,Main Dialogue,Saburo,0,0,0,,Deveria ser a decisão óbvia após nos \N enfrentarem e ver o quão grande nossas forças são.
+Dialogue: 0,0:02:31.58,0:02:34.90,Main Dialogue,Saburo,0,0,0,,Estou certo que Asakura \N sabe disso, também
+Dialogue: 0,0:02:34.90,0:02:39.21,Main Dialogue,Saburo,0,0,0,,Provavelmente irei mandar um \N mensageiro para encorajá-los na rendição.
+Dialogue: 0,0:02:39.21,0:02:41.39,Main Dialogue,Micchan,0,0,0,,Creio que essa é a melhor ação a ser tomada.
+Dialogue: 0,0:02:41.71,0:02:45.60,Main Dialogue,Micchan,0,0,0,,Se tomarmos o Castelo Kanegasaki, \N poderemos ir através da Trilha Kinome,
+Dialogue: 0,0:02:45.60,0:02:50.43,Main Dialogue,Micchan,0,0,0,,e invadir o quartel general de \N Asakura em Ichijodani.
+Dialogue: 0,0:02:50.43,0:02:53.31,Main Dialogue,Micchan,0,0,0,,Estamos próximos de derrotar Asakura.
+Dialogue: 0,0:02:55.93,0:02:56.86,Main Dialogue,Saburo,0,0,0,,Sim.
+Dialogue: 0,0:03:09.50,0:03:10.93,Main Dialogue,Nagamasa,0,0,0,,Oichi.
+Dialogue: 0,0:03:11.58,0:03:14.34,Main Dialogue,Oichi,0,0,0,,Onde está indo?
+Dialogue: 0,0:03:15.75,0:03:20.77,Main Dialogue,Nagamasa,0,0,0,,Gostaria de ter lhe contado, mas \N as coisas estão um pouco agitadas.
+Dialogue: 0,0:03:21.95,0:03:28.35,Main Dialogue,Nagamasa,0,0,0,,Estou indo ajudar o exército de Nobunaga-dono.
+Dialogue: 0,0:03:28.35,0:03:29.92,Main Dialogue,Oichi,0,0,0,,Ajudar?
+Dialogue: 0,0:03:32.28,0:03:35.93,Main Dialogue,Nagamasa,0,0,0,,Não irá rezar pelo meu sucesso?
+Dialogue: 0,0:03:35.93,0:03:39.57,Main Dialogue,Oichi,0,0,0,,Sempre faço-o, Nagamasa-dono.
+Dialogue: 0,0:03:40.68,0:03:42.28,Main Dialogue,Oichi,0,0,0,,Pelo meu irmão.
+Dialogue: 0,0:03:48.06,0:03:49.13,Main Dialogue,Nagamasa,0,0,0,,Estou indo.
+Dialogue: 0,0:03:56.19,0:03:59.15,Main Dialogue,Nagamasa,0,0,0,,Não temam o grande exército de Oda!
+Dialogue: 0,0:03:59.15,0:04:02.83,Main Dialogue,Nagamasa,0,0,0,,Tudo que precisamos \N é da cabeça de Nobunaga!
+Dialogue: 1,0:04:06.17,0:04:10.81,Main Dialogue,Hideyoshi,0,0,0,,Meu senhor, nossa batalha \N está indo melhor que o esperado.
+Dialogue: 0,0:04:06.17,0:04:10.77,Locais,Hideyoshi,0,0,0,,{\pos(1260,620)\an6\fade(100,100)}Echizen / Castelo Kanegasaki
+Dialogue: 0,0:04:11.30,0:04:15.25,Main Dialogue,Hideyoshi,0,0,0,,Não acho que Asakura \N se renderá tão rápido.
+Dialogue: 0,0:04:15.25,0:04:18.08,Main Dialogue,Saburo,0,0,0,,No entanto, fique atento.
+Dialogue: 0,0:04:19.48,0:04:22.38,Main Dialogue,Hideyoshi,0,0,0,,Com toda certeza!
+Dialogue: 0,0:04:22.38,0:04:23.56,Main Dialogue,Sassa,0,0,0,,Meu senhor!
+Dialogue: 0,0:04:25.15,0:04:28.42,Main Dialogue,Sassa,0,0,0,,Isso é de Oichi-sama, \N veio do Castelo Odani.
+Dialogue: 0,0:04:28.42,0:04:29.79,Main Dialogue,Saburo,0,0,0,,Da Oi-cchan?
+Dialogue: 0,0:04:32.62,0:04:33.92,Main Dialogue,Saburo,0,0,0,,O que é isso?
+Dialogue: 0,0:04:34.57,0:04:37.16,Main Dialogue,Sassa,0,0,0,,Parece que são feijões vermelhos.
+Dialogue: 0,0:04:37.16,0:04:38.09,Main Dialogue,Saburo,0,0,0,,Feijões vermelhos?
+Dialogue: 0,0:04:38.68,0:04:40.04,Main Dialogue,Saburo,0,0,0,,Por que feijões vermelhos?
+Dialogue: 0,0:04:40.04,0:04:41.55,Main Dialogue,Sassa,0,0,0,,Não faço ideia.
+Dialogue: 0,0:04:43.42,0:04:45.41,Main Dialogue,Saburo,0,0,0,,Sei o que isso significa!
+Dialogue: 0,0:04:52.91,0:04:55.27,Internal Dialogue,Micchan,0,0,0,,O que é esse cheiro?
+Dialogue: 0,0:04:55.72,0:04:59.04,Main Dialogue,Saburo,0,0,0,,Uma pena não termos açúcar.
+Dialogue: 0,0:04:59.46,0:05:01.85,Main Dialogue,Saburo,0,0,0,,Geléia de feijão seria uma delícia.
+Dialogue: 0,0:05:01.85,0:05:05.04,Main Dialogue,Hideyoshi,0,0,0,,Mas, fica bom com sal também.
+Dialogue: 0,0:05:06.02,0:05:10.09,Main Dialogue,Saburo,0,0,0,,Bem, estamos transpirando bastante, \N então deveriamos nos carregar de sal.
+Dialogue: 0,0:05:10.09,0:05:12.44,Main Dialogue,Micchan,0,0,0,,Meu senhor, o que exatamente você —
+Dialogue: 0,0:05:12.44,0:05:14.11,Main Dialogue,Saburo,0,0,0,,Olá, Micchi.
+Dialogue: 0,0:05:14.11,0:05:16.51,Main Dialogue,Saburo,0,0,0,,Oi-cchan me mandou feijões vermelhos.
+Dialogue: 0,0:05:16.51,0:05:19.25,Main Dialogue,Saburo,0,0,0,,Acho que ela quer que comamos \N para ficarmos mais fortes.
+Dialogue: 0,0:05:19.60,0:05:20.87,Main Dialogue,Micchan,0,0,0,,Oichi-sama quem enviou?
+Dialogue: 0,0:05:21.48,0:05:25.29,Main Dialogue,Micchan,0,0,0,,É algo muito insignificante para \N ser um presente em plena luta.
+Dialogue: 0,0:05:26.41,0:05:31.11,Main Dialogue,Micchan,0,0,0,,Meu senhor, não havia mais nada? \N Nenhuma carta?
+Dialogue: 0,0:05:31.11,0:05:33.98,Main Dialogue,Saburo,0,0,0,,Não, só feijões vermelhos.
+Dialogue: 0,0:05:34.78,0:05:37.03,Main Dialogue,Hanbei,0,0,0,,Havia apenas uma coisa incomum.
+Dialogue: 0,0:05:37.83,0:05:43.94,Main Dialogue,Hanbei,0,0,0,,Ambos os lados do saco \N foram amarrados firmemente.
+Dialogue: 0,0:05:43.94,0:05:45.44,Main Dialogue,Micchan,0,0,0,,Ambos os lados?
+Dialogue: 0,0:05:45.95,0:05:49.69,Main Dialogue,Micchan,0,0,0,,Acha que ela quis \N dizer algo,Takenaka-dono?
+Dialogue: 0,0:05:52.11,0:05:57.85,Main Dialogue,Hanbei,0,0,0,,Isso pode ser grave, caso ela esteja \N implicando em "rato encurralado".
+Dialogue: 0,0:05:52.11,0:05:57.85,Signs,Nota,0,0,0,,Nota: encurralado também pode ser traduzido como ensacolado.
+Dialogue: 0,0:06:00.35,0:06:02.04,Main Dialogue,Micchan,0,0,0,,Rato encurralado...
+Dialogue: 0,0:06:03.26,0:06:04.59,Main Dialogue,Saburo,0,0,0,,O que significa?
+Dialogue: 0,0:06:05.83,0:06:09.51,Main Dialogue,Hanbei,0,0,0,,Significa que Azai nos traiu.
+Dialogue: 0,0:06:11.63,0:06:15.94,Main Dialogue,Micchan,0,0,0,,De fato, se Azai viesse nos \N atacar agora de Oumi,
+Dialogue: 0,0:06:15.94,0:06:19.58,Main Dialogue,Micchan,0,0,0,,seriamos cercados por Asakura \N pelo norte e por Azai pelo sul.
+Dialogue: 0,0:06:19.58,0:06:24.09,Main Dialogue,Micchan,0,0,0,,Sem rota de fuga, estaríamos apenas \N presos no território inimigo.
+Dialogue: 0,0:06:24.09,0:06:26.75,Main Dialogue,Micchan,0,0,0,,Assim como, ratos encurralados.
+Dialogue: 0,0:06:26.75,0:06:29.60,Main Dialogue,Hanbei,0,0,0,,Mas é claro, não podemos afirmar.
+Dialogue: 0,0:06:30.53,0:06:32.51,Main Dialogue,Sassa,0,0,0,,Azai nos traindo?
+Dialogue: 0,0:06:32.51,0:06:33.72,Main Dialogue,Tsune,0,0,0,,Impossível!
+Dialogue: 0,0:06:35.32,0:06:37.06,Main Dialogue,Saburo,0,0,0,,Ratos encurralados.
+Dialogue: 0,0:06:37.96,0:06:39.12,Main Dialogue,Saburo,0,0,0,,Isso é muito vago.
+Dialogue: 0,0:06:39.12,0:06:40.52,Main Dialogue,Toshiie,0,0,0,,Meu senhor!
+Dialogue: 0,0:06:41.72,0:06:45.25,Main Dialogue,Toshiie,0,0,0,,O exército de Azai está vindo para cá.
+Dialogue: 0,0:06:45.65,0:06:49.93,Main Dialogue,Toshiie,0,0,0,,Parece que Nagamasa Azai-dono nos traiu!
+Dialogue: 0,0:06:50.63,0:06:52.63,Main Dialogue,Tsune,0,0,0,,Mas... não pode...
+Dialogue: 0,0:06:52.63,0:06:54.68,Main Dialogue,Tsune,0,0,0,,Não acredito nisso!
+Dialogue: 0,0:06:54.68,0:06:59.07,Main Dialogue,Tsune,0,0,0,,Esses feijões, eles são mesmo de Oichi-sama?
+Dialogue: 0,0:06:59.07,0:07:01.82,Main Dialogue,Saburo,0,0,0,,Sim, devem ser.
+Dialogue: 0,0:07:01.82,0:07:03.94,Main Dialogue,Saburo,0,0,0,,Há decorações de cobra nele.
+Dialogue: 0,0:07:03.94,0:07:06.91,Main Dialogue,Saburo,0,0,0,,Quem mais faria algo do tipo, \N se não Oi-cchan?
+Dialogue: 0,0:07:07.91,0:07:11.36,Main Dialogue,Micchan,0,0,0,,Meu senhor, o que devemos fazer?
+Dialogue: 0,0:07:11.36,0:07:14.02,Main Dialogue,Sassa,0,0,0,,Ichijoudani está próxima.
+Dialogue: 0,0:07:14.02,0:07:16.19,Main Dialogue,Sassa,0,0,0,,Tudo isso terá sido em vão \N se recuarmos agora.
+Dialogue: 0,0:07:16.19,0:07:19.01,Main Dialogue,Sassa,0,0,0,,Não há nenhuma maneira\N  de contra-atacarmos?
+Dialogue: 0,0:07:19.01,0:07:20.11,Main Dialogue,Tsune,0,0,0,,Não há.
+Dialogue: 0,0:07:20.11,0:07:21.83,Main Dialogue,Tsune,0,0,0,,O Castelo Odani é perto.
+Dialogue: 0,0:07:21.83,0:07:24.35,Main Dialogue,Tsune,0,0,0,,Não teríamos tempo de \N mover nosso exército.
+Dialogue: 0,0:07:26.88,0:07:28.91,Main Dialogue,Tsune,0,0,0,,Meu senhor, o que irá fazer?
+Dialogue: 0,0:07:28.91,0:07:30.97,Main Dialogue,Saburo,0,0,0,,Seremos mais rápidos com menos peso.
+Dialogue: 0,0:07:31.39,0:07:32.94,Main Dialogue,Saburo,0,0,0,,Nós perdemos essa batalha!
+Dialogue: 0,0:07:33.51,0:07:36.22,Main Dialogue,Saburo,0,0,0,,Estou de saída.
+Dialogue: 0,0:07:37.40,0:07:40.01,Main Dialogue,Saburo,0,0,0,,Todas as tropas, recuar!
+Dialogue: 0,0:07:40.01,0:07:43.83,Internal Dialogue,Narrator,0,0,0,,Isso seria conhecido como \N a Retirada em Kanegasaki.
+Dialogue: 0,0:07:43.83,0:07:46.57,Internal Dialogue,Narrator,0,0,0,,Era o começo de uma luta de retiro
+Dialogue: 0,0:07:46.57,0:07:49.10,Internal Dialogue,Narrator,0,0,0,,que ficaria marcada na história de Sengoku.
+Dialogue: 0,0:07:51.83,0:07:52.89,Main Dialogue,Hideyoshi,0,0,0,,Meu senhor!
+Dialogue: 0,0:07:54.06,0:07:55.61,Main Dialogue,Saburo,0,0,0,,O que foi, Hideyoshi-kun?
+Dialogue: 0,0:07:55.61,0:07:59.17,Main Dialogue,Hideyoshi,0,0,0,,Permitiria-me comandar a retaguarda?
+Dialogue: 0,0:07:59.17,0:08:02.43,Main Dialogue,Saburo,0,0,0,,Ah. A retaguarda. Havia \N me esquecido completamente.
+Dialogue: 0,0:08:02.43,0:08:04.63,Main Dialogue,Hideyoshi,0,0,0,,Se me comandar,
+Dialogue: 0,0:08:04.63,0:08:09.00,Main Dialogue,Hideyoshi,0,0,0,,prometo pela minha vida que irei \N parar o exército de Azai e Asakura.
+Dialogue: 0,0:08:09.37,0:08:11.16,Main Dialogue,Tsune,0,0,0,,Hashiba-dono...
+Dialogue: 0,0:08:11.16,0:08:14.08,Main Dialogue,Tsune,0,0,0,,E pensar que ele se voluntariaria \N para proteger a retaguarda.
+Dialogue: 0,0:08:14.08,0:08:18.99,Main Dialogue,Sassa,0,0,0,,Seria muito difícil proteger a retaguarda \N indo para casa numa situação dessas.
+Dialogue: 0,0:08:19.68,0:08:20.39,Main Dialogue,Saburo,0,0,0,,Certo.
+Dialogue: 0,0:08:21.18,0:08:23.27,Main Dialogue,Saburo,0,0,0,,Estou deixando a \N retaguarda com você
+Dialogue: 0,0:08:23.65,0:08:24.53,Main Dialogue,,0,0,0,,Sim, senhor!
+Dialogue: 0,0:08:24.88,0:08:26.24,Main Dialogue,Saburo,0,0,0,,Volte vivo.
+Dialogue: 0,0:08:29.05,0:08:32.17,Main Dialogue,Hideyoshi,0,0,0,,Sim, senhor! \N Obrigado pelas palavras bondosas!
+Dialogue: 0,0:08:40.56,0:08:42.97,Main Dialogue,Shibata,0,0,0,,É verdade que Azai nos traiu?
+Dialogue: 0,0:08:42.97,0:08:45.40,Main Dialogue,Micchan,0,0,0,,Shibata-dono e Miwa-dono.
+Dialogue: 0,0:08:45.40,0:08:46.42,Main Dialogue,Shibata,0,0,0,,Onde está nosso senhor?
+Dialogue: 0,0:08:46.71,0:08:48.46,Main Dialogue,Shibata,0,0,0,,Ele foi embora.
+Dialogue: 0,0:08:48.46,0:08:51.64,Main Dialogue,Micchan,0,0,0,,Sim. Após ouvir que Azai nos traiu,
+Dialogue: 0,0:08:51.64,0:08:54.48,Main Dialogue,Micchan,0,0,0,,imediatamente declarou \N retirada, e correu de volta.
+Dialogue: 0,0:08:54.48,0:08:57.36,Main Dialogue,Shibata,0,0,0,,Ele é embaraçosamente \N rápido, como sempre.
+Dialogue: 0,0:08:57.36,0:08:59.50,Main Dialogue,Shibata,0,0,0,,Quantos homens ele levou?
+Dialogue: 0,0:08:59.50,0:09:02.24,Main Dialogue,Shibata,0,0,0,,Conhecendo ele, não \N deve ter levado muitos.
+Dialogue: 0,0:09:02.24,0:09:04.02,Main Dialogue,Shibata,0,0,0,,Quinhentos? Não, trezentos?
+Dialogue: 0,0:09:04.34,0:09:05.39,Main Dialogue,Micchan,0,0,0,,Talvez dez.
+Dialogue: 0,0:09:05.39,0:09:07.68,Main Dialogue,Shibata,0,0,0,,Sabia, dez. Dez?!
+Dialogue: 0,0:09:08.18,0:09:10.32,Main Dialogue,Shibata,0,0,0,,Isso é perigoso, \N ir apenas com tão poucos.
+Dialogue: 0,0:09:10.32,0:09:14.66,Main Dialogue,Micchan,0,0,0,,Estou certo de que um grande \N exército o faria mais lento e mais visível.
+Dialogue: 0,0:09:14.66,0:09:18.44,Main Dialogue,Hanbei,0,0,0,,Ele escolheu ser rápido indo \N com um grupo menor.
+Dialogue: 0,0:09:18.44,0:09:20.62,Main Dialogue,Hanbei,0,0,0,,Podemos apenas orar por ele.
+Dialogue: 0,0:09:20.85,0:09:25.20,Main Dialogue,Niwa,0,0,0,,Nesse caso, temos que escapar \N rapidamente de Kanegasaki também,
+Dialogue: 0,0:09:25.20,0:09:27.45,Main Dialogue,Niwa,0,0,0,,e pensar em ir para Kyoto.
+Dialogue: 0,0:09:27.45,0:09:28.66,Main Dialogue,Shibata,0,0,0,,Sim.
+Dialogue: 0,0:09:28.66,0:09:32.55,Main Dialogue,Shibata,0,0,0,,Vamos todos chamar nossos \N homens e imediatamente nos retirar.
+Dialogue: 0,0:09:32.55,0:09:35.27,Main Dialogue,Shibata,0,0,0,,Mas e quanto a retaguarda?
+Dialogue: 0,0:09:35.27,0:09:37.90,Main Dialogue,Hideyoshi,0,0,0,,Eu irei proteger a retaguarda.
+Dialogue: 0,0:09:37.90,0:09:41.60,Main Dialogue,Hideyoshi,0,0,0,,Acabei de falar com nosso senhor, e recebi permissão para isso.
+Dialogue: 0,0:09:41.60,0:09:42.93,Main Dialogue,Shibata,0,0,0,,Tem certeza?
+Dialogue: 0,0:09:42.93,0:09:44.79,Main Dialogue,Shibata,0,0,0,,Será uma árdua batalha.
+Dialogue: 0,0:09:44.79,0:09:45.93,Main Dialogue,Shibata,0,0,0,,Obrigado.
+Dialogue: 0,0:09:45.93,0:09:47.94,Main Dialogue,Hideyoshi,0,0,0,,Deixe comigo.
+Dialogue: 0,0:09:47.94,0:09:51.19,Main Dialogue,Hideyoshi,0,0,0,,Rezo por todo seu sucesso.
+Dialogue: 0,0:09:51.19,0:09:53.56,Main Dialogue,Hideyoshi,0,0,0,,Então. Estou indo.
+Dialogue: 0,0:09:56.19,0:09:59.95,Main Dialogue,Shibata,0,0,0,,Mesmo a retaguarda \N sendo tão brutal,
+Dialogue: 0,0:09:59.95,0:10:02.60,Main Dialogue,Shibata,0,0,0,,ele parece um tanto relaxado.
+Dialogue: 0,0:10:02.60,0:10:08.17,Main Dialogue,Shibata,0,0,0,,Está fingindo isso, ou tem \N confiança em suas habilidades.
+Dialogue: 0,0:10:09.37,0:10:11.51,Main Dialogue,Shibata,0,0,0,,Hideyoshi Hashiba.
+Dialogue: 0,0:10:11.51,0:10:13.80,Main Dialogue,Shibata,0,0,0,,Esse homem é um mistério.
+Dialogue: 0,0:10:20.26,0:10:23.26,Internal Dialogue,Hideyoshi,0,0,0,,A situação de Nobunaga agora
+Dialogue: 0,0:10:23.26,0:10:26.75,Internal Dialogue,Hideyoshi,0,0,0,,é a mesma de Yoshimoto Imagawa, naquele tempo.
+Dialogue: 0,0:10:27.26,0:10:31.84,Internal Dialogue,Hideyoshi,0,0,0,,Se eu trai-lo na retaguarda, \N Oda será arruinada.
+Dialogue: 0,0:10:31.84,0:10:36.67,Internal Dialogue,Hideyoshi,0,0,0,,Nobunaga, agora é sua vez de cair.
+Dialogue: 0,0:10:36.67,0:10:40.51,Internal Dialogue,Hideyoshi,0,0,0,,Será como a humilhação que senti \N quando você derrotou Yoshimoto.
+Dialogue: 0,0:10:40.51,0:10:43.08,Internal Dialogue,Hideyoshi,0,0,0,,Terei minha vingança, agora!
+Dialogue: 0,0:10:43.08,0:10:44.19,Main Dialogue,Micchan,0,0,0,,Hashiba-dono.
+Dialogue: 0,0:10:48.09,0:10:50.03,Main Dialogue,Micchan,0,0,0,,Gostaria de conversar contigo.
+Dialogue: 0,0:10:52.87,0:10:53.79,Main Dialogue,A,0,0,0,,Meu senhor!
+Dialogue: 0,0:10:54.40,0:10:55.63,Main Dialogue,Nagamasa,0,0,0,,O que houve?
+Dialogue: 0,0:10:55.63,0:10:58.06,Main Dialogue,A,0,0,0,,O exército de Oda \N descobriu nossos planos!
+Dialogue: 0,0:10:58.06,0:11:00.81,Main Dialogue,A,0,0,0,,Estão se preparando para \N a retirada agora mesmo!
+Dialogue: 0,0:11:00.81,0:11:01.64,Main Dialogue,Endo,0,0,0,,O quê?
+Dialogue: 0,0:11:01.64,0:11:02.96,Main Dialogue,Nagamasa,0,0,0,,Retirada?
+Dialogue: 0,0:11:02.96,0:11:04.41,Main Dialogue,Nagamasa,0,0,0,,Eles realmente...?
+Dialogue: 0,0:11:04.41,0:11:05.40,Main Dialogue,A,0,0,0,,Sim.
+Dialogue: 0,0:11:06.41,0:11:08.01,Internal Dialogue,Nagamasa,0,0,0,,Tão rápido.
+Dialogue: 0,0:11:08.01,0:11:11.63,Internal Dialogue,Nagamasa,0,0,0,,Como ele pôde decidir essa \N retirada tão rapidamente?
+Dialogue: 0,0:11:12.21,0:11:17.03,Internal Dialogue,Nagamasa,0,0,0,,Para Nobunaga, essa seria a oportunidade \N perfeita para derrotar Asakura.
+Dialogue: 0,0:11:17.65,0:11:20.40,Internal Dialogue,Nagamasa,0,0,0,,Andou por todo esse \N caminho para retirar-se.
+Dialogue: 0,0:11:21.16,0:11:23.50,Internal Dialogue,Nagamasa,0,0,0,,Nenhum homem normal \N poderia tomar essa decisão.
+Dialogue: 0,0:11:23.50,0:11:24.42,Main Dialogue,Endo,0,0,0,,Meu senhor.
+Dialogue: 0,0:11:25.52,0:11:26.65,Main Dialogue,Nagamasa,0,0,0,,Precisamos ser rápidos.
+Dialogue: 0,0:11:26.65,0:11:29.64,Main Dialogue,Nagamasa,0,0,0,,Levará algum tempo para \N deslocar nossos homens.
+Dialogue: 0,0:11:30.64,0:11:32.87,Main Dialogue,Nagamasa,0,0,0,,Espero que saibamos onde Nobunaga está.
+Dialogue: 0,0:11:33.42,0:11:38.34,Main Dialogue,A,0,0,0,,Infelizmente, não pudemos encontrar ninguém que \N pareça com Nobunaga no exército principal.
+Dialogue: 0,0:11:38.69,0:11:39.71,Main Dialogue,Nagamasa,0,0,0,,O quê?
+Dialogue: 0,0:11:40.24,0:11:41.50,Main Dialogue,Nagamasa,0,0,0,,Nobunaga está...
+Dialogue: 0,0:11:43.72,0:11:44.99,Main Dialogue,Nagamasa,0,0,0,,...desaparecido?
+Dialogue: 0,0:11:49.70,0:11:50.68,Main Dialogue,Tsune,0,0,0,,Imperdoável!
+Dialogue: 0,0:11:51.29,0:11:55.63,Main Dialogue,Tsune,0,0,0,,Nosso senhor realmente \N acreditava em Azai-dono!
+Dialogue: 0,0:11:55.63,0:11:56.77,Main Dialogue,Saburo,0,0,0,,É mesmo.
+Dialogue: 0,0:11:57.79,0:12:00.11,Main Dialogue,Toshiie,0,0,0,,Também estou frustrado!
+Dialogue: 0,0:12:00.11,0:12:03.95,Main Dialogue,Sassa,0,0,0,,Trair ou ser traído. É assim que são \N as coisas em Sengoku?
+Dialogue: 0,0:12:04.41,0:12:09.10,Main Dialogue,Tsune,0,0,0,,Tenho certeza que será nosso \N senhor quem rirá por último.
+Dialogue: 0,0:12:13.95,0:12:15.54,Main Dialogue,Hideyoshi,0,0,0,,Fogo!
+Dialogue: 0,0:12:19.13,0:12:20.60,Main Dialogue,Hideyoshi,0,0,0,,Recuar!
+Dialogue: 0,0:12:20.60,0:12:22.63,Main Dialogue,Hideyoshi,0,0,0,,Não deixem-nos chegar mais perto!
+Dialogue: 0,0:12:23.21,0:12:25.46,Main Dialogue,C,0,0,0,,Não temam os rifles!
+Dialogue: 0,0:12:25.46,0:12:28.08,Main Dialogue,C,0,0,0,,Tomem a cabeça do homem montado!
+Dialogue: 0,0:12:30.88,0:12:33.74,Main Dialogue,C,0,0,0,,Maldição! Isso está ficando perigoso.
+Dialogue: 0,0:12:46.99,0:12:48.85,Main Dialogue,C,0,0,0,,Mino é o exército de Takenaka.
+Dialogue: 0,0:12:48.85,0:12:50.81,Main Dialogue,C,0,0,0,,Com certeza são fortes.
+Dialogue: 0,0:12:50.81,0:12:53.47,Main Dialogue,C,0,0,0,,Rifles, arcos, preparem-se!
+Dialogue: 0,0:12:53.47,0:12:54.66,Main Dialogue,C,0,0,0,,Fogo!
+Dialogue: 0,0:12:56.83,0:12:57.98,Main Dialogue,C,0,0,0,,Recuar!
+Dialogue: 0,0:12:58.40,0:13:01.05,Main Dialogue,C,0,0,0,,Mantenham distância do inimigo!
+Dialogue: 0,0:13:02.56,0:13:06.74,Internal Dialogue,C,0,0,0,,Droga! Eu deveria estar traindo Oda.
+Dialogue: 0,0:13:06.74,0:13:10.18,Internal Dialogue,C,0,0,0,,Por que estou desesperadamente \N protegendo sua retaguarda?!
+Dialogue: 0,0:13:10.18,0:13:15.71,Flashback Dialogue,Micchan,0,0,0,,Gostaríamos de ajudá-lo na retaguarda.
+Dialogue: 0,0:13:16.56,0:13:23.72,Flashback Dialogue,Micchan,0,0,0,,Mais precisamente, ficaremos como a \N segunda retaguarda e lhe protegeremos por trás.
+Dialogue: 0,0:13:23.72,0:13:24.63,Flashback Dialogue,Micchan,0,0,0,,Concorda conosco?
+Dialogue: 0,0:13:24.63,0:13:26.23,Flashback Dialogue,Hideyoshi,0,0,0,,Mas, Akechi-dono...
+Dialogue: 0,0:13:26.23,0:13:33.52,Flashback Dialogue,Hanbei,0,0,0,,Podem não ser muitos, mas gostaria que meu \N exército Mino se juntasse ao seu exército.
+Dialogue: 0,0:13:34.21,0:13:37.46,Flashback Dialogue,Hanbei,0,0,0,,Quanto mais homens, melhor, eu espero.
+Dialogue: 0,0:13:39.56,0:13:42.06,Flashback Dialogue,Hideyoshi,0,0,0,,Uau! Muito obrigado!
+Dialogue: 0,0:13:42.06,0:13:45.46,Flashback Dialogue,Hideyoshi,0,0,0,,Sua bondade me deixa muito feliz.
+Dialogue: 0,0:13:47.11,0:13:50.68,Flashback Dialogue,Hideyoshi,0,0,0,,Mas espero que vocês dois entendam.
+Dialogue: 0,0:13:50.68,0:13:54.18,Flashback Dialogue,Hideyoshi,0,0,0,,A retaguarda terá muitas perdas.
+Dialogue: 0,0:13:54.18,0:13:58.00,Flashback Dialogue,Hideyoshi,0,0,0,,Não há razão para termos mais.
+Dialogue: 0,0:13:58.58,0:14:03.16,Flashback Dialogue,Hideyoshi,0,0,0,,Akechi-dono, você é muito \N importante para a família Oda.
+Dialogue: 0,0:14:03.86,0:14:09.67,Flashback Dialogue,Hideyoshi,0,0,0,,Por favor, acredite no meu exército \N Hashiba e deixe isso conosco.
+Dialogue: 0,0:14:09.67,0:14:16.32,Flashback Dialogue,Micchan,0,0,0,,Hashiba-dono, não nos oferecemos \N para fazer isso pelo seu bem.
+Dialogue: 0,0:14:16.84,0:14:24.00,Flashback Dialogue,Micchan,0,0,0,,Faremos tudo o que pudermos pela \N família Oda, para proteger nosso senhor.
+Dialogue: 0,0:14:25.54,0:14:26.92,Flashback Dialogue,Micchan,0,0,0,,Tenho certeza que sente
+Dialogue: 0,0:14:28.95,0:14:31.43,Flashback Dialogue,Micchan,0,0,0,,exatamente o mesmo.
+Dialogue: 0,0:14:34.61,0:14:36.55,Flashback Dialogue,Micchan,0,0,0,,Por isso, vamos lutar juntos.
+Dialogue: 0,0:14:40.27,0:14:44.27,Internal Dialogue,Hideyoshi,0,0,0,,Takenaka no meio, \N Akechi por atrás.
+Dialogue: 0,0:14:44.27,0:14:47.21,Internal Dialogue,Hideyoshi,0,0,0,,Não posso trai-los assim!
+Dialogue: 0,0:14:47.21,0:14:51.95,Internal Dialogue,Hideyoshi,0,0,0,,Malditos! Será que me descobriram?
+Dialogue: 0,0:14:51.95,0:14:56.97,Internal Dialogue,Hideyoshi,0,0,0,,Se o tiverem feito, me atacarão no \N momento em que eu fizer algo suspeito.
+Dialogue: 0,0:14:56.97,0:15:02.08,Internal Dialogue,Hideyoshi,0,0,0,,Meu exército não tem para \N onde fugir, e seremos aniquilados.
+Dialogue: 0,0:15:02.08,0:15:04.14,Internal Dialogue,Hideyoshi,0,0,0,,O único modo de eu sobreviver
+Dialogue: 0,0:15:04.14,0:15:08.78,Internal Dialogue,Hideyoshi,0,0,0,,é lutar com todas as minhas forças \N e tornar essa retirada um sucesso!
+Dialogue: 0,0:15:08.78,0:15:11.08,Main Dialogue,Hideyoshi,0,0,0,,Maldição!
+Dialogue: 0,0:15:11.08,0:15:13.74,Main Dialogue,Hideyoshi,0,0,0,,Fogo!
+Dialogue: 0,0:15:16.64,0:15:17.88,Main Dialogue,Yoshi,0,0,0,,O quê?
+Dialogue: 0,0:15:17.88,0:15:19.66,Main Dialogue,Yoshi,0,0,0,,Nobunaga voltou?
+Dialogue: 0,0:15:19.66,0:15:20.27,Main Dialogue,A,0,0,0,,Sim.
+Dialogue: 0,0:15:20.27,0:15:23.47,Main Dialogue,A,0,0,0,,Disseram que ele chegou \N em Kyoto noite passada.
+Dialogue: 0,0:15:24.16,0:15:27.33,Main Dialogue,Yoshi,0,0,0,,Mas isso não está errado?
+Dialogue: 0,0:15:27.33,0:15:28.69,Main Dialogue,Yoshi,0,0,0,,Foi ontem mesmo
+Dialogue: 0,0:15:28.69,0:15:33.61,Main Dialogue,Yoshi,0,0,0,,ouvi que Nagamasa Azai o traiu e \N estavam tentando cercá-lo agora mesmo.
+Dialogue: 0,0:15:33.61,0:15:36.88,Main Dialogue,Yoshi,0,0,0,,Como Nobunaga já \N pode ter voltado? Hã?
+Dialogue: 0,0:15:36.88,0:15:41.87,Main Dialogue,A,0,0,0,,Acredito que ele decidiu recuar \N antes de ficar sabendo que foi traído.
+Dialogue: 0,0:15:50.94,0:15:53.25,Internal Dialogue,Hideyoshi,0,0,0,,Estou exausto...
+Dialogue: 0,0:15:53.25,0:15:54.81,Main Dialogue,Saburo,0,0,0,,Olá!
+Dialogue: 0,0:15:55.35,0:15:57.22,Main Dialogue,Saburo,0,0,0,,Bem vindo de volta!
+Dialogue: 0,0:15:57.22,0:15:59.39,Main Dialogue,Saburo,0,0,0,,Obrigado!
+Dialogue: 0,0:16:03.82,0:16:06.24,Main Dialogue,Saburo,0,0,0,,Bom trabalho agora pouco, Hideyoshi-kun!
+Dialogue: 0,0:16:06.24,0:16:08.76,Main Dialogue,Hideyoshi,0,0,0,,Agradeço por vossas palavras bondosas!
+Dialogue: 0,0:16:08.76,0:16:10.51,Main Dialogue,Saburo,0,0,0,,Estou feliz que tenha voltado bem.
+Dialogue: 0,0:16:10.51,0:16:11.79,Main Dialogue,Hideyoshi,0,0,0,,Sim, senhor.
+Dialogue: 0,0:16:11.79,0:16:13.52,Main Dialogue,Micchan,0,0,0,,O que você acha?
+Dialogue: 0,0:16:13.52,0:16:18.52,Main Dialogue,Hanbei,0,0,0,,Não notei nenhuma atitude suspeita.
+Dialogue: 0,0:16:18.52,0:16:21.96,Main Dialogue,Hanbei,0,0,0,,Parecia estar lutando pela \N retaguarda com todas as suas forças.
+Dialogue: 0,0:16:22.99,0:16:28.27,Main Dialogue,Micchan,0,0,0,,Ficamos paranóicos por \N pensar que ele era perigoso?
+Dialogue: 0,0:16:28.27,0:16:29.05,Main Dialogue,Hanbei,0,0,0,,Talvez.
+Dialogue: 0,0:16:29.69,0:16:34.01,Main Dialogue,Hanbei,0,0,0,,Suas verdadeiras intenções \N continuam difíceis de se saber.
+Dialogue: 0,0:16:38.27,0:16:41.85,Main Dialogue,Isono,0,0,0,,Posso apenas imaginar o pânico de Nobunaga.
+Dialogue: 0,0:16:41.85,0:16:44.19,Main Dialogue,A,0,0,0,,A morte de Nobunaga é certa.
+Dialogue: 0,0:16:44.19,0:16:47.93,Main Dialogue,Isono,0,0,0,,Sim, foi uma completa vitória para nós.
+Dialogue: 0,0:16:54.70,0:16:56.74,Main Dialogue,Hisa,0,0,0,,O que vocês estão comemorando?
+Dialogue: 0,0:16:57.72,0:17:00.80,Main Dialogue,Hisa,0,0,0,,Vocês tem ideia do quão grave foi
+Dialogue: 0,0:17:00.80,0:17:02.95,Main Dialogue,Hisa,0,0,0,,não termos conseguido sua cabeça?
+Dialogue: 0,0:17:03.57,0:17:07.67,Main Dialogue,Hisa,0,0,0,,O único motivo dessa batalha \N foi para conseguir matar Nobunaga.
+Dialogue: 0,0:17:08.11,0:17:13.05,Main Dialogue,Hisa,0,0,0,,Matar alguns mil soldados \N de suporte não significa nada!
+Dialogue: 0,0:17:14.15,0:17:15.31,Main Dialogue,Nagamasa,0,0,0,,Pai.
+Dialogue: 0,0:17:16.86,0:17:18.72,Main Dialogue,Nagamasa,0,0,0,,Todos sabemos disso.
+Dialogue: 0,0:17:19.57,0:17:20.76,Main Dialogue,Nagamasa,0,0,0,,Mas por enquanto,
+Dialogue: 0,0:17:21.68,0:17:24.89,Main Dialogue,Nagamasa,0,0,0,,por favor, deixe-os se divertirem.
+Dialogue: 0,0:17:24.89,0:17:30.20,Missing Sign,,0,0,0,,Conquista pelas Forças Armadas
+Dialogue: 0,0:17:31.05,0:17:33.69,Main Dialogue,Nagamasa,0,0,0,,Meu senhor! Deixe-nos ir ao Sul de Ōmi
+Dialogue: 0,0:17:33.69,0:17:36.40,Main Dialogue,Nagamasa,0,0,0,,para que comecemos nosso ataque sobre Azai!
+Dialogue: 0,0:17:36.40,0:17:40.28,Main Dialogue,Hideyoshi,0,0,0,,Ignorar um traidor irá \N apenas criar mais traidores.
+Dialogue: 0,0:17:42.75,0:17:44.54,Main Dialogue,Hanbei,0,0,0,,Meu senhor, o que diz?
+Dialogue: 0,0:17:45.16,0:17:49.15,Main Dialogue,Saburo,0,0,0,,Sabem, pensei que quanto mais \N próximo estivesse de conquistar o Japão,
+Dialogue: 0,0:17:49.15,0:17:52.53,Main Dialogue,Saburo,0,0,0,,menos inimigos haveriam.
+Dialogue: 0,0:17:52.53,0:17:54.92,Main Dialogue,Saburo,0,0,0,,Acho que não é assim que funciona.
+Dialogue: 0,0:17:55.40,0:17:57.94,Main Dialogue,Niwa,0,0,0,,De fato, é justamente o contrário.
+Dialogue: 0,0:17:57.94,0:18:01.64,Main Dialogue,Saburo,0,0,0,,Nunca iremos terminar nesse ritmo.
+Dialogue: 0,0:18:01.64,0:18:02.51,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:18:03.28,0:18:04.19,Main Dialogue,Saburo,0,0,0,,Sim?
+Dialogue: 0,0:18:04.19,0:18:07.27,Main Dialogue,Tsune,0,0,0,,Não posso aceitar o senhor falando assim!
+Dialogue: 0,0:18:07.27,0:18:12.00,Main Dialogue,Tsune,0,0,0,,Você sempre disse para nós, \N com toda confiança que tinha,
+Dialogue: 0,0:18:12.00,0:18:14.53,Main Dialogue,Tsune,0,0,0,,que conquistaria o Japão!
+Dialogue: 0,0:18:14.53,0:18:16.24,Main Dialogue,Toshi,0,0,0,,Sim, meu senhor!
+Dialogue: 0,0:18:16.24,0:18:19.69,Main Dialogue,Toshi,0,0,0,,Estivemos seguindo-o por \N causa de sua confiança inabalável,
+Dialogue: 0,0:18:19.69,0:18:21.97,Main Dialogue,Toshi,0,0,0,,e o sucesso que obteve é por causa dela!
+Dialogue: 0,0:18:21.97,0:18:26.41,Main Dialogue,Mori,0,0,0,,Não é do seu feito se lamentar.
+Dialogue: 0,0:18:26.80,0:18:28.87,Main Dialogue,Saburo,0,0,0,,...O quê?
+Dialogue: 0,0:18:28.87,0:18:31.30,Main Dialogue,Saburo,0,0,0,,Não é como se eu estivesse me lamentando.
+Dialogue: 0,0:18:31.30,0:18:33.31,Main Dialogue,Saburo,0,0,0,,Estava apenas fazendo uma observação.
+Dialogue: 0,0:18:33.31,0:18:34.28,Main Dialogue,Shibata,0,0,0,,Meu senhor!
+Dialogue: 0,0:18:35.85,0:18:38.81,Main Dialogue,Shibata,0,0,0,,Não podemos voltar atrás agora.
+Dialogue: 0,0:18:39.74,0:18:42.88,Main Dialogue,Shibata,0,0,0,,Se pararmos, a família Oda será destruída.
+Dialogue: 0,0:18:43.44,0:18:45.18,Main Dialogue,Shibata,0,0,0,,Não podemos parar.
+Dialogue: 0,0:18:45.69,0:18:47.33,Main Dialogue,Shibata,0,0,0,,Devemos seguir em frente.
+Dialogue: 0,0:18:48.08,0:18:50.22,Main Dialogue,Shibata,0,0,0,,Caso contrário, não \N conseguiremos conquistar o Japão.
+Dialogue: 0,0:18:53.38,0:18:54.74,Main Dialogue,Saburo,0,0,0,,Eu sei.
+Dialogue: 0,0:18:55.46,0:18:57.49,Main Dialogue,Saburo,0,0,0,,Não pretendo parar.
+Dialogue: 0,0:18:59.00,0:19:01.16,Main Dialogue,Saburo,0,0,0,,Iremos confrontar Azai, \N e iremos vencer.
+Dialogue: 0,0:19:01.68,0:19:05.54,Main Dialogue,Saburo,0,0,0,,Tenho que conquistar o Japão, afinal de contas.
+Dialogue: 0,0:19:12.79,0:19:13.80,Main Dialogue,Shibata,0,0,0,,Meu senhor!
+Dialogue: 0,0:19:14.24,0:19:15.31,Main Dialogue,Saburo,0,0,0,,Sim?
+Dialogue: 0,0:19:15.82,0:19:21.43,Main Dialogue,Shibata,0,0,0,,Entendo que iremos lutar contra Azai, \N mas uma coisa me preocupa.
+Dialogue: 0,0:19:22.95,0:19:24.48,Main Dialogue,Saburo,0,0,0,,Seria Oi-cchan?
+Dialogue: 0,0:19:30.88,0:19:32.06,Main Dialogue,Nagamasa,0,0,0,,Oichi.
+Dialogue: 0,0:19:33.04,0:19:36.20,Main Dialogue,Nagamasa,0,0,0,,Você sempre disse \N desde que nos casamos
+Dialogue: 0,0:19:36.98,0:19:39.74,Main Dialogue,Nagamasa,0,0,0,,que seu irmão era mais \N interessante que eu.
+Dialogue: 0,0:19:41.31,0:19:45.88,Main Dialogue,Nagamasa,0,0,0,,Tendo-o como meu inimigo, \N finalmente entendi o que quis dizer.
+Dialogue: 0,0:19:47.93,0:19:50.09,Main Dialogue,Nagamasa,0,0,0,,Ele realmente é.
+Dialogue: 0,0:19:50.09,0:19:52.85,Main Dialogue,Nagamasa,0,0,0,,Nobunaga é um homem impressionante.
+Dialogue: 0,0:19:56.40,0:20:00.37,Main Dialogue,Nagamasa,0,0,0,,Seu irmão aparentemente abandonou \N o campo de batalha por si mesmo.
+Dialogue: 0,0:20:01.10,0:20:04.00,Main Dialogue,Nagamasa,0,0,0,,Deixou para trás seus \N chefes e seus homens.
+Dialogue: 0,0:20:04.90,0:20:11.86,Main Dialogue,Nagamasa,0,0,0,,Apostou na velocidade de um grupo \N pequeno do que na força de um exército enorme.
+Dialogue: 0,0:20:13.17,0:20:17.46,Main Dialogue,Nagamasa,0,0,0,,E Nobunaga venceu a aposta,\N e continua vivo.
+Dialogue: 0,0:20:19.28,0:20:20.49,Main Dialogue,Nagamasa,0,0,0,,Oichi.
+Dialogue: 0,0:20:21.32,0:20:25.80,Main Dialogue,Nagamasa,0,0,0,,Seu irmão deve ter muita sorte.
+Dialogue: 0,0:20:29.13,0:20:31.02,Main Dialogue,Oichi,0,0,0,,Não pode vencer meu irmão.
+Dialogue: 0,0:20:34.42,0:20:37.58,Main Dialogue,Oichi,0,0,0,,Não pode derrotar meu irmão.
+Dialogue: 0,0:20:38.57,0:20:40.00,Main Dialogue,Nagamasa,0,0,0,,Não tenha tanta certeza.
+Dialogue: 0,0:20:40.00,0:20:42.32,Main Dialogue,Nagamasa,0,0,0,,Já vencemos essa batalha.
+Dialogue: 0,0:20:44.34,0:20:47.22,Main Dialogue,Oichi,0,0,0,,Mas meu irmão continua vivo.
+Dialogue: 0,0:20:48.08,0:20:51.05,Main Dialogue,Nagamasa,0,0,0,,Verdade, é frustrante não \N termos conseguido matar Nobunaga.
+Dialogue: 0,0:20:51.61,0:20:54.81,Main Dialogue,Nagamasa,0,0,0,,Mas isso é apenas o começo.
+Dialogue: 0,0:20:57.94,0:20:59.69,Main Dialogue,Nagamasa,0,0,0,,É apenas o começo.
+Dialogue: 0,0:20:59.69,0:21:01.30,Main Dialogue,Oichi,0,0,0,,Nagamasa-dono.
+Dialogue: 0,0:21:03.17,0:21:08.43,Main Dialogue,Nagamasa,0,0,0,,Oichi, recebi uma carta de Nobunaga \N solicitando o seu retorno.
+Dialogue: 0,0:21:10.67,0:21:12.77,Main Dialogue,Oichi,0,0,0,,Não irei voltar.
+Dialogue: 0,0:21:16.59,0:21:20.03,Main Dialogue,Oichi,0,0,0,,Ficarei aqui e irei convencê-lo!
+Comment: 0,0:21:23.26,0:21:23.26,Main Dialogue Top,,0,0,0,,ED
+Comment: 0,0:21:23.26,0:21:23.26,Default,,0,0,0,,ED HERE
+Comment: 0,0:21:23.26,0:21:23.26,Default,,0,0,0,,ED Romanji Start
+Dialogue: 0,0:21:23.26,0:21:25.84,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k39}Wake {\k20}in {\k33}lone{\k17}li{\k50}ness! {\k33}Lone{\k17}li{\k41}ness!
+Dialogue: 0,0:21:25.84,0:21:28.14,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k54}Falling {\k59}inside {\k35}your {\k82}story
+Dialogue: 0,0:21:28.14,0:21:30.64,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k65}Walking {\k48}after {\k48}you! {\k49}After {\k40}you!
+Dialogue: 0,0:21:30.64,0:21:34.31,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k31}I {\k27}will {\k65}share {\k41}my {\k168}ti{\k35}me
+Dialogue: 0,0:22:04.92,0:22:07.26,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k56}Mayoi {\k45}konda {\k69}sekai {\k64}de
+Dialogue: 0,0:22:07.26,0:22:11.10,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k49}Boku {\k23}wa {\k29}kage {\k19}to {\k143}kasanatte {\k121}ima
+Dialogue: 0,0:22:11.10,0:22:13.85,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k37}I {\k59}can't {\k35}go {\k117}back
+Dialogue: 0,0:22:13.85,0:22:16.44,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k113}Ketteiteki {\k46}boku {\k13}no {\k60}shomei {\k27}wa
+Dialogue: 0,0:22:16.44,0:22:19.40,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k63}Jidai {\k19}o {\k31}ima {\k45}koete {\k138}monogataru
+Dialogue: 0,0:22:19.40,0:22:26.07,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k37}You {\k80}Know? {\k18}I {\k29}will {\k40}be {\k13}the {\k38}brand {\k19}new {\k60}age {\k33}from {\k39}this {\k261}day
+Dialogue: 0,0:22:27.70,0:22:32.24,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k23}I {\k30}will {\k46}save {\k129}myself, {\k45}and {\k29}the {\k49}time {\k42}is {\k61}now!
+Dialogue: 0,0:22:32.24,0:22:34.83,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k64}Kill {\k21}my {\k88}weakness! {\k86}Weakness!
+Dialogue: 0,0:22:34.83,0:22:37.12,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k76}Kanarazu {\k41}koete {\k42}nagete {\k70}satte
+Dialogue: 0,0:22:37.12,0:22:39.50,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k58}And {\k13}I {\k42}stay {\k47}alive! {\k39}Stay {\k39}alive!
+Dialogue: 0,0:22:39.50,0:22:41.96,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k53}Saigo {\k18}o {\k96}shinjitaku {\k79}wanakute!
+Dialogue: 0,0:22:41.96,0:22:44.34,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k64}Kill {\k21}my {\k88}weakness! {\k86}Weakness!
+Dialogue: 0,0:22:44.34,0:22:46.67,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k61}Itsuka {\k69}kidzuita {\k27}to {\k53}shite {\k24}mo
+Dialogue: 0,0:22:46.67,0:22:50.68,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k43}I {\k32}will {\k40}prove {\k62}myself {\k25}that {\k38}I {\k23}have {\k8}to {\k33}live {\k96}today
+Dialogue: 0,0:22:50.68,0:22:52.68,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k87}Starting {\k113}now!
+Comment: 0,0:21:23.26,0:21:23.26,OP Kanji,,0,0,0,,ED Romanji End
+Comment: 0,0:21:23.26,0:21:23.26,OP Kanji,,0,0,0,,ED Kanji Start
+Dialogue: 0,0:22:04.92,0:22:07.26,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k56}迷い{\k45}込んだ{\k69}世界{\k64}で
+Dialogue: 0,0:22:07.26,0:22:11.10,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k49}僕{\k23}は{\k29}影{\k19}と{\k143}重なって{\k121}今
+Dialogue: 0,0:22:13.85,0:22:16.44,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k113}決定的{\k46}僕{\k13}の{\k60}証明{\k27}は
+Dialogue: 0,0:22:16.44,0:22:19.40,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k63}時代{\k19}を{\k31}今{\k45}越えて{\k138}物語る
+Dialogue: 0,0:22:34.83,0:22:37.12,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k76}必ず{\k41}越えて{\k42}投げて{\k70}去って
+Dialogue: 0,0:22:39.50,0:22:41.96,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k53}最後{\k18}を{\k96}信じたく{\k79}はなくて!
+Dialogue: 0,0:22:44.34,0:22:46.67,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k61}いつか{\k69}気づいた{\k27}と{\k53}して{\k24}も
+Comment: 0,0:21:23.26,0:21:23.26,OP Kanji,,0,0,0,,ED Kanji End
+Comment: 0,0:21:23.26,0:21:23.26,Default,,0,0,0,,ED Br Start
+Dialogue: 0,0:21:23.26,0:21:25.84,OP BR,,0,0,0,,Despertei na solidão! Solidão!
+Dialogue: 0,0:21:25.84,0:21:28.14,OP BR,,0,0,0,,Caindo dentro de sua história
+Dialogue: 0,0:21:28.14,0:21:30.64,OP BR,,0,0,0,,Caminhando após você! Após você!
+Dialogue: 0,0:21:30.64,0:21:34.31,OP BR,,0,0,0,,Lhe partilharei meu tempo
+Dialogue: 0,0:22:04.92,0:22:07.26,OP BR,,0,0,0,,Num mundo totalmente perdido
+Dialogue: 0,0:22:07.26,0:22:11.10,OP BR,,0,0,0,,Agora estou junto à minha sombra
+Dialogue: 0,0:22:11.10,0:22:13.85,OP BR,,0,0,0,,Não posso voltar
+Dialogue: 0,0:22:13.85,0:22:16.44,OP BR,,0,0,0,,Minha prova decisiva é
+Dialogue: 0,0:22:16.44,0:22:19.40,OP BR,,0,0,0,,Narrar ao longo da era agora
+Dialogue: 0,0:22:19.40,0:22:26.07,OP BR,,0,0,0,,Quer saber? Marcarei essa nova era a partir de hoje
+Dialogue: 0,0:22:27.70,0:22:32.24,OP BR,,0,0,0,,Irei salvar-me, e a hora é agora!
+Dialogue: 0,0:22:32.24,0:22:34.83,OP BR,,0,0,0,,Destrua minha fraqueza! Fraqueza!
+Dialogue: 0,0:22:34.83,0:22:37.12,OP BR,,0,0,0,,Certamente chorando além da distância
+Dialogue: 0,0:22:37.12,0:22:39.50,OP BR,,0,0,0,,E eu ficarei vivo! Ficarei vivo!
+Dialogue: 0,0:22:39.50,0:22:41.96,OP BR,,0,0,0,,Não quero acreditar no fim desse conto de fadas
+Dialogue: 0,0:22:41.96,0:22:44.34,OP BR,,0,0,0,,Destrua minha fraqueza! Fraqueza!
+Dialogue: 0,0:22:44.34,0:22:46.67,OP BR,,0,0,0,,Mesmo sendo notada algum dia
+Dialogue: 0,0:22:46.67,0:22:50.68,OP BR,,0,0,0,,Irei provar a mim mesmo que preciso viver hoje
+Dialogue: 0,0:22:50.68,0:22:52.68,OP BR,,0,0,0,,Começando agora!
+Comment: 0,0:21:23.26,0:21:23.26,Default,,0,0,0,,ED Br End
+Comment: 0,0:21:23.26,0:21:23.26,Default,,0,0,0,,ED Credits Start
+Dialogue: 0,0:21:38.73,0:21:41.73,Credits GriloSub,,0,0,0,,{\pos(860,680)}Tradução       Grilo
+Dialogue: 0,0:21:41.73,0:21:44.74,Credits GriloSub,,0,0,0,,{\pos(1015,410)}Revisão \N GabrielCosta \N KaueGodoy
+Dialogue: 0,0:21:44.74,0:21:47.74,Credits GriloSub,,0,0,0,,{\pos(535,590)}Karaokê       Grilo
+Dialogue: 0,0:21:47.74,0:21:50.74,Credits GriloSub,,0,0,0,,{\pos(235,674)}Revisão final    Grilo
+Dialogue: 0,0:21:53.75,0:21:56.75,Credits GriloSub,,0,0,0,,{\pos(410,480)}Tradução          Grilo  \N do Karaokê       KaueGodoy
+Dialogue: 0,0:22:33.08,0:22:52.68,Credits GriloSub,,0,0,0,,{\pos(1115,520)\a6}GriloSub \N\N Feito de fã para fã.  \N\N #GriloSub@irc.rizon.net
+Comment: 0,0:21:23.26,0:21:23.26,Default,,0,0,0,,ED Credits End
+Dialogue: 0,0:21:23.26,0:21:25.26,Main Dialogue Top,,0,0,0,,
+Dialogue: 0,0:21:23.26,0:21:25.26,Main Dialogue Top,,0,0,0,,
