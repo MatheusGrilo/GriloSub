@@ -1,0 +1,2 @@
+- Source: Kaitou
+- Tradução: Grilo
