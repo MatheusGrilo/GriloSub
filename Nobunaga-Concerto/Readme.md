@@ -1,0 +1,4 @@
+- Source: HorribleSubs
+- Tradução: Grilo (01-08 & 10), hint (09)
+- Revisão: GabrielCosta, KaueGodoy & Grilo
+- Karaokê: Grilo & KaueGodoy
