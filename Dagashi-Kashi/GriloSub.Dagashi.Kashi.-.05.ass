@@ -1063,7 +1063,7 @@ Dialogue: 0,0:13:35.37,0:13:35.41,Signs,,0,0,0,,{\pos(641.8,360.11)\c&H243546&\f
 Dialogue: 0,0:13:35.41,0:13:35.46,Signs,,0,0,0,,{\pos(641.74,360.24)\c&H243546&\fs160\fnAlegreya Sub Sans\b1\blur0.8\alpha&HDA&\fscy90.14\fscx90.14}Premiado
 Dialogue: 0,0:13:35.46,0:13:35.50,Signs,,0,0,0,,{\pos(641.69,360.33)\c&H243546&\fs160\fnAlegreya Sub Sans\b1\blur0.8\alpha&HE4&\fscy90.05\fscx90.05}Premiado
 Dialogue: 0,0:13:35.50,0:13:35.54,Signs,,0,0,0,,{\pos(641.66,360.42)\c&H243546&\fs160\fnAlegreya Sub Sans\b1\blur0.8\alpha&HEF&\fscy89.94\fscx89.94}Premiado
-Dialogue: 9,0:13:32.95,0:13:40.13,Default,,0,0,0,,O prêmio para a maioria dos outros doces também \N sdoces ou algo assim, porém, com o Yattamen...
+Dialogue: 9,0:13:32.95,0:13:40.13,Default,,0,0,0,,O prêmio para a maioria dos outros doces também \N são doces ou algo assim, porém, com o Yattamen...
 Dialogue: 9,0:13:40.71,0:13:43.38,Default,,0,0,0,,...você pode conseguir dinheiro ao ganhar o prêmio!
 Dialogue: 9,0:13:43.96,0:13:45.63,Default,,0,0,0,,Incrível!
 Dialogue: 9,0:13:45.63,0:13:47.38,Default,,0,0,0,,Bem, {\i1}é{\i0} tecnicamente dinheiro,
