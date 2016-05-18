@@ -1,0 +1,2 @@
+- Alba Matter.TTF (Ending Font)
+- Happy Sans.ttf (Opening Font)
