@@ -1420,37 +1420,37 @@ Dialogue: 0,0:24:07.13,0:24:07.17,Trip Journal,,0,0,0,,{=52}{\blur1\c&H47578D&\f
 Dialogue: 0,0:24:07.17,0:24:07.21,Trip Journal,,0,0,0,,{=52}{\blur1\c&H47578D&\frx3\frz0.3\fs20\pos(599.96,91.25)\fscy100.11\fscx100.11}Campo de Treinamento do Clube de Literatura do Colégio do Norte \N e da Academia Kouyouen em Conjunto
 Dialogue: 0,0:24:07.21,0:24:07.25,Trip Journal,,0,0,0,,{=52}{\blur1\c&H47578D&\frx3\frz0.3\fs20\pos(600,91)\fscy100\fscx100}Campo de Treinamento do Clube de Literatura do Colégio do Norte \N e da Academia Kouyouen em Conjunto
 Dialogue: 0,0:24:07.25,0:24:07.30,Trip Journal,,0,0,0,,{=52}{\blur1\c&H47578D&\frx3\frz0.3\fs20\pos(600,90.75)\fscy99.9\fscx99.9}Campo de Treinamento do Clube de Literatura do Colégio do Norte \N e da Academia Kouyouen em Conjunto
-Dialogue: 0,0:24:06.00,0:24:06.04,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,384.56)\fscy103.79\fscx103.79}Trip Journal
-Dialogue: 0,0:24:06.04,0:24:06.09,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,383.96)\fscy103.70\fscx103.70}Trip Journal
-Dialogue: 0,0:24:06.09,0:24:06.13,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,383.36)\fscy103.60\fscx103.60}Trip Journal
-Dialogue: 0,0:24:06.13,0:24:06.17,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,382.76)\fscy103.49\fscx103.49}Trip Journal
-Dialogue: 0,0:24:06.17,0:24:06.21,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,382.12)\fscy103.37\fscx103.37}Trip Journal
-Dialogue: 0,0:24:06.21,0:24:06.25,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.69,380.8)\fscy103.24\fscx103.24}Trip Journal
-Dialogue: 0,0:24:06.25,0:24:06.29,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.75,380.15)\fscy103.1\fscx103.1}Trip Journal
-Dialogue: 0,0:24:06.29,0:24:06.34,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.81,379.46)\fscy102.95\fscx102.95}Trip Journal
-Dialogue: 0,0:24:06.34,0:24:06.38,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.87,378.79)\fscy102.82\fscx102.82}Trip Journal
-Dialogue: 0,0:24:06.38,0:24:06.42,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.92,378.11)\fscy102.68\fscx102.68}Trip Journal
-Dialogue: 0,0:24:06.42,0:24:06.46,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.98,377.43)\fscy102.54\fscx102.54}Trip Journal
-Dialogue: 0,0:24:06.46,0:24:06.50,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.03,376.76)\fscy102.41\fscx102.41}Trip Journal
-Dialogue: 0,0:24:06.50,0:24:06.54,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.08,376.09)\fscy102.27\fscx102.27}Trip Journal
-Dialogue: 0,0:24:06.54,0:24:06.59,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.14,375.4)\fscy102.12\fscx102.12}Trip Journal
-Dialogue: 0,0:24:06.59,0:24:06.63,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.19,374.74)\fscy101.99\fscx101.99}Trip Journal
-Dialogue: 0,0:24:06.63,0:24:06.67,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.25,374.07)\fscy101.85\fscx101.85}Trip Journal
-Dialogue: 0,0:24:06.67,0:24:06.71,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.31,373.4)\fscy101.71\fscx101.71}Trip Journal
-Dialogue: 0,0:24:06.71,0:24:06.75,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.38,372.78)\fscy101.59\fscx101.59}Trip Journal
-Dialogue: 0,0:24:06.75,0:24:06.79,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.42,372.08)\fscy101.45\fscx101.45}Trip Journal
-Dialogue: 0,0:24:06.79,0:24:06.84,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.48,371.44)\fscy101.32\fscx101.32}Trip Journal
-Dialogue: 0,0:24:06.84,0:24:06.88,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.53,370.76)\fscy101.18\fscx101.18}Trip Journal
-Dialogue: 0,0:24:06.88,0:24:06.92,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.58,370.11)\fscy101.05\fscx101.05}Trip Journal
-Dialogue: 0,0:24:06.92,0:24:06.96,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.64,369.48)\fscy100.93\fscx100.93}Trip Journal
-Dialogue: 0,0:24:06.96,0:24:07.00,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.69,368.83)\fscy100.79\fscx100.79}Trip Journal
-Dialogue: 0,0:24:07.00,0:24:07.04,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.74,368.17)\fscy100.65\fscx100.65}Trip Journal
-Dialogue: 0,0:24:07.04,0:24:07.09,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.8,367.48)\fscy100.5\fscx100.5}Trip Journal
-Dialogue: 0,0:24:07.09,0:24:07.13,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(599.85,366.85)\fscy100.38\fscx100.38}Trip Journal
-Dialogue: 0,0:24:07.13,0:24:07.17,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(599.9,366.22)\fscy100.25\fscx100.25}Trip Journal
-Dialogue: 0,0:24:07.17,0:24:07.21,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(599.96,365.56)\fscy100.11\fscx100.11}Trip Journal
-Dialogue: 0,0:24:07.21,0:24:07.25,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(600,365)\fscy100\fscx100}Trip Journal
-Dialogue: 0,0:24:07.25,0:24:07.30,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(600,364.5)\fscy99.9\fscx99.9}Trip Journal
+Dialogue: 0,0:24:06.00,0:24:06.04,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,384.56)\fscy103.79\fscx103.79}Diário de Viagem
+Dialogue: 0,0:24:06.04,0:24:06.09,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,383.96)\fscy103.70\fscx103.70}Diário de Viagem
+Dialogue: 0,0:24:06.09,0:24:06.13,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,383.36)\fscy103.60\fscx103.60}Diário de Viagem
+Dialogue: 0,0:24:06.13,0:24:06.17,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,382.76)\fscy103.49\fscx103.49}Diário de Viagem
+Dialogue: 0,0:24:06.17,0:24:06.21,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.65,382.12)\fscy103.37\fscx103.37}Diário de Viagem
+Dialogue: 0,0:24:06.21,0:24:06.25,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.69,380.8)\fscy103.24\fscx103.24}Diário de Viagem
+Dialogue: 0,0:24:06.25,0:24:06.29,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.75,380.15)\fscy103.1\fscx103.1}Diário de Viagem
+Dialogue: 0,0:24:06.29,0:24:06.34,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.81,379.46)\fscy102.95\fscx102.95}Diário de Viagem
+Dialogue: 0,0:24:06.34,0:24:06.38,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.87,378.79)\fscy102.82\fscx102.82}Diário de Viagem
+Dialogue: 0,0:24:06.38,0:24:06.42,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.92,378.11)\fscy102.68\fscx102.68}Diário de Viagem
+Dialogue: 0,0:24:06.42,0:24:06.46,Trip Journal,,0,0,0,,{=51}{\blur1.03\frx3\frz0.3\pos(598.98,377.43)\fscy102.54\fscx102.54}Diário de Viagem
+Dialogue: 0,0:24:06.46,0:24:06.50,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.03,376.76)\fscy102.41\fscx102.41}Diário de Viagem
+Dialogue: 0,0:24:06.50,0:24:06.54,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.08,376.09)\fscy102.27\fscx102.27}Diário de Viagem
+Dialogue: 0,0:24:06.54,0:24:06.59,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.14,375.4)\fscy102.12\fscx102.12}Diário de Viagem
+Dialogue: 0,0:24:06.59,0:24:06.63,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.19,374.74)\fscy101.99\fscx101.99}Diário de Viagem
+Dialogue: 0,0:24:06.63,0:24:06.67,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.25,374.07)\fscy101.85\fscx101.85}Diário de Viagem
+Dialogue: 0,0:24:06.67,0:24:06.71,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.31,373.4)\fscy101.71\fscx101.71}Diário de Viagem
+Dialogue: 0,0:24:06.71,0:24:06.75,Trip Journal,,0,0,0,,{=51}{\blur1.02\frx3\frz0.3\pos(599.38,372.78)\fscy101.59\fscx101.59}Diário de Viagem
+Dialogue: 0,0:24:06.75,0:24:06.79,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.42,372.08)\fscy101.45\fscx101.45}Diário de Viagem
+Dialogue: 0,0:24:06.79,0:24:06.84,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.48,371.44)\fscy101.32\fscx101.32}Diário de Viagem
+Dialogue: 0,0:24:06.84,0:24:06.88,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.53,370.76)\fscy101.18\fscx101.18}Diário de Viagem
+Dialogue: 0,0:24:06.88,0:24:06.92,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.58,370.11)\fscy101.05\fscx101.05}Diário de Viagem
+Dialogue: 0,0:24:06.92,0:24:06.96,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.64,369.48)\fscy100.93\fscx100.93}Diário de Viagem
+Dialogue: 0,0:24:06.96,0:24:07.00,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.69,368.83)\fscy100.79\fscx100.79}Diário de Viagem
+Dialogue: 0,0:24:07.00,0:24:07.04,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.74,368.17)\fscy100.65\fscx100.65}Diário de Viagem
+Dialogue: 0,0:24:07.04,0:24:07.09,Trip Journal,,0,0,0,,{=51}{\blur1.01\frx3\frz0.3\pos(599.8,367.48)\fscy100.5\fscx100.5}Diário de Viagem
+Dialogue: 0,0:24:07.09,0:24:07.13,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(599.85,366.85)\fscy100.38\fscx100.38}Diário de Viagem
+Dialogue: 0,0:24:07.13,0:24:07.17,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(599.9,366.22)\fscy100.25\fscx100.25}Diário de Viagem
+Dialogue: 0,0:24:07.17,0:24:07.21,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(599.96,365.56)\fscy100.11\fscx100.11}Diário de Viagem
+Dialogue: 0,0:24:07.21,0:24:07.25,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(600,365)\fscy100\fscx100}Diário de Viagem
+Dialogue: 0,0:24:07.25,0:24:07.30,Trip Journal,,0,0,0,,{=51}{\blur1\frx3\frz0.3\pos(600,364.5)\fscy99.9\fscx99.9}Diário de Viagem
 Dialogue: 0,0:24:07.30,0:24:11.01,Default Speech,,0,0,0,,{\pos(640,712)}No próximo episódio: "Desejo".
 Dialogue: 0,0:24:06.50,0:24:11.01,Episode Title,,0,0,0,,{\c&HFFFFFF&\fade(700,0)\3a&44&\blur5\pos(1025,559)}Desejo
 Dialogue: 2,0:00:49.11,0:00:51.90,OP Karaoke Romaji,0;0;49E141;000000;F4F9C8;D3EA21,0,0,0,fx,{\an5\b1\bord3\blur4\alpha&44&\3c&H000000&\4c&H000000&\1a&HFF&\fade(100,100)\pos(467,42)\k0\t(0,66,\fscy110\fscx110)\t(0,0,\fscy100\fscx100)}
@@ -2995,6 +2995,6 @@ Dialogue: 1,0:23:15.91,0:23:21.79,ED Karaoke English,,0,0,0,fx,{\blur2\1c&HCC3EA
 Dialogue: 2,0:23:15.91,0:23:21.79,ED Karaoke English,,0,0,0,fx,{\blur0.5\bord0\fade(300,300)}{\an7}Por favor, apenas deixe-me ficar assim
 
 [Aegisub Extradata]
-Data: 51,a-mo,e{"uuid"#3A"83f64076-38a0-4506-a135-4ea1cb115ca2"#2C"originalText"#3A"{\\blur1\\frx3\\frz0.3\\pos(600#2C365)}Trip Journal"}
+Data: 51,a-mo,e{"uuid"#3A"83f64076-38a0-4506-a135-4ea1cb115ca2"#2C"originalText"#3A"{\\blur1\\frx3\\frz0.3\\pos(600#2C365)}Diário de Viagem"}
 Data: 52,a-mo,e{"uuid"#3A"62df01fb-5482-44be-ac14-6d011b4fccfa"#2C"originalText"#3A"{\\blur1\\c&H47578D&\\frx3\\frz0.3\\fs24\\pos(600#2C91)}North High\/Kouyouen Academy Joint Training Camp"}
 Data: 55,a-mo,e{"uuid"#3A"ce71d830-d808-4748-8d5e-3e93aa39fd4b"#2C"originalText"#3A"{\\fs32\\frx-10\\fry30\\frz20\\pos(430#2C622)}Mat{\\fry32\\frz19}h {\\fry26\\frz18}3"}
