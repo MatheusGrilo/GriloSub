@@ -1,1 +1,4 @@
-Fontes adicionais do projeto Akatsuki no Yona
+- Source: FFF
+- Tradução: Grilo
+- Revisão: Ray/Grilo
+- QC: Grilo
