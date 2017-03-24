@@ -22,4 +22,4 @@ Changelogs podem ser visto através dos [commits](https://github.com/MatheusGril
 
 ##### **Sinta-se livre para usar o que encontrar aqui como quiser (de maneira gratuita).**
 
-PS: Este fansub (eu) é patrocinado e ama a Inori <3 ![Inori image](http://i.imgur.com/enJejJt.png)
+PS: Este fansub ~~(eu)~~ é patrocinado e ama a Inori <3 ![Inori image](http://i.imgur.com/enJejJt.png)
