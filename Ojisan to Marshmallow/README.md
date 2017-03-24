@@ -1,0 +1,2 @@
+-- Source: Commie & HorribleSubs
+-- Tradução: Grilo

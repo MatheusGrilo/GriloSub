@@ -1,0 +1,1 @@
+ -Legendas mais leves e sem os types (efeitos) "exagerados".

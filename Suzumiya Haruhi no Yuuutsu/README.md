@@ -1,0 +1,4 @@
+-- Fansubs originais: AnimeP2P & Aya
+-- Sources: Delicio.us & A.F.K. & Hitsuji
+-- Adaptação: Grilo
+-- Revisão: Hakone-chan & Grilo

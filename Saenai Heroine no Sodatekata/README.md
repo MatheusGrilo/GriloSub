@@ -1,0 +1,5 @@
+-- Source: FFF
+-- Tradução: Zephas (00-07), GabrielCosta (08), Frost (09)
+-- Revisão: Grilo
+-
+-aka. Saekano
