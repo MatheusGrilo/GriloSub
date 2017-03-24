@@ -1,0 +1,3 @@
+-- Source: Kantai
+-- Tradução: Grilo
+-- Revisão: Grilo

@@ -1,3 +1,0 @@
-- Source: Lemon & ReinForce
-- Tradução: Grilo
-- Revisão: Hakone-chan

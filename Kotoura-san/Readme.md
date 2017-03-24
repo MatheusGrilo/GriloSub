@@ -1,3 +1,0 @@
-- Source: Hien
-- Tradução: AnimesWarehouse
-- Adaptação/QC/Karaokê: Grilo

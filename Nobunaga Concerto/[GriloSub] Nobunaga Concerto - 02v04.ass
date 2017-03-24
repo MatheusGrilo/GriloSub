@@ -1,0 +1,378 @@
+﻿[Script Info]
+Title: GriloSub
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,2.55,0,2,0,0,42,1
+Style: Signs,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,41,41,36,1
+Style: Main Dialogue Top,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,1.5,8,5,5,50,1
+Style: Internal Dialogue,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,1.5,2,5,5,50,1
+Style: Internal Dialogue Top,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,1.5,8,5,5,50,1
+Style: Textbook Sign,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,41,41,41,1
+Style: Episode Number,Open Sans Semibold,45,&H00CCCCCC,&H000000FF,&H0000005F,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,41,175,276,1
+Style: Episode Title,Open Sans Semibold,50,&H0000005F,&H000000FF,&H00CCCCCC,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,201,41,48,1
+Style: Ramen Sign,Open Sans Semibold,50,&H0000009C,&H000000FF,&H00FFFFFF,&H00000000,-1,0,0,0,100,100,0,30,1,1.5,0,7,30,30,200,1
+Style: OP BR,Monotype Corsiva,40,&H00FFFFFF,&H000000FF,&H00373737,&H96000000,-1,0,0,0,100,100,0,0,1,2,0,3,30,30,8,1
+Style: OP Romaji,Please write me a song,50,&H00FFFFFF,&H00B19D65,&H00373737,&H96F4F4F4,-1,0,0,0,100,100,5,0,1,2,1,7,30,30,10,1
+Style: OP Kanji,Monotype Corsiva,40,&H00FFFFFF,&H00B19D65,&H00373737,&H96000000,0,0,0,0,100,100,0,0,1,2,0,7,30,30,70,1
+Style: Credits GriloSub,Tahoma,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: Locais,Arial,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,4,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:03.98,0:00:06.98,Internal Dialogue,Narrator,0,0,0,,Nos dias de hoje, \N o estudante de ensino médio, Saburo,
+Dialogue: 0,0:00:07.53,0:00:11.08,Internal Dialogue,Narrator,0,0,0,,foi levado de volta no tempo para \No Período Sengoku.
+Dialogue: 0,0:00:17.84,0:00:18.88,Main Dialogue,Saburo,0,0,0,,Cavalo!
+Dialogue: 0,0:00:20.90,0:00:22.33,Main Dialogue,Micchi,0,0,0,,Ah, ali...
+Dialogue: 0,0:00:24.11,0:00:25.75,Main Dialogue,Micchi,0,0,0,,Você... se parece comigo...
+Dialogue: 0,0:00:25.75,0:00:27.45,Main Dialogue,Saburo,0,0,0,,Ah, é mesmo!
+Dialogue: 0,0:00:27.45,0:00:29.15,Main Dialogue,Saburo,0,0,0,,Você se parece comigo!
+Dialogue: 0,0:00:29.15,0:00:32.47,Main Dialogue,Micchi,0,0,0,,Peço que use seu rosto valoroso
+Dialogue: 0,0:00:32.47,0:00:34.20,Main Dialogue,Micchi,0,0,0,,para ser meu substituto!
+Dialogue: 0,0:00:34.79,0:00:39.44,Internal Dialogue,Narrator,0,0,0,,E ele começou a viver \N como Nobunaga Oda.
+Dialogue: 0,0:00:40.30,0:00:41.18,Main Dialogue,Saburo,0,0,0,,Hã?
+Dialogue: 0,0:00:50.27,0:00:51.99,Episode Number,Text,0,0,0,,{\fad(500,1)}Episódio 2
+Dialogue: 0,0:00:50.27,0:00:51.99,Episode Title,Text,0,0,0,,{\fad(500,1)}Kanshi
+Dialogue: 0,0:00:53.60,0:00:56.76,Main Dialogue,Narrator,0,0,0,,Depois de ter 'caído' de volta no \N Periodo Sengoku,
+Dialogue: 0,0:00:57.49,0:01:00.21,Main Dialogue,Narrator,0,0,0,,Saburo se tornou o sucessor da família Oda.
+Dialogue: 0,0:01:04.94,0:01:05.66,Main Dialogue,Narrator,0,0,0,,Entretanto...
+Dialogue: 0,0:01:07.30,0:01:11.81,Main Dialogue,Narrator,0,0,0,,...com sua reputação de ser tolo,\N Saburo causou muita inquietação.
+Dialogue: 0,0:01:12.21,0:01:15.67,Main Dialogue,Narrator,0,0,0,,Owari vivenciou revoltas após revoltas.
+Dialogue: 0,0:01:18.68,0:01:20.34,Main Dialogue,Saburo,0,0,0,,Isso é um drama histórico?
+Dialogue: 0,0:01:23.53,0:01:24.59,Main Dialogue,Soldier,0,0,0,,Meu senhor!
+Dialogue: 0,0:01:26.14,0:01:28.26,Main Dialogue,Soldier,0,0,0,,Sigam nosso senhor!
+Dialogue: 0,0:01:33.05,0:01:37.36,Main Dialogue,Narrator,0,0,0,,Saburo conduziu seu próprio exército num \N esforço honesto
+Dialogue: 0,0:01:37.36,0:01:39.84,Main Dialogue,Narrator,0,0,0,,para acabar com as várias revoltas.
+Dialogue: 0,0:01:41.33,0:01:45.21,Locais,,0,0,0,,{\pos(1260,620)\an6\fade(100,100)}Owari / Castelo de Nagoya
+Dialogue: 0,0:01:42.11,0:01:43.25,Main Dialogue,Hirate,0,0,0,,Meu senhor!
+Dialogue: 0,0:01:43.65,0:01:45.25,Main Dialogue,Hirate,0,0,0,,Meu senhor!
+Dialogue: 0,0:01:45.80,0:01:49.41,Main Dialogue,Hirate,0,0,0,,Tsuneoki, não consegui \N encontrar nosso senhor.
+Dialogue: 0,0:01:49.66,0:01:54.41,Main Dialogue,Tsune,0,0,0,,Sim... é que... \N ele saiu com a vossa senhora.
+Dialogue: 0,0:01:54.53,0:01:56.82,Main Dialogue,Hirate,0,0,0,,Mais um desses chamados "encontro"?
+Dialogue: 0,0:01:57.53,0:02:00.44,Main Dialogue,Tsune,0,0,0,,Sim. É esse tal "encontro".
+Dialogue: 0,0:02:00.44,0:02:03.06,Main Dialogue,Hirate,0,0,0,,O que esse garoto está fazendo?
+Dialogue: 0,0:02:03.06,0:02:06.56,Main Dialogue,Hirate,0,0,0,,Ele é o líder da família agora.
+Dialogue: 0,0:02:07.36,0:02:11.77,Main Dialogue,Hirate,0,0,0,,Esse é o motivo, que nesses dias, \N continuam se rebelando contra nosso senhor.
+Dialogue: 0,0:02:23.83,0:02:26.18,Main Dialogue,Kichou,0,0,0,,Está bem animado.
+Dialogue: 0,0:02:26.18,0:02:27.25,Main Dialogue,Saburo,0,0,0,,Sim.
+Dialogue: 0,0:02:27.25,0:02:29.49,Main Dialogue,Saburo,0,0,0,,Eu te disse que seria melhor \N sem todas aquelas estações de controle.
+Dialogue: 0,0:02:29.49,0:02:30.56,Main Dialogue,Kichou,0,0,0,,Sim!
+Dialogue: 0,0:02:30.92,0:02:36.45,Main Dialogue,Hirate,0,0,0,,É verdade que com as estações de controle \N retiradas e os portões da fronteira abertos,
+Dialogue: 0,0:02:36.45,0:02:40.18,Main Dialogue,Hirate,0,0,0,,as pessoas poderão se unir, \N e Owari se tornará muito mais rica.
+Dialogue: 0,0:02:40.44,0:02:41.55,Main Dialogue,Tsune,0,0,0,,Certo!
+Dialogue: 0,0:02:41.82,0:02:47.43,Main Dialogue,Hirate,0,0,0,,Mas isso também significa que espiões e assassinos
+Dialogue: 0,0:02:47.43,0:02:51.99,Main Dialogue,Hirate,0,0,0,,podem entrar de outras fronteiras mais facilmente.
+Dialogue: 0,0:02:52.12,0:02:54.23,Main Dialogue,Tsune,0,0,0,,Presumo que sim.
+Dialogue: 0,0:02:55.61,0:02:57.36,Main Dialogue,Hirate,0,0,0,,E justo nesse momento,
+Dialogue: 0,0:02:57.36,0:03:01.65,Main Dialogue,Hirate,0,0,0,,quando precisamos fortalecer a \N proteção em torno de nosso senhor,
+Dialogue: 0,0:03:01.65,0:03:03.34,Main Dialogue,Hirate,0,0,0,,ele está em seus "encontros"!
+Dialogue: 0,0:03:03.59,0:03:06.62,Main Dialogue,Tsune,0,0,0,,Mas nosso senhor tem grandes ambições.
+Dialogue: 0,0:03:07.16,0:03:10.67,Main Dialogue,Tsune,0,0,0,,Ele certamente irá realizar algo importante!
+Dialogue: 0,0:03:10.67,0:03:12.83,Main Dialogue,Tsune,0,0,0,,Eu realmente acredito nisso.
+Dialogue: 0,0:03:13.83,0:03:17.93,Main Dialogue,Hirate,0,0,0,,Você parece entender nosso mestre muito bem.
+Dialogue: 0,0:03:18.07,0:03:22.68,Main Dialogue,Tsune,0,0,0,,Sim! Pois sou jovem, \N e me adapto rapidamente.
+Dialogue: 0,0:03:22.83,0:03:25.80,Main Dialogue,Tsune,0,0,0,,Não seria capaz de acompanhar \N nosso senhor de outra maneira.
+Dialogue: 0,0:03:25.80,0:03:28.95,Main Dialogue,Hirate,0,0,0,,Suponho então que sou \N um velho teimoso e desprezível.
+Dialogue: 0,0:03:28.95,0:03:30.11,Main Dialogue,Tsune,0,0,0,,Sim!
+Dialogue: 0,0:03:30.23,0:03:31.30,Main Dialogue,Hirate,0,0,0,,Como é?!
+Dialogue: 0,0:03:32.44,0:03:33.73,Main Dialogue,Bystander 1,0,0,0,,Venham todos ver isso!
+Dialogue: 0,0:03:33.73,0:03:34.52,Main Dialogue,Bystander 2,0,0,0,,O quê?
+Dialogue: 0,0:03:34.52,0:03:35.89,Main Dialogue Top,Bystander 3,0,0,0,,Ele tem uma lança!
+Dialogue: 0,0:03:35.03,0:03:35.89,Main Dialogue,Saburo,0,0,0,,Uma luta?
+Dialogue: 0,0:03:35.89,0:03:38.40,Main Dialogue,Bystander 4,0,0,0,,Por favor, não façam isso \N em frente a minha loja.
+Dialogue: 0,0:03:38.97,0:03:40.88,Main Dialogue,Sassa,0,0,0,,Não te pedi para lutar comigo.
+Dialogue: 0,0:03:40.88,0:03:44.97,Main Dialogue,Inuchiyo,0,0,0,,Não, mas esbarrou \N em mim deliberadamente.
+Dialogue: 0,0:03:44.97,0:03:47.90,Main Dialogue,Sassa,0,0,0,,{\i1}Você{\i0} esbarrou em mim deliberadamente!
+Dialogue: 0,0:03:48.16,0:03:54.25,Main Dialogue,Inuchiyo,0,0,0,,Bem, não importa quem \N esbarrou em quem primeiro.
+Dialogue: 0,0:03:55.27,0:03:57.59,Main Dialogue,Inuchiyo,0,0,0,,Pois há apenas um meio de decidir isso.
+Dialogue: 0,0:04:00.01,0:04:03.09,Main Dialogue,Inuchiyo,0,0,0,,Vamos testar nossas habilidades!
+Dialogue: 0,0:04:25.79,0:04:27.71,Main Dialogue,Saburo,0,0,0,,Sem lutas!
+Dialogue: 0,0:04:30.83,0:04:32.27,Main Dialogue,Sassa,0,0,0,,Quem é você?
+Dialogue: 0,0:04:33.19,0:04:34.26,Main Dialogue,Inuchiyo,0,0,0,,Meu senhor!
+Dialogue: 0,0:04:34.26,0:04:35.37,Main Dialogue,Sassa,0,0,0,,Senhor — o quê?
+Dialogue: 0,0:04:36.93,0:04:38.11,Main Dialogue,Denjiro,0,0,0,,Nobunaga?
+Dialogue: 0,0:04:39.62,0:04:42.09,Main Dialogue,Inuchiyo,0,0,0,,Sou Inuchiyo Maeda.
+Dialogue: 0,0:04:42.86,0:04:44.57,Main Dialogue,Saburo,0,0,0,,Inuchiyo?
+Dialogue: 0,0:04:45.09,0:04:47.61,Main Dialogue,Inuchiyo,0,0,0,,Venho por muito \Ntempo admirando o senhor,
+Dialogue: 0,0:04:47.61,0:04:50.35,Main Dialogue,Inuchiyo,0,0,0,,e gostaria de servi-lo!
+Dialogue: 0,0:04:52.54,0:04:53.35,Main Dialogue,Saburo,0,0,0,,Inu?
+Dialogue: 0,0:04:52.54,0:04:55.54,Signs,Nota,0,0,0,,Nota: Inu significa cachorro
+Dialogue: 0,0:04:56.79,0:04:57.70,Main Dialogue,Saburo,0,0,0,,Au Au!
+Dialogue: 0,0:04:59.33,0:05:00.15,Main Dialogue,Inuchiyo,0,0,0,,Au Au!
+Dialogue: 0,0:05:00.15,0:05:01.35,Main Dialogue,Saburo,0,0,0,,Está contratado!
+Dialogue: 0,0:05:01.54,0:05:02.97,Main Dialogue,Saburo,0,0,0,,Gostei da sua resposta.
+Dialogue: 0,0:05:02.97,0:05:03.53,Main Dialogue,,0,0,0,,Hã?
+Dialogue: 0,0:05:04.19,0:05:06.32,Main Dialogue,Inuchiyo,0,0,0,,Você irá me contratar?
+Dialogue: 0,0:05:06.32,0:05:06.86,Main Dialogue,Saburo,0,0,0,,Uhum.
+Dialogue: 0,0:05:07.64,0:05:09.87,Main Dialogue,Saburo,0,0,0,,Gostei do seu nome, Inuchiyo.
+Dialogue: 0,0:05:09.87,0:05:13.98,Main Dialogue,Inuchiyo,0,0,0,,Irei pôr minha vida a sua disposição.
+Dialogue: 0,0:05:14.60,0:05:16.97,Main Dialogue,Saburo,0,0,0,,Então? E quanto a você, senhor?
+Dialogue: 0,0:05:20.13,0:05:23.02,Main Dialogue,Sassa,0,0,0,,Sou Narimasa Sassa.
+Dialogue: 0,0:05:23.14,0:05:26.30,Main Dialogue,Sassa,0,0,0,,Também, sempre \N sonhei em servir ao senh —
+Dialogue: 0,0:05:26.30,0:05:27.17,Main Dialogue,Saburo,0,0,0,,Contratado!
+Dialogue: 0,0:05:27.17,0:05:27.76,Main Dialogue,Sassa,0,0,0,,Hã?
+Dialogue: 0,0:05:28.50,0:05:31.62,Main Dialogue,Kichou,0,0,0,,Meu senhor, você está sendo imprudente novamente.
+Dialogue: 0,0:05:31.62,0:05:33.34,Main Dialogue,Saburo,0,0,0,,Bem, eles parecem fortes.
+Dialogue: 0,0:05:34.87,0:05:38.31,Main Dialogue,Sassa,0,0,0,,Obrigado por essas palavras!
+Dialogue: 0,0:05:39.05,0:05:40.53,Main Dialogue,Saburo,0,0,0,,Estou com fome.
+Dialogue: 0,0:05:40.88,0:05:41.48,Main Dialogue,Saburo,0,0,0,,Vamos lá.
+Dialogue: 0,0:05:51.12,0:05:55.61,Main Dialogue,Man 1,0,0,0,,Então é verdade que o senhor \N te contrata caso goste de você.
+Dialogue: 0,0:05:55.61,0:05:59.15,Main Dialogue,Man 2,0,0,0,,Porventura ele nos contratará também, \N caso façamos o mesmo.
+Dialogue: 0,0:06:03.90,0:06:06.88,Main Dialogue,Denjiro,0,0,0,,Então esse é Nobunaga Oda.
+Dialogue: 0,0:06:13.63,0:06:15.31,Main Dialogue,Hirate,0,0,0,,Fiquei sabendo, meu senhor,
+Dialogue: 0,0:06:15.90,0:06:20.49,Main Dialogue,Hirate,0,0,0,,que contratou mais homens suspeitos.
+Dialogue: 0,0:06:20.77,0:06:22.60,Main Dialogue,Saburo,0,0,0,,Os contratei pois pareciam bem vigorosos.
+Dialogue: 0,0:06:22.60,0:06:26.88,Main Dialogue,Hirate,0,0,0,,Mas, lhe implorei para não \Ncontratar pessoas desnecessariamente.
+Dialogue: 0,0:06:26.88,0:06:28.97,Main Dialogue,Hirate,0,0,0,,Alguns podem ter motivos desagradáveis.
+Dialogue: 0,0:06:28.97,0:06:31.33,Main Dialogue,Saburo,0,0,0,,Não diga isso!
+Dialogue: 0,0:06:31.33,0:06:33.06,Main Dialogue,Saburo,0,0,0,,Eles são todos boas pessoas.
+Dialogue: 0,0:06:34.02,0:06:34.94,Main Dialogue,Saburo,0,0,0,,Provavelmente.
+Dialogue: 0,0:06:35.15,0:06:36.16,Main Dialogue,Saburo,0,0,0,,Não os conheço tão bem.
+Dialogue: 0,0:06:36.16,0:06:37.91,Main Dialogue,Hirate,0,0,0,,Isso é muito descuido.
+Dialogue: 0,0:06:37.91,0:06:41.92,Main Dialogue,Saburo,0,0,0,,Como eu poderia assumir o controle \N do Japão sendo tão meticuloso?
+Dialogue: 0,0:06:43.81,0:06:45.09,Main Dialogue,Hirate,0,0,0,,Assumir o controle do Japão?
+Dialogue: 0,0:06:45.23,0:06:47.84,Main Dialogue,Hirate,0,0,0,,De novo, com esse excesso de confiança.
+Dialogue: 0,0:06:48.38,0:06:52.05,Main Dialogue,Saburo,0,0,0,,É meu dever como Nobunaga assumir o controle do Japão.
+Dialogue: 0,0:07:09.22,0:07:14.53,Main Dialogue,Katsu,0,0,0,,No que está pensando, Hirate-dono, \N reunindo tantas pessoas suspeitas por aqui?
+Dialogue: 0,0:07:15.42,0:07:17.07,Internal Dialogue,Narrator,0,0,0,,Katsuie Shibata.
+Dialogue: 0,0:07:17.35,0:07:20.71,Internal Dialogue,Narrator,0,0,0,,Chefe da família Oda, \N e seu mais poderoso general.
+Dialogue: 0,0:07:20.92,0:07:23.01,Main Dialogue,Hirate,0,0,0,,Não os trouxe aqui.
+Dialogue: 0,0:07:23.14,0:07:25.98,Main Dialogue,Hirate,0,0,0,,Eles vieram por conta própria.
+Dialogue: 0,0:07:26.38,0:07:28.50,Main Dialogue,Katsu,0,0,0,,E o que você planeja fazer com eles?
+Dialogue: 0,0:07:28.50,0:07:31.68,Main Dialogue,Hirate,0,0,0,,Não temos outra escolha \N a não ser entrevistá-los.
+Dialogue: 0,0:07:33.25,0:07:36.06,Main Dialogue,Hirate,0,0,0,,Mas um velho como eu \N não poderia fazer isso sozinho.
+Dialogue: 0,0:07:45.34,0:07:47.73,Main Dialogue,Katsu,0,0,0,,O próximo, dê um passo a frente!
+Dialogue: 0,0:07:47.95,0:07:48.90,Main Dialogue,Yoshi,0,0,0,,Sim, senhor!
+Dialogue: 0,0:07:51.87,0:07:54.86,Main Dialogue,Yoshi,0,0,0,,Sou Yoshinari Mori.
+Dialogue: 0,0:07:55.13,0:08:00.00,Main Dialogue,Yoshi,0,0,0,,Nobunaga-sama está prestes \N a se tornar um grande general.
+Dialogue: 0,0:08:01.05,0:08:05.57,Main Dialogue,Yoshi,0,0,0,,Venho aqui avidamente \N para lutar por Nobunaga-sama.
+Dialogue: 0,0:08:06.06,0:08:08.51,Main Dialogue,Kid,0,0,0,,Papai, boa sorte!
+Dialogue: 0,0:08:09.77,0:08:11.51,Main Dialogue,Kid 2,0,0,0,,Eu gostaria de servi-lo também.
+Dialogue: 0,0:08:11.74,0:08:14.47,Main Dialogue,Kid,0,0,0,,Mas você é só uma criança, irmão.
+Dialogue: 0,0:08:14.47,0:08:15.95,Main Dialogue,Kid 2,0,0,0,,Cale a boca, Ranmaru.
+Dialogue: 0,0:08:15.95,0:08:17.50,Main Dialogue,Kid 2,0,0,0,,Como se você pudesse falar algo!
+Dialogue: 0,0:08:21.34,0:08:22.57,Main Dialogue,Katsu,0,0,0,,Está contratado.
+Dialogue: 0,0:08:22.99,0:08:24.52,Main Dialogue,Katsu,0,0,0,,Trabalhe muito pelo nosso senhor.
+Dialogue: 0,0:08:24.66,0:08:25.61,Main Dialogue,Yoshi,0,0,0,,Sim, senhor!
+Dialogue: 0,0:08:28.57,0:08:30.36,Main Dialogue,Yoshi,0,0,0,,- Isso! \N - Isso!
+Dialogue: 0,0:08:31.30,0:08:33.34,Main Dialogue,Yoshi,0,0,0,,Isso, isso!
+Dialogue: 0,0:08:35.20,0:08:37.07,Main Dialogue,Hirate,0,0,0,,Próximo, dê um passo a frente.
+Dialogue: 0,0:08:38.15,0:08:39.51,Main Dialogue,Denjiro,0,0,0,,Olá.
+Dialogue: 0,0:08:43.74,0:08:44.67,Main Dialogue,Hirate,0,0,0,,Seu nome?
+Dialogue: 0,0:08:45.15,0:08:47.70,Main Dialogue,Denjiro,0,0,0,,Sou Denjirou Tahara.
+Dialogue: 0,0:08:47.84,0:08:50.24,Main Dialogue,Denjiro,0,0,0,,Trabalho no négocio mercante \Nde minha família.
+Dialogue: 0,0:08:50.41,0:08:51.90,Main Dialogue,Hirate,0,0,0,,Filho de comerciantes, você disse.
+Dialogue: 0,0:08:51.90,0:08:52.90,Main Dialogue,Denjiro,0,0,0,,Sim.
+Dialogue: 0,0:08:53.05,0:08:58.92,Main Dialogue,Denjiro,0,0,0,,Fiquei sabendo que o senhor daqui permite \N que pessoas de outros lugares sirvam-no.
+Dialogue: 0,0:08:58.92,0:09:03.35,Main Dialogue,Hirate,0,0,0,,Me desculpe, mas não poderei te contratar.
+Dialogue: 0,0:09:06.27,0:09:09.76,Main Dialogue,Hirate,0,0,0,,Você não está apto para ser um samurai.
+Dialogue: 0,0:09:10.10,0:09:13.90,Main Dialogue,Hirate,0,0,0,,Agora deixe Owari imediatamente!
+Dialogue: 0,0:09:19.78,0:09:21.60,Main Dialogue,Saburo,0,0,0,,Será que eu deveria fazer isso?
+Dialogue: 0,0:09:23.04,0:09:27.75,Ramen Sign,Text,0,0,0,,Baby Star Ramen
+Dialogue: 0,0:09:23.30,0:09:24.13,Main Dialogue,Saburo,0,0,0,,Isso...
+Dialogue: 0,0:09:26.44,0:09:27.79,Main Dialogue,Saburo,0,0,0,,...não está estragado, está?
+Dialogue: 0,0:09:32.12,0:09:33.68,Main Dialogue,Saburo,0,0,0,,Data de validade...
+Dialogue: 0,0:09:33.85,0:09:35.92,Main Dialogue,Saburo,0,0,0,,...é, ainda falta muito tempo.
+Dialogue: 0,0:09:51.26,0:09:52.05,Main Dialogue,Saburo,0,0,0,,É tão bom!
+Dialogue: 0,0:09:54.11,0:09:55.15,Main Dialogue,Saburo,0,0,0,,Quer um pouco?
+Dialogue: 0,0:09:55.36,0:09:56.52,Main Dialogue,Saburo,0,0,0,,Está ótimo.
+Dialogue: 0,0:09:59.54,0:10:04.16,Main Dialogue,Kichou,0,0,0,,Meu senhor, o que seria isso?
+Dialogue: 0,0:10:04.49,0:10:06.24,Main Dialogue,Saburo,0,0,0,,Isso? Baby Star.
+Dialogue: 0,0:10:06.68,0:10:09.09,Main Dialogue,Kichou,0,0,0,,Baby... Star?
+Dialogue: 0,0:10:09.20,0:10:10.20,Main Dialogue,Saburo,0,0,0,,Sim.
+Dialogue: 0,0:10:10.45,0:10:11.45,Main Dialogue,Saburo,0,0,0,,Quer um pouco?
+Dialogue: 0,0:10:12.96,0:10:14.45,Main Dialogue,Kichou,0,0,0,,N-Não, muito obrigada.
+Dialogue: 0,0:10:15.05,0:10:16.21,Main Dialogue,Saburo,0,0,0,,Por que não?
+Dialogue: 0,0:10:17.13,0:10:21.04,Main Dialogue,Saburo,0,0,0,,Vocês nunca terão outra chance para isso!
+Dialogue: 0,0:10:28.61,0:10:30.57,Main Dialogue,Tsune,0,0,0,,Que salgado!
+Dialogue: 0,0:10:31.29,0:10:35.93,Main Dialogue,Tsune,0,0,0,,Mas que sabor indescritível \N está preenchendo minha boca!
+Dialogue: 0,0:10:35.93,0:10:38.60,Main Dialogue,Kichou,0,0,0,,Provavelmente ficaria melhor com arroz branco.
+Dialogue: 0,0:10:38.60,0:10:40.32,Main Dialogue,Saburo,0,0,0,,Você falou como um \N crítico de comida gastronômica agora.
+Dialogue: 0,0:10:41.33,0:10:43.74,Main Dialogue,Kichou; Tsune,0,0,0,,"Gastronômica?"
+Dialogue: 0,0:10:45.09,0:10:45.99,Main Dialogue,Saburo,0,0,0,,Oh! Velho!
+Dialogue: 0,0:10:46.92,0:10:48.52,Main Dialogue,Saburo,0,0,0,,Como foram as entrevistas?
+Dialogue: 0,0:10:48.52,0:10:50.35,Main Dialogue,Saburo,0,0,0,,Tinha alguém vigoroso?
+Dialogue: 0,0:10:51.07,0:10:52.17,Main Dialogue,Hirate,0,0,0,,Realmente.
+Dialogue: 0,0:10:54.59,0:10:56.50,Main Dialogue,Saburo,0,0,0,,Obrigado pelo trabalho árduo.
+Dialogue: 0,0:10:56.65,0:10:59.49,Main Dialogue,Saburo,0,0,0,,Aqui, pegue alguns, e relaxe.
+Dialogue: 0,0:11:04.92,0:11:06.74,Main Dialogue,Hirate,0,0,0,,Obrigado pela refeição.
+Dialogue: 0,0:11:12.93,0:11:15.85,Main Dialogue,Tsune,0,0,0,,O que houve, Hirate-sama?
+Dialogue: 0,0:11:16.18,0:11:17.92,Main Dialogue,Hirate,0,0,0,,Meus dentes...
+Dialogue: 0,0:11:18.41,0:11:19.24,Main Dialogue,Tsune,0,0,0,,Dentes?
+Dialogue: 0,0:11:21.78,0:11:25.12,Main Dialogue,Hirate,0,0,0,,Isso é duro demais para \Num senhor de idade como eu.
+Dialogue: 0,0:11:25.65,0:11:26.66,Main Dialogue,Saburo,0,0,0,,Me desculpe.
+Dialogue: 0,0:11:32.85,0:11:37.33,Main Dialogue,Denjiro,0,0,0,,Mesmo sendo velho, continua sendo um chefe da família Oda.
+Dialogue: 0,0:11:37.51,0:11:39.56,Main Dialogue,Ninja,0,0,0,,Então Hirate notou sua farsa.
+Dialogue: 0,0:11:39.73,0:11:40.78,Main Dialogue,Denjiro,0,0,0,,Sim.
+Dialogue: 0,0:11:40.97,0:11:42.64,Main Dialogue,Denjiro,0,0,0,,Me descobriu imediatamente.
+Dialogue: 0,0:11:44.01,0:11:47.25,Main Dialogue,Denjiro,0,0,0,,E você? Como está Sunpu?
+Dialogue: 0,0:11:48.43,0:11:51.40,Main Dialogue,Ninja,0,0,0,,Nosso caminho para nos\N infiltramos já está bom.
+Dialogue: 0,0:11:51.89,0:11:54.31,Main Dialogue,Ninja,0,0,0,,Agora temos apenas que \N esperar pela hora certa.
+Dialogue: 0,0:11:56.34,0:12:01.55,Main Dialogue,Ninja,0,0,0,,O Senhor Yoshimoto está \N ansioso esperando seu relatório.
+Dialogue: 0,0:12:15.34,0:12:19.01,Main Dialogue,Denjiro,0,0,0,,Esse velho, parece uma praga.
+Dialogue: 0,0:12:21.40,0:12:22.73,Main Dialogue,Niwa,0,0,0,,Como posso dizer?
+Dialogue: 0,0:12:21.22,0:12:23.18,Locais,,0,0,0,,{\pos(1260,620)\an6\fade(100,100)}Owari / Castelo de Nagoya
+Dialogue: 0,0:12:23.73,0:12:28.44,Main Dialogue,Niwa,0,0,0,,Foi o próprio senhor quem pediu \N para ver seus novos funcionários.
+Dialogue: 0,0:12:28.72,0:12:31.48,Main Dialogue,Niwa,0,0,0,,Entretanto, ele está ausente.
+Dialogue: 0,0:12:31.99,0:12:36.50,Main Dialogue,Niwa,0,0,0,,Está em outro de seus "encontros"?
+Dialogue: 0,0:12:38.86,0:12:41.69,Main Dialogue,Niwa,0,0,0,,Estou contente que ele esteja bem,
+Dialogue: 0,0:12:41.69,0:12:45.82,Main Dialogue,Niwa,0,0,0,,mas se sempre estiver longe, seus \N subordinados não irão seguir sua liderença.
+Dialogue: 0,0:12:47.10,0:12:50.51,Internal Dialogue,Narrator,0,0,0,,O residente humanista de Oda, \N Niwa Nagahide.
+Dialogue: 0,0:12:51.12,0:12:54.63,Main Dialogue,Murata,0,0,0,,Nosso mestre deve ter \Nalguma coisa em mente.
+Dialogue: 0,0:12:55.18,0:12:58.01,Main Dialogue,Murata,0,0,0,,Não é mesmo, Hirate-dono?
+Dialogue: 0,0:12:58.76,0:13:02.34,Main Dialogue,Hirate,0,0,0,,Já não sei mais o que \N se passa na cabeça do mestre.
+Dialogue: 0,0:13:02.34,0:13:02.80,Main Dialogue,Murata,0,0,0,,O quê?
+Dialogue: 0,0:13:05.17,0:13:09.78,Main Dialogue,Hirate,0,0,0,,Mas nosso senhor com certeza não é tolo.
+Dialogue: 0,0:13:10.14,0:13:11.43,Main Dialogue,Hirate,0,0,0,,Ele simplesmente...
+Dialogue: 0,0:13:13.15,0:13:16.73,Main Dialogue,Hirate,0,0,0,,...está além de nossa compreensão.
+Dialogue: 0,0:13:17.23,0:13:20.48,Main Dialogue,Hirate,0,0,0,,E também de todos que o chamam de tolo.
+Dialogue: 0,0:13:26.27,0:13:29.49,Main Dialogue,Hirate,0,0,0,,Isso é o que me frustra.
+Dialogue: 0,0:13:37.77,0:13:38.92,Main Dialogue,Saburo,0,0,0,,Está gelado!
+Dialogue: 0,0:13:39.79,0:13:42.46,Main Dialogue,Saburo,0,0,0,,Carga de energia!
+Dialogue: 0,0:13:48.05,0:13:52.91,Main Dialogue,Tsune,0,0,0,,Meu senhor, você têm \N muitas coisas estranhas.
+Dialogue: 0,0:13:53.14,0:13:55.79,Main Dialogue,Saburo,0,0,0,,Acho que eu deveria dar isso para o Velho.
+Dialogue: 0,0:13:56.31,0:13:59.40,Main Dialogue,Saburo,0,0,0,,Ele pode beber isso, mesmo \N com seus dentes em mal estado.
+Dialogue: 0,0:14:00.68,0:14:02.99,Main Dialogue,Kichou,0,0,0,,Você é tão gentil, meu senhor!
+Dialogue: 0,0:14:11.21,0:14:12.94,Main Dialogue,Saburo,0,0,0,,Hirate!
+Dialogue: 0,0:14:14.53,0:14:16.29,Main Dialogue,Saburo,0,0,0,,Hirate!
+Dialogue: 0,0:14:17.00,0:14:18.62,Main Dialogue,Saburo,0,0,0,,Com licença... Sabem onde o Velho está?
+Dialogue: 0,0:14:19.57,0:14:22.78,Main Dialogue,Murata,0,0,0,,Hirate-dono foi para casa há pouco tempo.
+Dialogue: 0,0:14:25.10,0:14:26.40,Main Dialogue,Saburo,0,0,0,,Ah, entendi...
+Dialogue: 0,0:14:30.73,0:14:33.60,Main Dialogue,Saburo,0,0,0,,Esse não é o leque dele?
+Dialogue: 0,0:14:33.83,0:14:36.31,Main Dialogue,Murata,0,0,0,,Deve tê-lo esquecido.
+Dialogue: 0,0:14:36.60,0:14:38.81,Main Dialogue,Murata,0,0,0,,Devo enviar nossos homens para entregá-lo?
+Dialogue: 0,0:14:38.81,0:14:41.01,Main Dialogue,Saburo,0,0,0,,Não. Eu mesmo vou.
+Dialogue: 0,0:14:41.01,0:14:42.49,Main Dialogue,Saburo,0,0,0,,Há algo que eu gostaria de \N presenteá-lo de qualquer maneira.
+Dialogue: 0,0:14:42.49,0:14:43.69,Main Dialogue,Saburo,0,0,0,,Estou de saída.
+Dialogue: 0,0:14:44.69,0:14:45.71,Main Dialogue,Murata,0,0,0,,Meu senhor!
+Dialogue: 0,0:15:02.92,0:15:07.25,Main Dialogue,Saburo,0,0,0,,A mansão do Hirate \N é por aqui, não é?
+Dialogue: 0,0:15:47.52,0:15:48.48,Main Dialogue,Saburo,0,0,0,,Hirate!
+Dialogue: 0,0:15:53.13,0:15:54.14,Main Dialogue,Saburo,0,0,0,,Hirate!
+Dialogue: 0,0:15:56.05,0:15:57.28,Main Dialogue,Saburo,0,0,0,,Hirate!
+Dialogue: 0,0:15:59.93,0:16:01.29,Main Dialogue,Saburo,0,0,0,,Hirate!
+Dialogue: 0,0:16:02.08,0:16:03.02,Main Dialogue,Hirate,0,0,0,,Meu senhor!
+Dialogue: 0,0:16:06.01,0:16:07.28,Main Dialogue,Saburo,0,0,0,,Quem fez isso?
+Dialogue: 0,0:16:07.28,0:16:08.62,Main Dialogue,Saburo,0,0,0,,Chamem uma ambulância!
+Dialogue: 0,0:16:09.20,0:16:10.57,Main Dialogue,Hirate,0,0,0,,Meu senhor,
+Dialogue: 0,0:16:11.68,0:16:17.36,Main Dialogue,Hirate,0,0,0,,há um assassino atrás de sua vida.
+Dialogue: 0,0:16:18.20,0:16:22.16,Main Dialogue,Hirate,0,0,0,,Volte imediatamente ao castelo.
+Dialogue: 0,0:16:22.42,0:16:24.68,Main Dialogue,Saburo,0,0,0,,Hirate, pare de falar!
+Dialogue: 0,0:16:24.83,0:16:27.01,Main Dialogue,Saburo,0,0,0,,Você irá sangrar mais!
+Dialogue: 0,0:16:27.38,0:16:28.88,Main Dialogue,Hirate,0,0,0,,Essa é...
+Dialogue: 0,0:16:29.79,0:16:32.24,Main Dialogue,Hirate,0,0,0,,...a última vez...
+Dialogue: 0,0:16:33.56,0:16:35.59,Main Dialogue,Hirate,0,0,0,,...que irei lhe dar um sermão.
+Dialogue: 0,0:16:37.18,0:16:38.44,Main Dialogue,Saburo,0,0,0,,Eu entendi.
+Dialogue: 0,0:16:39.24,0:16:42.48,Main Dialogue,Saburo,0,0,0,,Por favor, pare de falar.
+Dialogue: 0,0:16:42.89,0:16:44.25,Main Dialogue,Hirate,0,0,0,,Meu senhor,
+Dialogue: 0,0:16:45.98,0:16:48.88,Main Dialogue,Hirate,0,0,0,,viva como desejar.
+Dialogue: 0,0:16:50.00,0:16:54.97,Main Dialogue,Hirate,0,0,0,,E mostre para todos
+Dialogue: 0,0:16:55.81,0:17:00.02,Main Dialogue,Hirate,0,0,0,,o que apenas você consegue ver.
+Dialogue: 0,0:17:03.50,0:17:04.69,Main Dialogue,,0,0,0,,Meu senhor...
+Dialogue: 0,0:17:07.83,0:17:09.13,Main Dialogue,,0,0,0,,Hirate! Hirate!
+Dialogue: 0,0:17:13.48,0:17:15.87,Main Dialogue,Hirate,0,0,0,,Domine essas terras.
+Dialogue: 0,0:17:19.01,0:17:20.51,Main Dialogue,Hirate,0,0,0,,Assim ninguém irá
+Dialogue: 0,0:17:24.68,0:17:28.54,Main Dialogue,Hirate,0,0,0,,lhe chamar de tolo novamente.
+Dialogue: 0,0:17:32.69,0:17:33.61,Main Dialogue,Hirate,0,0,0,,Domine.
+Dialogue: 0,0:17:52.34,0:17:58.34,Main Dialogue,Narrator,0,0,0,,Saburo anunciou a morte \N de Hirate como {\i1}kanshi{\0}.
+Dialogue: 0,0:18:01.04,0:18:05.13,Main Dialogue,Narrator,0,0,0,,{\i1}Kanshi{\i0} é o ato de suicidar-se
+Dialogue: 0,0:18:05.13,0:18:07.87,Main Dialogue,Narrator,0,0,0,,como forma de reprovar as ações de seu mestre.
+Dialogue: 0,0:18:19.65,0:18:24.74,Main Dialogue,Sawahiko,0,0,0,,Recebi uma notícia de que \NHirate-dono cometeu {\i1}kanshi{\i0}.
+Dialogue: 0,0:18:27.15,0:18:29.98,Main Dialogue,Micchi,0,0,0,,Ele não se mataria por isso.
+Dialogue: 0,0:18:30.18,0:18:32.22,Main Dialogue,Sawahiko,0,0,0,,Ele deve ter sido desencorajado
+Dialogue: 0,0:18:32.22,0:18:38.30,Main Dialogue,Sawahiko,0,0,0,,pelas atitudes incessantes de \N tumulto ao Nobunaga-dono.
+Dialogue: 0,0:18:55.36,0:18:56.82,Main Dialogue,Servant 1,0,0,0,,Nosso senhor...
+Dialogue: 0,0:18:57.28,0:19:00.26,Main Dialogue,Servant 2,0,0,0,,Em um dia tão chuvoso.
+Dialogue: 0,0:19:04.15,0:19:06.75,Main Dialogue,Tsune,0,0,0,,Aquilo é do, Hirate-sama...
+Dialogue: 0,0:19:07.76,0:19:11.94,Main Dialogue,Servant 1,0,0,0,,O suicídio do Hirate não irá \N curar a tolice do nosso senhor.
+Dialogue: 0,0:19:11.94,0:19:12.52,Main Dialogue,Servant 2,0,0,0,,É.
+Dialogue: 0,0:19:12.52,0:19:14.59,Main Dialogue,Tsune,0,0,0,,Voltem ao trabalho!
+Dialogue: 0,0:19:14.76,0:19:15.78,Main Dialogue,Servant 2,0,0,0,,Sim, senhor!
+Dialogue: 0,0:19:20.59,0:19:21.81,Main Dialogue,Tsune,0,0,0,,Meu senhor...
+Dialogue: 0,0:19:27.36,0:19:28.98,Main Dialogue,Denjiro,0,0,0,,Oh?
+Dialogue: 0,0:19:29.36,0:19:31.37,Main Dialogue,Denjiro,0,0,0,,Quer dizer que você era um fazendeiro.
+Dialogue: 0,0:19:31.37,0:19:32.41,Main Dialogue,Merchant,0,0,0,,Sim.
+Dialogue: 0,0:19:32.41,0:19:36.30,Main Dialogue,Merchant,0,0,0,,Mas pensava que eu seria mais \N adepto para ser um comerciante.
+Dialogue: 0,0:19:36.60,0:19:38.46,Main Dialogue,Merchant,0,0,0,,Então agora vendo agulhas.
+Dialogue: 0,0:19:38.69,0:19:39.83,Main Dialogue,Denjiro,0,0,0,,Seu nome?
+Dialogue: 0,0:19:40.43,0:19:42.36,Main Dialogue,Denjiro,0,0,0,,Do que devo te chamar?
+Dialogue: 0,0:19:43.93,0:19:45.62,Main Dialogue,Merchant,0,0,0,,Toukichiro Kinoshita.
+Dialogue: 0,0:19:47.18,0:19:49.24,Main Dialogue,Denjiro,0,0,0,,Toukichiro.
+Dialogue: 0,0:19:49.78,0:19:51.50,Main Dialogue,Denjiro,0,0,0,,Esse é um bom nome.
+Dialogue: 0,0:19:51.90,0:19:53.89,Main Dialogue,Merchant,0,0,0,,Não muito.
+Dialogue: 0,0:19:54.13,0:19:57.06,Main Dialogue,Denjiro,0,0,0,,Não! Eu gostei dele.
+Dialogue: 0,0:20:00.44,0:20:02.77,Main Dialogue,Denjiro,0,0,0,,De fato, eu necessito dele.
+Dialogue: 0,0:20:22.61,0:20:26.04,Internal Dialogue,Micchi,0,0,0,,Fui enganado?
+Dialogue: 0,0:20:55.04,0:20:56.77,Main Dialogue,Denjiro,0,0,0,,Agulhas!
+Dialogue: 0,0:20:56.90,0:20:59.19,Main Dialogue,Denjiro,0,0,0,,Comprem suas agulhas!
+Dialogue: 0,0:20:59.42,0:21:04.73,Main Dialogue,Denjiro,0,0,0,,Fortes e duráveis, agulhas do Toukichiro!
+Dialogue: 0,0:21:05.08,0:21:07.10,Main Dialogue,Denjiro,0,0,0,,Comprem suas agulhas!
+Dialogue: 0,0:21:07.50,0:21:11.87,Main Dialogue,Denjiro,0,0,0,,Fortes e duráveis, agulhas do Toukichiro!
+Dialogue: 0,0:21:12.22,0:21:13.44,Main Dialogue,Denjiro,0,0,0,,Comprem suas agulhas!
+Dialogue: 0,0:21:13.44,0:21:15.72,Main Dialogue,Woman,0,0,0,,Eu gostaria de comprar algumas.
+Dialogue: 0,0:21:19.77,0:21:21.25,Main Dialogue,Denjiro,0,0,0,,Muito obrigado!
+Comment: 0,0:21:22.92,0:21:22.92,Default,,0,0,0,,ED HERE
+Comment: 0,0:21:22.92,0:21:22.92,Default,,0,0,0,,ED Romanji Start
+Dialogue: 0,0:21:22.92,0:21:25.51,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k39}Wake {\k20}in {\k33}lone{\k17}li{\k50}ness! {\k33}Lone{\k17}li{\k41}ness!
+Dialogue: 0,0:21:25.51,0:21:27.80,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k54}Falling {\k59}inside {\k35}your {\k82}story
+Dialogue: 0,0:21:27.80,0:21:30.31,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k65}Walking {\k48}after {\k48}you! {\k49}After {\k40}you!
+Dialogue: 0,0:21:30.31,0:21:33.98,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k31}I {\k27}will {\k65}share {\k41}my {\k168}ti{\k35}me
+Dialogue: 0,0:22:04.59,0:22:06.93,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k56}Mayoi {\k45}konda {\k69}sekai {\k64}de
+Dialogue: 0,0:22:06.93,0:22:10.76,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k49}Boku {\k23}wa {\k29}kage {\k19}to {\k143}kasanatte {\k121}ima
+Dialogue: 0,0:22:10.76,0:22:13.52,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k37}I {\k59}can't {\k35}go {\k117}back
+Dialogue: 0,0:22:13.52,0:22:16.10,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k113}Ketteiteki {\k46}boku {\k13}no {\k60}shomei {\k27}wa
+Dialogue: 0,0:22:16.10,0:22:19.06,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k63}Jidai {\k19}o {\k31}ima {\k45}koete {\k138}monogataru
+Dialogue: 0,0:22:19.06,0:22:25.74,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k37}You {\k80}Know? {\k18}I {\k29}will {\k40}be {\k13}the {\k38}brand {\k19}new {\k60}age {\k33}from {\k39}this {\k261}day
+Dialogue: 0,0:22:27.36,0:22:31.91,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k23}I {\k30}will {\k46}save {\k129}myself, {\k45}and {\k29}the {\k49}time {\k42}is {\k61}now!
+Dialogue: 0,0:22:31.91,0:22:34.50,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k64}Kill {\k21}my {\k88}weakness! {\k86}Weakness!
+Dialogue: 0,0:22:34.50,0:22:36.79,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k76}Kanarazu {\k41}koete {\k42}nagete {\k70}satte
+Dialogue: 0,0:22:36.79,0:22:39.17,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k58}And {\k13}I {\k42}stay {\k47}alive! {\k39}Stay {\k39}alive!
+Dialogue: 0,0:22:39.17,0:22:41.63,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k53}Saigo {\k18}o {\k96}shinjitaku {\k79}wanakute!
+Dialogue: 0,0:22:41.63,0:22:44.01,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k64}Kill {\k21}my {\k88}weakness! {\k86}Weakness!
+Dialogue: 0,0:22:44.01,0:22:46.34,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k61}Itsuka {\k69}kidzuita {\k27}to {\k53}shite {\k24}mo
+Dialogue: 0,0:22:46.34,0:22:50.35,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k43}I {\k32}will {\k40}prove {\k62}myself {\k25}that {\k38}I {\k23}have {\k8}to {\k33}live {\k96}today
+Dialogue: 0,0:22:50.35,0:22:52.35,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k87}Starting {\k113}now!
+Comment: 0,0:21:22.92,0:21:22.92,OP Kanji,,0,0,0,,ED Romanji End
+Comment: 0,0:21:22.92,0:21:22.92,OP Kanji,,0,0,0,,ED Kanji Start
+Dialogue: 0,0:22:04.59,0:22:06.93,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k56}迷い{\k45}込んだ{\k69}世界{\k64}で
+Dialogue: 0,0:22:06.93,0:22:10.76,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k49}僕{\k23}は{\k29}影{\k19}と{\k143}重なって{\k121}今
+Dialogue: 0,0:22:13.52,0:22:16.10,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k113}決定的{\k46}僕{\k13}の{\k60}証明{\k27}は
+Dialogue: 0,0:22:16.10,0:22:19.06,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k63}時代{\k19}を{\k31}今{\k45}越えて{\k138}物語る
+Dialogue: 0,0:22:34.50,0:22:36.79,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k76}必ず{\k41}越えて{\k42}投げて{\k70}去って
+Dialogue: 0,0:22:39.17,0:22:41.63,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k53}最後{\k18}を{\k96}信じたく{\k79}はなくて!
+Dialogue: 0,0:22:44.01,0:22:46.34,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k61}いつか{\k69}気づいた{\k27}と{\k53}して{\k24}も
+Comment: 0,0:21:22.92,0:21:22.92,OP Kanji,,0,0,0,,ED Kanji End
+Comment: 0,0:21:22.92,0:21:22.92,Default,,0,0,0,,ED Br Start
+Dialogue: 0,0:21:22.92,0:21:25.51,OP BR,,0,0,0,,Despertei na solidão! Solidão!
+Dialogue: 0,0:21:25.51,0:21:27.80,OP BR,,0,0,0,,Caindo dentro de sua história
+Dialogue: 0,0:21:27.80,0:21:30.31,OP BR,,0,0,0,,Caminhando após você! Após você!
+Dialogue: 0,0:21:30.31,0:21:33.98,OP BR,,0,0,0,,Lhe partilharei meu tempo
+Dialogue: 0,0:22:04.59,0:22:06.93,OP BR,,0,0,0,,Num mundo totalmente perdido
+Dialogue: 0,0:22:06.93,0:22:10.76,OP BR,,0,0,0,,Agora estou junto à minha sombra
+Dialogue: 0,0:22:10.76,0:22:13.52,OP BR,,0,0,0,,Não posso voltar
+Dialogue: 0,0:22:13.52,0:22:16.10,OP BR,,0,0,0,,Minha prova decisiva é
+Dialogue: 0,0:22:16.10,0:22:19.06,OP BR,,0,0,0,,Narrar ao longo da era agora
+Dialogue: 0,0:22:19.06,0:22:25.74,OP BR,,0,0,0,,Quer saber? Marcarei essa nova era a partir de hoje
+Dialogue: 0,0:22:27.36,0:22:31.91,OP BR,,0,0,0,,Irei salvar-me, e a hora é agora!
+Dialogue: 0,0:22:31.91,0:22:34.50,OP BR,,0,0,0,,Destrua minha fraqueza! Fraqueza!
+Dialogue: 0,0:22:34.50,0:22:36.79,OP BR,,0,0,0,,Certamente chorando além da distância
+Dialogue: 0,0:22:36.79,0:22:39.17,OP BR,,0,0,0,,E eu ficarei vivo! Ficarei vivo!
+Dialogue: 0,0:22:39.17,0:22:41.63,OP BR,,0,0,0,,Não quero acreditar no fim desse conto de fadas
+Dialogue: 0,0:22:41.63,0:22:44.01,OP BR,,0,0,0,,Destrua minha fraqueza! Fraqueza!
+Dialogue: 0,0:22:44.01,0:22:46.34,OP BR,,0,0,0,,Mesmo sendo notada algum dia
+Dialogue: 0,0:22:46.34,0:22:50.35,OP BR,,0,0,0,,Irei provar a mim mesmo que preciso viver hoje
+Dialogue: 0,0:22:50.35,0:22:52.35,OP BR,,0,0,0,,Começando agora!
+Comment: 0,0:21:22.92,0:21:22.92,Default,,0,0,0,,ED Br End
+Comment: 0,0:21:22.92,0:21:22.92,Default,,0,0,0,,ED Credits Start
+Dialogue: 0,0:21:38.40,0:21:41.40,Credits GriloSub,,0,0,0,,{\pos(840,680)}Tradução          Grilo
+Dialogue: 0,0:21:41.40,0:21:44.40,Credits GriloSub,,0,0,0,,{\pos(990,365)}Revisão \N GabrielCosta \N KaueGodoy
+Dialogue: 0,0:21:44.40,0:21:47.41,Credits GriloSub,,0,0,0,,{\pos(535,590)}Karaokê       Grilo
+Dialogue: 0,0:21:47.41,0:21:49.41,Credits GriloSub,,0,0,0,,{\pos(209,676)}Revisão final     Grilo
+Dialogue: 0,0:21:53.41,0:21:56.42,Credits GriloSub,,0,0,0,,{\pos(410,480)}Tradução          Grilo  \N do Karaokê       KaueGodoy
+Dialogue: 0,0:22:32.74,0:22:52.35,Credits GriloSub,,0,0,0,,{\pos(1115,520)\a6}GriloSub \N\N Feito de fã para fã.  \N\N #GriloSub@irc.rizon.net
+Comment: 0,0:21:22.92,0:21:22.92,Default,,0,0,0,,ED Credits End
+Dialogue: 0,0:21:21.25,0:21:23.25,Main Dialogue,,0,0,0,,

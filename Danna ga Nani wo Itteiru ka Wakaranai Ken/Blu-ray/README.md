@@ -1,0 +1,5 @@
+-- Source: Kaitou & [=^_^=]
+-- Tradução: Grilo
+-- Revisão: GabrielCosta
+-- Encode: K1NG
+-- QC: Grilo

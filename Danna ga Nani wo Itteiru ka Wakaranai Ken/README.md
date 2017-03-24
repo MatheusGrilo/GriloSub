@@ -1,0 +1,3 @@
+-- Source: Kaitou
+-- Tradução: Grilo
+-- Revisão: GabrielCosta

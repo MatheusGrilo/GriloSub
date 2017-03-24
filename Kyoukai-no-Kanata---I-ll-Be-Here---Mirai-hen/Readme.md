@@ -1,6 +1,0 @@
-- Source: Mori
-- Tradução: Grilo
-- Revisão: Grilo
-
-Mudanças feitas no patch: 
-- https://drive.google.com/open?id=1w2mfppKYzUj2zKISf3aclfSdqCQB-f8CgSue053B9WU

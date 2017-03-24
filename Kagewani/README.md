@@ -1,0 +1,3 @@
+-- Source: WhyNot-Migoto & HorribleSubs
+-- Tradução: Grilo
+-- Revisão: Grilo

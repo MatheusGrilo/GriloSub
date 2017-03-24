@@ -1,0 +1,3 @@
+-- Source: Doki-Chihiro & Mori ~~& konosweets~~ (1~4)
+-- Tradução: Grilo
+-- Revisão: Hakone-chan

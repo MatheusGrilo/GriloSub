@@ -1,0 +1,4 @@
+-- Source: Godless-Subs
+-- Tradução: Grilo
+-
+-Thanks Amberdrake and Yuuki-chan for the help in this release.

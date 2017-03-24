@@ -1,5 +1,0 @@
-- Source: Heroine
-- Tradução: Grilo
-- Revisão: Grilo
-
-Encerramento não incluído no v1, apenas no futuro batch (v2)
