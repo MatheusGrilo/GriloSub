@@ -1,1 +1,0 @@
-Fontes adicionais do projeto Akatsuki no Yona

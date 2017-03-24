@@ -1,0 +1,470 @@
+﻿[Script Info]
+Title: GriloSub
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Locais-furigana,Arial,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0.5,0,4,10,10,10,1
+Style: Credits GriloSub-furigana,Tahoma,15,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,4,10,10,10,1
+Style: OP Kanji-furigana,Monotype Corsiva,20,&H00FFFFFF,&H00B19D65,&H00373737,&H96000000,0,0,0,0,100,100,0,0,1,1,0,7,30,30,70,1
+Style: OP Romaji-furigana,Please write me a song,25,&H00FFFFFF,&H00B19D65,&H00373737,&H96F4F4F4,-1,0,0,0,100,100,5,0,1,1,0.5,7,30,30,10,1
+Style: OP BR-furigana,Monotype Corsiva,20,&H00FFFFFF,&H000000FF,&H00373737,&H96000000,-1,0,0,0,100,100,0,0,1,1,0,3,30,30,8,1
+Style: Textbook Sign-furigana,Open Sans Semibold,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,2.25,0,8,41,41,41,1
+Style: Insect Repellent Sign-furigana,Open Sans Semibold,27,&H00A4322E,&H000000FF,&H000000C5,&H00000000,-1,0,0,0,100,100,0,0,1,0.75,0,8,41,41,36,1
+Style: Episode Title-furigana,Open Sans Semibold,25,&H0000005F,&H000000FF,&H00CCCCCC,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,201,41,48,1
+Style: Episode Number-furigana,Open Sans Semibold,22.5,&H00CCCCCC,&H000000FF,&H0000005F,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,9,41,175,276,1
+Style: Chalkboard Sign 3-furigana,Open Sans Semibold,22.5,&H00FFFFFF,&H000000FF,&H005E8751,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,835,41,350,1
+Style: Chalkboard Sign 2-furigana,Open Sans Semibold,22.5,&H00FFFFFF,&H000000FF,&H005E8751,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,574,41,240,1
+Style: Chalkboard Sign 1-furigana,Open Sans Semibold,22.5,&H00FFFFFF,&H000000FF,&H005E8751,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,7,251,41,161,1
+Style: History Book Sign-furigana,Open Sans Semibold,22.5,&H00ABC5CE,&H000000FF,&H001A0041,&H00000000,-1,0,0,0,100,100,0,0,1,2.25,0,7,201,41,80,1
+Style: Internal Dialogue Top-furigana,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.5,0.75,8,5,5,50,1
+Style: Internal Dialogue-furigana,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,1.5,0.75,2,5,5,50,1
+Style: Main Dialogue Top-furigana,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1.5,0.75,8,5,5,50,1
+Style: Signs-furigana,Open Sans Semibold,22.5,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,41,41,36,1
+Style: Main Dialogue-furigana,Open Sans Semibold,27,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,1,0,2,0,0,42,1
+Style: Main Dialogue,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,2,0,2,0,0,42,1
+Style: Signs,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,41,41,36,1
+Style: Main Dialogue Top,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,1.5,8,5,5,50,1
+Style: Internal Dialogue,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,1.5,2,5,5,50,1
+Style: Internal Dialogue Top,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,1.5,8,5,5,50,1
+Style: History Book Sign,Open Sans Semibold,45,&H00ABC5CE,&H000000FF,&H001A0041,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,7,201,41,80,1
+Style: Chalkboard Sign 1,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H005E8751,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,251,41,161,1
+Style: Chalkboard Sign 2,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H005E8751,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,574,41,240,1
+Style: Chalkboard Sign 3,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H005E8751,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,835,41,350,1
+Style: Episode Number,Open Sans Semibold,45,&H00CCCCCC,&H000000FF,&H0000005F,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,41,175,276,1
+Style: Episode Title,Open Sans Semibold,50,&H0000005F,&H000000FF,&H00CCCCCC,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,201,41,48,1
+Style: Insect Repellent Sign,Open Sans Semibold,54,&H00A4322E,&H000000FF,&H000000C5,&H00000000,-1,0,0,0,100,100,0,0,1,1.5,0,8,41,41,36,1
+Style: Textbook Sign,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,4.5,0,8,41,41,41,1
+Style: OP BR,Monotype Corsiva,40,&H00FFFFFF,&H000000FF,&H00373737,&H96000000,-1,0,0,0,100,100,0,0,1,2,0,3,30,30,8,1
+Style: OP Romaji,Please write me a song,50,&H00FFFFFF,&H00B19D65,&H00373737,&H96F4F4F4,-1,0,0,0,100,100,5,0,1,2,1,7,30,30,10,1
+Style: OP Kanji,Monotype Corsiva,40,&H00FFFFFF,&H00B19D65,&H00373737,&H96000000,0,0,0,0,100,100,0,0,1,2,0,7,30,30,70,1
+Style: Credits GriloSub,Tahoma,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: Locais,Arial,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,4,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.98,0:00:07.98,History Book Sign,Text,0,0,0,,{\fad(500,1)}História do Japão Expandida
+Dialogue: 0,0:00:04.01,0:00:07.58,Main Dialogue,Teacher,0,0,0,,Então, foi quando o \N Incidente de Honnouji aconteceu.
+Dialogue: 0,0:00:07.58,0:00:10.59,Main Dialogue,Teacher,0,0,0,,E estava sendo comandado \N por Akechi Mitsuhide.
+Dialogue: 0,0:00:10.59,0:00:15.49,Main Dialogue,Teacher,0,0,0,,Essa é uma parte importante da história japonesa, \N então, espero que todos saibam disso.
+Dialogue: 0,0:00:15.49,0:00:17.72,Main Dialogue,Teacher,0,0,0,,Como dizia...
+Dialogue: 0,0:00:17.72,0:00:22.24,Main Dialogue,Teacher,0,0,0,,Você, malabarista de livros profissional!
+Dialogue: 0,0:00:22.24,0:00:23.16,Main Dialogue,Teacher,0,0,0,,Olhe para mim!
+Dialogue: 0,0:00:24.62,0:00:25.83,Main Dialogue,Teacher,0,0,0,,Me responda agora!
+Dialogue: 0,0:00:24.62,0:00:25.83,Chalkboard Sign 1,Text,0,0,0,,Incidente \N de Honnouji
+Dialogue: 0,0:00:24.62,0:00:25.83,Chalkboard Sign 2,Text,0,0,0,,Construção\N do castelo\NAzuchi
+Dialogue: 0,0:00:24.62,0:00:25.83,Chalkboard Sign 3,Text,0,0,0,,Colapsos \N do Shogun \NMuromachi
+Dialogue: 0,0:00:26.12,0:00:29.71,Main Dialogue,Teacher,0,0,0,,Quem deu início ao Incidente de Honnouji?!
+Dialogue: 0,0:00:30.73,0:00:32.86,Main Dialogue,Saburo,0,0,0,,Então...
+Dialogue: 0,0:00:33.31,0:00:35.31,Main Dialogue,Saburo,0,0,0,,Eu acho que foi...
+Dialogue: 0,0:00:36.34,0:00:37.78,Main Dialogue,Saburo,0,0,0,,Aida-san!
+Dialogue: 0,0:00:47.96,0:00:50.78,Main Dialogue,Saburo,0,0,0,,Quem se importa com o que aconteceu \N com o Japão no passado?
+Dialogue: 0,0:00:51.47,0:00:53.74,Main Dialogue,Saburo,0,0,0,,Isso não...
+Dialogue: 0,0:00:53.74,0:00:56.45,Main Dialogue,Saburo,0,0,0,,...tem nada a ver...
+Dialogue: 0,0:00:56.69,0:00:58.58,Main Dialogue,Saburo,0,0,0,,...com a minha vida.
+Dialogue: 0,0:01:23.27,0:01:24.48,Main Dialogue,Saburo,0,0,0,,Cavalo!
+Dialogue: 0,0:01:26.28,0:01:27.72,Main Dialogue,Micchi,0,0,0,,Ah, ali...
+Dialogue: 0,0:01:29.75,0:01:31.86,Main Dialogue,Micchi,0,0,0,,Você me parece suspeito.
+Dialogue: 0,0:01:31.86,0:01:33.42,Main Dialogue,Micchi,0,0,0,,Quem é você?
+Dialogue: 0,0:01:33.42,0:01:34.65,Main Dialogue,Saburo,0,0,0,,Saburou...
+Dialogue: 0,0:01:36.48,0:01:38.26,Main Dialogue,Micchi,0,0,0,,Você... você se parece...
+Dialogue: 0,0:01:39.20,0:01:40.91,Main Dialogue,Saburo,0,0,0,,Ah, verdade!
+Dialogue: 0,0:01:40.91,0:01:42.16,Main Dialogue,Saburo,0,0,0,,Você se parece comigo!
+Dialogue: 0,0:01:42.16,0:01:44.90,Main Dialogue,Saburo,0,0,0,,Não me admira que você pareça tão familiar.
+Dialogue: 0,0:01:45.82,0:01:47.16,Main Dialogue,Saburo,0,0,0,,O que há com essas roupas?
+Dialogue: 0,0:01:47.16,0:01:49.57,Main Dialogue,Saburo,0,0,0,,Você está gravando para algum filme de outra época?
+Dialogue: 0,0:01:49.57,0:01:50.75,Main Dialogue,Saburo,0,0,0,,Onde estão as câmeras?
+Dialogue: 0,0:01:56.51,0:01:59.50,Main Dialogue,Saburo,0,0,0,,O que é esse cenário estranho?
+Dialogue: 0,0:01:59.50,0:02:01.55,Main Dialogue,Saburo,0,0,0,,Meu senhor!
+Dialogue: 0,0:02:01.55,0:02:04.19,Main Dialogue,Micchi,0,0,0,,O castelo já percebeu que eu fugi.
+Dialogue: 0,0:02:04.19,0:02:05.89,Main Dialogue,Saburo,0,0,0,,Meu senhor!
+Dialogue: 0,0:02:07.05,0:02:08.45,Main Dialogue,Saburo,0,0,0,,Onde estou?
+Dialogue: 0,0:02:08.45,0:02:10.88,Main Dialogue,Saburo,0,0,0,,Quem sou eu?
+Dialogue: 0,0:02:09.15,0:02:10.88,Main Dialogue Top,Saburo,0,0,0,,Você!
+Dialogue: 0,0:02:10.88,0:02:14.38,Main Dialogue,Micchi,0,0,0,,Irei lhe pedir para que use seu rosto valoroso
+Dialogue: 0,0:02:14.38,0:02:16.03,Main Dialogue,Micchi,0,0,0,,para ser meu substituto!
+Dialogue: 0,0:02:17.78,0:02:18.64,Main Dialogue,Saburo,0,0,0,,Hã?
+Dialogue: 0,0:02:18.64,0:02:22.67,Main Dialogue,Micchi,0,0,0,,Você deve me conhecer caso \N viva por aqui.
+Dialogue: 0,0:02:22.67,0:02:24.74,Main Dialogue,Micchi,0,0,0,,Herdeiro da família Oda, Nobunaga.
+Dialogue: 0,0:02:24.74,0:02:28.54,Main Dialogue,Saburo,0,0,0,,Ah, claro, quem não \N conheceria Nobunaga?
+Dialogue: 0,0:02:30.87,0:02:33.69,Main Dialogue,Micchi,0,0,0,,Eu sempre fui frágil.
+Dialogue: 0,0:02:33.69,0:02:36.29,Main Dialogue,Micchi,0,0,0,,Não irei durar nesses tempos difíceis.
+Dialogue: 0,0:02:37.29,0:02:39.96,Main Dialogue,Micchi,0,0,0,,Me desculpei com minha família,
+Dialogue: 0,0:02:39.96,0:02:43.42,Main Dialogue,Micchi,0,0,0,,mas agora, eu gostaria de \Ndescansar em algum lugar pacífico.
+Dialogue: 0,0:02:47.09,0:02:48.23,Main Dialogue,Micchi,0,0,0,,Irei recompensá-lo.
+Dialogue: 0,0:02:50.83,0:02:52.69,Main Dialogue,Micchi,0,0,0,,Com essa pequena espada.
+Dialogue: 0,0:02:52.69,0:02:54.83,Main Dialogue,Micchi,0,0,0,,Uau, katana!
+Dialogue: 0,0:02:55.52,0:02:57.87,Main Dialogue,Micchi,0,0,0,,Conto com você.
+Dialogue: 0,0:03:01.11,0:03:03.56,Main Dialogue,Saburo,0,0,0,,Impressionante...
+Dialogue: 0,0:03:03.56,0:03:04.49,Main Dialogue,Hirate,0,0,0,,Meu senhor!
+Dialogue: 0,0:03:09.46,0:03:12.12,Main Dialogue,Tsune,0,0,0,,Meu senhor! \N O que está acontecendo?
+Dialogue: 0,0:03:12.12,0:03:13.46,Main Dialogue,,0,0,0,,Meu senhor!
+Dialogue: 0,0:03:13.46,0:03:16.32,Main Dialogue,Hirate,0,0,0,,Estou tão feliz que esteja bem.
+Dialogue: 0,0:03:18.52,0:03:20.09,Main Dialogue,Hirate,0,0,0,,Onde exatamente...
+Dialogue: 0,0:03:20.71,0:03:22.74,Main Dialogue,Hirate,0,0,0,,...eu estou?!
+Dialogue: 0,0:03:22.74,0:03:24.85,Main Dialogue Top,Narrator,0,0,0,,{\fnArial\fs30\i1}Período Sengoku: foi uma das fases mais conturbadas e instáveis da história do Japão, \N marcada por constantes guerras. Ocorreu entre a metade do século XV e o início do século XVII.
+Dialogue: 0,0:03:22.74,0:03:24.85,Internal Dialogue,Narrator,0,0,0,,Nós estamos no fim \N do período Sengoku.
+Dialogue: 0,0:03:24.85,0:03:29.18,Internal Dialogue,Narrator,0,0,0,,Isso mesmo, ele "caiu" no tempo.
+Dialogue: 0,0:03:37.98,0:03:39.94,Episode Number,Text,0,0,0,,Episódio 1
+Dialogue: 0,0:03:37.98,0:03:39.94,Episode Title,Text,0,0,0,,{\fad(500,1)}Saburou Nobunaga
+Dialogue: 0,0:03:40.20,0:03:42.95,Locais,,0,0,0,,{\pos(60,600)\fade(100,100)}Owari / Castelo de Nagoya
+Dialogue: 0,0:03:41.98,0:03:42.99,Main Dialogue,Hirate,0,0,0,,Mestre,
+Dialogue: 0,0:03:43.76,0:03:45.99,Main Dialogue,Hirate,0,0,0,,o que significa
+Dialogue: 0,0:03:46.88,0:03:48.99,Main Dialogue,Hirate,0,0,0,,você fugir como fez?
+Dialogue: 0,0:03:49.87,0:03:54.21,Main Dialogue,Hirate,0,0,0,,Isso não é do seu feito, \N um jovem bem educado e importante.
+Dialogue: 0,0:03:55.14,0:03:59.67,Main Dialogue,Hirate,0,0,0,,E o que são essas roupas bizarras?
+Dialogue: 0,0:04:00.63,0:04:05.67,Main Dialogue,Hirate,0,0,0,,Você deve vestir-se propriamente \N para ver vossa majestade.
+Dialogue: 0,0:04:06.14,0:04:08.37,Main Dialogue,Hirate,0,0,0,,Nunca mais...
+Dialogue: 0,0:04:10.43,0:04:11.72,Main Dialogue,Hirate,0,0,0,,Espere!
+Dialogue: 0,0:04:13.47,0:04:14.62,Main Dialogue,Saburo,0,0,0,,É difícil me mover.
+Dialogue: 0,0:04:19.60,0:04:20.92,Main Dialogue,Hirate,0,0,0,,Mestre!
+Dialogue: 0,0:04:21.85,0:04:23.33,Internal Dialogue,Narrator,0,0,0,,Masahide Hirate.
+Dialogue: 0,0:04:23.33,0:04:26.60,Internal Dialogue,Narrator,0,0,0,,Chefe da família Oda, \N e tutor de Nobunaga.
+Dialogue: 0,0:04:31.02,0:04:32.78,Internal Dialogue,Narrator,0,0,0,,Tsuneoki Ikeda.
+Dialogue: 0,0:04:32.78,0:04:36.10,Internal Dialogue,Narrator,0,0,0,,Irmão de criação, e o\N seguidor mais próximo de Nobunaga.
+Dialogue: 0,0:04:40.41,0:04:43.03,Main Dialogue,Saburo,0,0,0,,Droga, eles são tão chatos.
+Dialogue: 0,0:04:43.30,0:04:46.20,Main Dialogue,Saburo,0,0,0,,O que eu fiz para receber sermão?
+Dialogue: 0,0:04:53.21,0:04:54.99,Main Dialogue,Kid,0,0,0,,O que estão fazendo?
+Dialogue: 0,0:05:06.28,0:05:08.12,Main Dialogue,Saburo,0,0,0,,Isso!
+Dialogue: 0,0:05:11.39,0:05:12.83,Main Dialogue,Saburo,0,0,0,,Tsuneoki, é você?
+Dialogue: 0,0:05:12.83,0:05:14.12,Main Dialogue,Saburo,0,0,0,,Junte-se a nós!
+Dialogue: 0,0:05:14.67,0:05:15.91,Main Dialogue,Saburo,0,0,0,,Rápido!
+Dialogue: 0,0:05:15.92,0:05:19.96,Locais,,0,0,0,,{\pos(1200,600)\fade(100,100)\an6}Owari / Castelo Semori
+Dialogue: 0,0:05:18.59,0:05:22.27,Main Dialogue,Nobuyuki,0,0,0,,Você enlouqueceu, irmão?
+Dialogue: 0,0:05:22.27,0:05:25.32,Internal Dialogue,Narrator,0,0,0,,Irmão de sangue mais novo \N de Nobunaga, Oda Nobuyuki.
+Dialogue: 0,0:05:27.06,0:05:29.92,Main Dialogue,Vassal,0,0,0,,Rumores estão sendo espalhados \N para fora do castelo.
+Dialogue: 0,0:05:30.24,0:05:32.37,Main Dialogue,Vassal,0,0,0,,Estão dizendo, \N "Seu corpo está melhorando,
+Dialogue: 0,0:05:32.37,0:05:35.02,Main Dialogue,Vassal,0,0,0,,e sua cabeça está piorando."
+Dialogue: 0,0:05:36.90,0:05:41.00,Main Dialogue,Nobuyuki,0,0,0,,Parece que as coisas estão começando \N a fazer sentido para mim agora.
+Dialogue: 0,0:05:51.18,0:05:51.83,Main Dialogue,Hirate,0,0,0,,Mestre!
+Dialogue: 0,0:05:53.20,0:05:55.34,Main Dialogue,Saburo,0,0,0,,Droga, fui pego.
+Dialogue: 0,0:05:55.34,0:05:58.19,Main Dialogue,Hirate,0,0,0,,Sério, o que está havendo com o senhor?
+Dialogue: 0,0:05:58.19,0:06:03.90,Main Dialogue,Hirate,0,0,0,,Você estava doente tampouco, \N agora está até pulando os muros.
+Dialogue: 0,0:06:03.90,0:06:04.66,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:06:04.66,0:06:06.67,Main Dialogue,Tsune,0,0,0,,Chega desse seu egoísmo!
+Dialogue: 0,0:06:07.13,0:06:11.88,Main Dialogue,Hirate,0,0,0,,Na verdade, meu jovem, você \N está ultrapassando os limites ultimamente.
+Dialogue: 0,0:06:11.99,0:06:15.12,Main Dialogue,Hirate,0,0,0,,Humildemente, \N lhe pedir isso me deixa bem triste,
+Dialogue: 0,0:06:15.12,0:06:17.98,Main Dialogue,Hirate,0,0,0,,mas volte a ser aquele rapaz frágil.
+Dialogue: 0,0:06:17.98,0:06:19.06,Main Dialogue,Saburo,0,0,0,,Estou cheio disso.
+Dialogue: 0,0:06:21.83,0:06:22.81,Main Dialogue,,0,0,0,,Meu senhor!
+Dialogue: 0,0:06:22.81,0:06:24.73,Main Dialogue,Saburo,0,0,0,,Estou farto de ser Nobunaga.
+Dialogue: 0,0:06:28.12,0:06:29.70,Main Dialogue,Saburo,0,0,0,,Estou indo voltar para minha própria época.
+Dialogue: 0,0:06:30.49,0:06:31.58,Main Dialogue,Hirate,0,0,0,,Mestre!
+Dialogue: 0,0:06:33.80,0:06:36.98,Main Dialogue,Hirate,0,0,0,,Mas o que ele está dizendo dessa vez?
+Dialogue: 0,0:06:36.98,0:06:38.05,Main Dialogue,Hirate,0,0,0,,Atrás dele!
+Dialogue: 0,0:06:38.05,0:06:40.21,Main Dialogue,Hirate,0,0,0,,Não há como dizer o que o\N mestre irá fazer agora.
+Dialogue: 0,0:06:42.37,0:06:43.88,Main Dialogue,Saburo,0,0,0,,Eu aposto,
+Dialogue: 0,0:06:45.08,0:06:48.80,Main Dialogue,Saburo,0,0,0,,que para voltar para minha própria época,
+Dialogue: 0,0:06:52.23,0:06:55.97,Main Dialogue,Saburo,0,0,0,,eu tenho que cair de algum lugar alto.
+Dialogue: 0,0:06:59.21,0:07:01.40,Main Dialogue,Saburo,0,0,0,,Saia daí!
+Dialogue: 0,0:07:10.53,0:07:11.59,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:07:12.76,0:07:13.53,Main Dialogue,Saburo,0,0,0,,Droga.
+Dialogue: 0,0:07:13.78,0:07:15.88,Main Dialogue,Saburo,0,0,0,,Acho que não irei para casa tão fácil.
+Dialogue: 0,0:07:16.03,0:07:20.29,Main Dialogue,Tsune,0,0,0,,Mas o que você está pensando?
+Dialogue: 0,0:07:20.29,0:07:21.39,Main Dialogue,Saburo,0,0,0,,Cale-se, cale-se!
+Dialogue: 0,0:07:21.39,0:07:22.85,Main Dialogue,Tsune,0,0,0,,Por favor, me escute!
+Dialogue: 0,0:07:22.85,0:07:24.56,Main Dialogue,Saburo,0,0,0,,Estou cheio desses sermões.
+Dialogue: 0,0:07:24.56,0:07:25.72,Main Dialogue,Kichou,0,0,0,,Está pesado...
+Dialogue: 0,0:07:29.25,0:07:30.38,Main Dialogue,Saburo,0,0,0,,Me desculpe.
+Dialogue: 0,0:07:32.62,0:07:35.09,Main Dialogue,Saburo,0,0,0,,Você é muito gata!
+Dialogue: 0,0:07:35.09,0:07:36.36,Main Dialogue,Saburo,0,0,0,,Quem é você?
+Dialogue: 0,0:07:36.36,0:07:37.56,Main Dialogue,Maid,0,0,0,,Meu senhor!
+Dialogue: 0,0:07:38.01,0:07:43.44,Main Dialogue,Maid,0,0,0,,Quão cruel está sendo perguntando a \N sua própria mulher quem ela é?
+Dialogue: 0,0:07:43.44,0:07:44.94,Main Dialogue,Saburo,0,0,0,,Minha mulher?
+Dialogue: 0,0:07:47.60,0:07:49.87,Internal Dialogue,Narrator,0,0,0,,Esposa de Nobunaga, Kichou.
+Dialogue: 0,0:07:54.77,0:07:56.61,Main Dialogue,Kichou,0,0,0,,Esqueçam isso.
+Dialogue: 0,0:07:56.61,0:07:59.48,Main Dialogue,Kichou,0,0,0,,Meu senhor não gosta de mim.
+Dialogue: 0,0:07:59.48,0:08:01.87,Main Dialogue,Kichou,0,0,0,,É por isso que tentou me esmagar até a morte.
+Dialogue: 0,0:08:01.87,0:08:03.79,Main Dialogue,Saburo,0,0,0,,Não, isso na verdade foi um acidente.
+Dialogue: 0,0:08:03.79,0:08:06.01,Main Dialogue,Kichou,0,0,0,,De qualquer maneira, \N esse é um casamento político.
+Dialogue: 0,0:08:06.01,0:08:08.80,Main Dialogue,Kichou,0,0,0,,Você não tem nenhum interesse real em mim.
+Dialogue: 0,0:08:08.80,0:08:09.84,Main Dialogue,Saburo,0,0,0,,Hã?
+Dialogue: 0,0:08:11.18,0:08:13.68,Main Dialogue,Kichou,0,0,0,,O que pode ser mais triste para uma mulher
+Dialogue: 0,0:08:13.68,0:08:16.39,Main Dialogue,Kichou,0,0,0,,do que não ser amada pelo próprio marido?
+Dialogue: 0,0:08:16.86,0:08:19.28,Main Dialogue,Saburo,0,0,0,,Me pergunto se eles não se dão muito bem...
+Dialogue: 0,0:08:20.74,0:08:22.50,Main Dialogue,Saburo,0,0,0,,Certo, eu entendi!
+Dialogue: 0,0:08:23.39,0:08:24.73,Main Dialogue,Saburo,0,0,0,,Vamos a um encontro.
+Dialogue: 0,0:08:25.15,0:08:27.28,Main Dialogue,Kichou,0,0,0,,"Encontro?"
+Dialogue: 0,0:08:33.66,0:08:36.20,Main Dialogue,Tsune,0,0,0,,Onde está indo, meu senhor?
+Dialogue: 0,0:08:54.37,0:08:56.64,Main Dialogue,Saburo,0,0,0,,Aqui é tão belo...
+Dialogue: 0,0:08:59.04,0:09:05.56,Main Dialogue,Kichou,0,0,0,,Eu nunca... tinha saído do castelo desde \N que me casei e fui enviada para Owari.
+Dialogue: 0,0:09:05.78,0:09:06.97,Main Dialogue,Saburo,0,0,0,,Sério?
+Dialogue: 0,0:09:08.02,0:09:09.23,Main Dialogue,Kichou,0,0,0,,Aqui fora...
+Dialogue: 0,0:09:12.20,0:09:14.09,Main Dialogue,Kichou,0,0,0,,...é realmente belo!
+Dialogue: 0,0:09:15.97,0:09:17.36,Main Dialogue,Saburo,0,0,0,,Ainda bem.
+Dialogue: 0,0:09:18.52,0:09:23.29,Main Dialogue,Kichou,0,0,0,,Meu senhor, você parece diferente hoje.
+Dialogue: 0,0:09:24.22,0:09:25.19,Main Dialogue,Saburo,0,0,0,,Sério?
+Dialogue: 0,0:09:25.19,0:09:30.59,Main Dialogue,Saburo,0,0,0,,Sua palidez voltou... \N Você parece uma pessoa diferente.
+Dialogue: 0,0:09:33.15,0:09:34.48,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:34.67,0:09:35.42,Main Dialogue,etc,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:35.60,0:09:36.60,Main Dialogue,,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:36.97,0:09:37.34,Main Dialogue,etc,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:37.46,0:09:38.61,Main Dialogue,,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:38.90,0:09:40.26,Main Dialogue,etc,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:40.59,0:09:41.32,Main Dialogue,etc,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:41.44,0:09:42.59,Main Dialogue,etc,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:42.83,0:09:43.48,Main Dialogue,etc,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:43.80,0:09:45.04,Main Dialogue,,0,0,0,,Meu senhor!
+Dialogue: 0,0:09:45.43,0:09:49.08,Main Dialogue,Hirate,0,0,0,,O que o mestre está pensando?
+Dialogue: 0,0:09:49.42,0:09:51.35,Main Dialogue,Tsune,0,0,0,,Não faço ideia.
+Dialogue: 0,0:09:53.37,0:09:57.81,Main Dialogue,Tsune,0,0,0,,Sinto como se não conhecesse mais o mestre.
+Dialogue: 0,0:10:21.65,0:10:23.82,Main Dialogue,Saburo,0,0,0,,Consegui! Um peixe!
+Dialogue: 0,0:10:23.82,0:10:25.35,Main Dialogue,Kichou,0,0,0,,Impressionante, meu senhor!
+Dialogue: 0,0:10:30.29,0:10:32.29,Main Dialogue,Saburo,0,0,0,,Olá, Tsune-chan.
+Dialogue: 0,0:10:33.97,0:10:35.04,Main Dialogue,Tsune,0,0,0,,Meu senhor,
+Dialogue: 0,0:10:36.44,0:10:37.70,Main Dialogue,Tsune,0,0,0,,eu preciso...
+Dialogue: 0,0:10:40.16,0:10:42.31,Main Dialogue,Tsune,0,0,0,,...te matar.
+Dialogue: 0,0:10:42.70,0:10:43.92,Main Dialogue,Saburo,0,0,0,,Hã, por quê?
+Dialogue: 0,0:10:50.56,0:10:53.84,Main Dialogue,Tsune,0,0,0,,Você perdeu sua sanidade!
+Dialogue: 0,0:10:56.73,0:10:57.96,Main Dialogue,Saburo,0,0,0,,Isso é cruel!
+Dialogue: 0,0:10:58.33,0:11:01.98,Main Dialogue,Tsune,0,0,0,,Sua atitude excêntrica \N nesses últimos dias...
+Dialogue: 0,0:11:01.98,0:11:04.93,Main Dialogue,Tsune,0,0,0,,Você não conseguirá manter sua mente sã!
+Dialogue: 0,0:11:04.93,0:11:08.68,Main Dialogue,Tsune,0,0,0,,Lamento por ter que matá-lo.
+Dialogue: 0,0:11:08.68,0:11:13.56,Main Dialogue,Tsune,0,0,0,,Mas, nós não precisamos de um senhor louco!
+Dialogue: 0,0:11:14.82,0:11:15.65,Main Dialogue,Kichou,0,0,0,,Meu senhor!
+Dialogue: 0,0:11:22.54,0:11:24.38,Main Dialogue,Saburo,0,0,0,,Não posso permitir isso.
+Dialogue: 0,0:11:26.38,0:11:30.25,Main Dialogue,Saburo,0,0,0,,Você tem alguma ideia do que \N está tentando fazer?
+Dialogue: 0,0:11:30.98,0:11:35.55,Main Dialogue,Saburo,0,0,0,,Caso Nobunaga morra, \N irá mudar toda a história que aprendi.
+Dialogue: 0,0:11:35.92,0:11:36.74,Signs,Text,0,0,0,,{\an6}6 de março (Quinta)\N Responsável de hoje: \NKaida
+Dialogue: 0,0:11:35.92,0:11:36.74,Signs,Text,0,0,0,,Nobunaga Oda
+Dialogue: 0,0:11:36.74,0:11:38.46,Signs,1534,0,0,0,,Nascido no Castelo de Nagoya, Owari - Unificação de Owari -\N O Shogunato Muromachi foi derrotado - \N Incidente de Honnouji
+Dialogue: 0,0:11:39.61,0:11:43.09,Main Dialogue,Saburo,0,0,0,,Não posso deixar que me matem aqui.
+Dialogue: 0,0:11:44.34,0:11:48.97,Main Dialogue,Saburo,0,0,0,,Nobunaga se tornará \N o governante dessas terras!
+Dialogue: 0,0:11:50.09,0:11:53.65,Main Dialogue,Saburo,0,0,0,,Nobunaga se tornará \No governante dessas terras!
+Dialogue: 0,0:11:54.60,0:11:55.86,Main Dialogue,Tsune,0,0,0,,Governante?
+Dialogue: 0,0:11:58.98,0:12:01.24,Main Dialogue,Saburo,0,0,0,,Isso mesmo. Governante.
+Dialogue: 0,0:12:03.35,0:12:05.11,Main Dialogue,Tsune,0,0,0,,Por favor, me perdoe!
+Dialogue: 0,0:12:05.11,0:12:08.07,Main Dialogue,Tsune,0,0,0,,Tenho sido um tolo.
+Dialogue: 0,0:12:08.45,0:12:11.34,Main Dialogue,Tsune,0,0,0,,Não sabia que a sua doença e \N sua tolice não passavam de um ato.
+Dialogue: 0,0:12:11.34,0:12:15.39,Main Dialogue,Tsune,0,0,0,,Isso, na verdade, \N você tinha essas ambições!
+Dialogue: 0,0:12:15.39,0:12:17.23,Main Dialogue,Saburo,0,0,0,,Ambições?
+Dialogue: 0,0:12:17.23,0:12:18.50,Main Dialogue,Tsune,0,0,0,,Eu não sou digno!
+Dialogue: 0,0:12:18.73,0:12:21.67,Main Dialogue,Tsune,0,0,0,,Eu irei te seguir até o fim!
+Dialogue: 0,0:12:22.00,0:12:24.43,Main Dialogue,Saburo,0,0,0,,Ah... Irá mesmo?
+Dialogue: 0,0:12:24.43,0:12:25.38,Main Dialogue,,0,0,0,,Sim!
+Dialogue: 0,0:12:27.74,0:12:34.29,Main Dialogue,Hirate,0,0,0,,Então, veio me afirmar que com suas próprias mãos, \N tentou tirar a vida do nosso senhor.
+Dialogue: 0,0:12:34.29,0:12:36.56,Main Dialogue,Tsune,0,0,0,,Por favor, me perdoe!
+Dialogue: 0,0:12:36.56,0:12:39.44,Main Dialogue,Tsune,0,0,0,,Porém, irei corrigir meus erros,
+Dialogue: 0,0:12:39.44,0:12:41.90,Main Dialogue,Tsune,0,0,0,,e seguir meu mestre o resto de sua existência.
+Dialogue: 0,0:12:43.28,0:12:47.20,Main Dialogue,Tsune,0,0,0,,Meu senhor aspira por governar essas terras.
+Dialogue: 0,0:12:48.56,0:12:49.84,Main Dialogue,Hirate,0,0,0,,Governar?
+Dialogue: 0,0:12:50.85,0:12:52.79,Main Dialogue,Hirate,0,0,0,,Ele disse isso?
+Dialogue: 0,0:12:53.37,0:12:54.35,Main Dialogue,Tsune,0,0,0,,Sim!
+Dialogue: 0,0:13:00.06,0:13:02.89,Main Dialogue,Hirate,0,0,0,,Eu acredito que você irá corrigir seus erros.
+Dialogue: 0,0:13:02.89,0:13:03.91,Main Dialogue,Hirate,0,0,0,,Mas...
+Dialogue: 0,0:13:05.05,0:13:08.86,Main Dialogue,Hirate,0,0,0,,isso pode ser um problema caso \N Nobuyuki-sama esteja envolvido.
+Dialogue: 0,0:13:09.72,0:13:13.16,Main Dialogue,Kichou,0,0,0,,Meu senhor, há uma bela flor por aqui.
+Dialogue: 0,0:13:14.06,0:13:15.49,Main Dialogue,Saburo,0,0,0,,Sério?
+Dialogue: 0,0:13:15.49,0:13:16.46,Main Dialogue,Saburo,0,0,0,,Isso é ótimo.
+Dialogue: 0,0:13:16.46,0:13:17.40,Main Dialogue,Kichou,0,0,0,,Sim.
+Dialogue: 0,0:13:20.39,0:13:25.03,Main Dialogue,Kichou,0,0,0,,Ultimamente, estou sempre anciosa \N  para ter mais "encontros" com o senhor.
+Dialogue: 0,0:13:25.27,0:13:30.83,Main Dialogue,Saburo,0,0,0,,Apesar de que um encontro é algo que você \N normalmente faça em par, certo, Tsune-chan?
+Dialogue: 0,0:13:31.27,0:13:34.25,Main Dialogue,Tsune,0,0,0,,Não confio em vocês dois sozinhos!
+Dialogue: 0,0:13:34.25,0:13:36.94,Main Dialogue,Saburo,0,0,0,,Não irei atacá-la em um lugar como esse.
+Dialogue: 0,0:13:36.94,0:13:39.00,Main Dialogue,Tsune,0,0,0,,Do que você está falando?
+Dialogue: 0,0:13:39.00,0:13:40.81,Main Dialogue,Tsune,0,0,0,,Estou dizendo que não há como saber quando
+Dialogue: 0,0:13:40.81,0:13:44.15,Main Dialogue,Tsune,0,0,0,,alguém aparecerá para tomar sua vida.
+Dialogue: 0,0:13:44.81,0:13:47.29,Main Dialogue,Saburo,0,0,0,,É bem convincente quando você diz isso.
+Dialogue: 0,0:13:47.29,0:13:50.52,Main Dialogue,Saburo,0,0,0,,Mas estou aqui para encontrar minha bolsa.
+Dialogue: 0,0:13:50.52,0:13:51.58,Main Dialogue,Tsune,0,0,0,,Sua o quê?
+Dialogue: 0,0:13:51.58,0:13:57.33,Main Dialogue,Saburo,0,0,0,,Eu a derrubei em algum lugar por aqui \N quando escorreguei a algum tempo, então...
+Dialogue: 0,0:13:57.33,0:13:58.86,Main Dialogue,Kichou,0,0,0,,Que coisa estranha.
+Dialogue: 0,0:14:01.18,0:14:03.87,Main Dialogue,Saburo,0,0,0,,Isso! Minha bolsa!
+Dialogue: 0,0:14:04.91,0:14:06.42,Main Dialogue,Saburo,0,0,0,,Obrigado, Kichou!
+Dialogue: 0,0:14:06.42,0:14:07.12,Main Dialogue,Kichou,0,0,0,,Uh...
+Dialogue: 0,0:14:07.12,0:14:09.24,Main Dialogue,Saburo,0,0,0,,Estou tão feliz por tê-la encontrado.
+Dialogue: 0,0:14:13.36,0:14:15.76,Main Dialogue,Kichou,0,0,0,,De quem é isto?
+Dialogue: 0,0:14:15.76,0:14:18.11,Main Dialogue,Saburo,0,0,0,,Não tenho a menor ideia...
+Dialogue: 0,0:14:18.11,0:14:23.12,Main Dialogue,Kichou,0,0,0,,Presa em um papel com uma roupa tão indecente...
+Dialogue: 0,0:14:24.74,0:14:26.62,Main Dialogue,Kichou,0,0,0,,Isso pode ser o que chamam de bruxaria!
+Dialogue: 0,0:14:26.62,0:14:28.04,Main Dialogue,Saburo,0,0,0,,Não, é só uma foto...
+Dialogue: 0,0:14:28.04,0:14:32.39,Main Dialogue,Kichou,0,0,0,,Mas por que você tem uma coisa dessas?
+Dialogue: 0,0:14:33.91,0:14:35.42,Main Dialogue,Saburo,0,0,0,,Nosso matrimônio está com problemas.
+Dialogue: 0,0:14:39.90,0:14:40.72,Main Dialogue,Saburo,0,0,0,,Quer para você?
+Dialogue: 0,0:14:40.72,0:14:41.88,Main Dialogue,Tsune,0,0,0,,Claro que não!
+Dialogue: 0,0:14:42.40,0:14:46.14,Main Dialogue,Saburo,0,0,0,,Irei dar-lhe isso, Kichou.
+Dialogue: 0,0:14:44.52,0:14:48.32,Insect Repellent Sign,Text,0,0,0,,Repelente para insetos
+Comment: 0,0:14:44.52,0:14:48.32,Insect Repellent Sign,Text,0,0,0,,(não gostei dessa ideia '-')
+Dialogue: 0,0:14:46.14,0:14:48.32,Main Dialogue,Saburo,0,0,0,,Aposto que há muitos insetos por aqui.
+Dialogue: 0,0:14:53.43,0:14:54.43,Textbook Sign,Saburo,0,0,0,,História do Japão Expandida
+Dialogue: 0,0:14:54.12,0:14:55.33,Main Dialogue,Saburo,0,0,0,,Aqui está.
+Dialogue: 0,0:14:55.88,0:14:57.68,Main Dialogue,Tsune,0,0,0,,O que é isso?
+Dialogue: 0,0:14:57.68,0:14:59.89,Main Dialogue,Saburo,0,0,0,,Meu livro de história japonesa.
+Dialogue: 0,0:14:59.89,0:15:03.93,Main Dialogue,Saburo,0,0,0,,Ele descreve o caminho para \N conquistar essas terras...
+Dialogue: 0,0:15:04.18,0:15:05.65,Main Dialogue,Tsune,0,0,0,,Entendi!
+Dialogue: 0,0:15:05.65,0:15:08.26,Main Dialogue,Tsune,0,0,0,,Você irá usar esses textos \N para estudar estratégia militar!
+Dialogue: 0,0:15:08.26,0:15:10.60,Main Dialogue,Saburo,0,0,0,,Poderia não falar comigo, obrigado.
+Dialogue: 0,0:15:10.60,0:15:15.09,Main Dialogue,Saburo,0,0,0,,Estou realmente lendo um livro didático \N pela primeira vez na minha vida.
+Dialogue: 0,0:15:16.79,0:15:17.68,Main Dialogue,Kichou,0,0,0,,Olá...
+Dialogue: 0,0:15:21.34,0:15:22.85,Main Dialogue,Kichou,0,0,0,,Onde está indo?
+Dialogue: 0,0:15:22.85,0:15:26.33,Main Dialogue,Saburo,0,0,0,,Provavelmente não conseguirei voltar \N para minha época tão cedo.
+Dialogue: 0,0:15:26.33,0:15:30.45,Main Dialogue,Saburo,0,0,0,,Por isso, eu decidi viver a vida \N de Nobunaga nesse momento.
+Dialogue: 0,0:15:32.64,0:15:34.87,Main Dialogue,Saburo,0,0,0,,É melhor não mudar a história, certo?
+Dialogue: 0,0:15:34.87,0:15:36.24,Textbook Sign,,0,0,0,,História do Japão Expandida
+Dialogue: 0,0:15:36.45,0:15:40.77,Main Dialogue,Saburo,0,0,0,,Nada bom. Só há anotações \N sobre grandes acontecimentos.
+Dialogue: 0,0:15:44.70,0:15:45.65,Main Dialogue,Saburo,0,0,0,,Hã?
+Dialogue: 0,0:15:46.22,0:15:47.33,Main Dialogue,Saburo,0,0,0,,Onde está Kichou?
+Dialogue: 0,0:15:49.76,0:15:51.65,Main Dialogue,Saburo,0,0,0,,Kichou!
+Dialogue: 0,0:15:51.65,0:15:53.18,Main Dialogue,Tsune,0,0,0,,Senhorita!
+Dialogue: 0,0:15:53.18,0:15:54.65,Main Dialogue,Saburo,0,0,0,,Kichou!
+Dialogue: 0,0:15:54.65,0:15:56.46,Main Dialogue,Tsune,0,0,0,,Senhorita!
+Dialogue: 0,0:15:56.46,0:15:57.56,Main Dialogue,Saburo,0,0,0,,Kichou!
+Dialogue: 0,0:15:57.56,0:15:59.43,Main Dialogue,Tsune,0,0,0,,Senhorita!
+Dialogue: 0,0:15:59.86,0:16:01.88,Main Dialogue,Saburo,0,0,0,,Kichou!
+Dialogue: 0,0:16:01.88,0:16:02.92,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:16:07.23,0:16:10.72,Main Dialogue,Tsune,0,0,0,,Não acredito que tiveram coragem \N de fazer isso com sua esposa...
+Dialogue: 0,0:16:10.72,0:16:12.15,Main Dialogue,Saburo,0,0,0,,Está me dizendo que ela foi raptada?
+Dialogue: 0,0:16:12.99,0:16:14.25,Main Dialogue,Tsune,0,0,0,,Infelizmente...
+Dialogue: 0,0:16:17.17,0:16:17.74,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:16:18.46,0:16:18.99,Main Dialogue,Tsune,0,0,0,,Você não deve!
+Dialogue: 0,0:16:19.31,0:16:20.95,Main Dialogue,Saburo,0,0,0,,Por quê? Tenho que encontrá-la rapidamente.
+Dialogue: 0,0:16:21.41,0:16:22.73,Main Dialogue,Tsune,0,0,0,,É muito perigoso.
+Dialogue: 0,0:16:22.73,0:16:24.18,Main Dialogue,Tsune,0,0,0,,Volte para o castelo.
+Dialogue: 0,0:16:24.18,0:16:27.29,Main Dialogue,Tsune,0,0,0,,Será melhor pedir que os outros \N também ajudarem na busca.
+Dialogue: 0,0:16:28.35,0:16:30.02,Main Dialogue,Saburo,0,0,0,,Não temos tempo!
+Dialogue: 0,0:16:30.02,0:16:31.40,Main Dialogue,,0,0,0,,Mas... meu senhor!
+Dialogue: 0,0:16:31.40,0:16:35.18,Main Dialogue,Vassal,0,0,0,,Não temos nenhuma pista para procurá-la.
+Dialogue: 0,0:16:32.36,0:16:35.18,Main Dialogue Top,Vassal,0,0,0,,Parece que fizemos isso corretamente.
+Dialogue: 0,0:16:35.82,0:16:37.46,Main Dialogue,Nobuyuki,0,0,0,,De fato.
+Dialogue: 0,0:16:38.05,0:16:40.18,Main Dialogue,Nobuyuki,0,0,0,,Meu irmão é o culpado
+Dialogue: 0,0:16:40.18,0:16:43.81,Main Dialogue,Nobuyuki,0,0,0,,por trazê-la para fora num lugar como esse
+Dialogue: 0,0:16:43.81,0:16:45.44,Main Dialogue,Nobuyuki,0,0,0,,e permitir que fosse raptada.
+Dialogue: 0,0:16:45.44,0:16:47.86,Main Dialogue,Vassal,0,0,0,,O pai da esposa, Dousan Saito,
+Dialogue: 0,0:16:47.86,0:16:50.07,Main Dialogue,Vassal,0,0,0,,não ficará em silêncio quanto a isso.
+Dialogue: 0,0:16:53.77,0:16:56.33,Main Dialogue,Saburo,0,0,0,,Tsune-chan, irei fazer como você disse.
+Dialogue: 0,0:16:56.33,0:16:57.79,Main Dialogue,Saburo,0,0,0,,Vamos para casa agora.
+Dialogue: 0,0:16:57.79,0:16:58.61,Main Dialogue,Tsune,0,0,0,,Sim!
+Dialogue: 0,0:17:00.62,0:17:01.94,Main Dialogue,Nobuyuki,0,0,0,,Eles já foram?
+Dialogue: 0,0:17:01.94,0:17:02.67,Main Dialogue,Vasasl,0,0,0,,Sim.
+Dialogue: 0,0:17:04.80,0:17:07.61,Main Dialogue,Nobuyuki,0,0,0,,Então, estamos indo também.
+Dialogue: 0,0:17:07.61,0:17:08.48,Main Dialogue,Vassal,0,0,0,,Sim.
+Dialogue: 0,0:17:14.55,0:17:15.95,Main Dialogue,Tsune,0,0,0,,Eu sabia...
+Dialogue: 0,0:17:17.81,0:17:20.28,Main Dialogue,Tsune,0,0,0,,Foi Nobuyuki-sama.
+Dialogue: 0,0:17:20.28,0:17:21.51,Main Dialogue,Saburo,0,0,0,,Sabia o quê?
+Dialogue: 0,0:17:22.85,0:17:28.41,Main Dialogue,Saburo,0,0,0,,Nobuyuki-sama me apoiou \Nquando eu te ataquei.
+Dialogue: 0,0:17:28.41,0:17:30.42,Main Dialogue,Saburo,0,0,0,,Quem é esse tal de Nobuyuki?
+Dialogue: 0,0:17:31.15,0:17:33.39,Main Dialogue,Tsune,0,0,0,,É seu irmão mais novo, não é?
+Dialogue: 0,0:17:34.75,0:17:36.10,Main Dialogue,Saburo,0,0,0,,É mesmo?
+Dialogue: 0,0:17:37.38,0:17:38.41,Main Dialogue,Saburo,0,0,0,,Meu senhor?!
+Dialogue: 0,0:17:40.74,0:17:43.45,Main Dialogue,Saburo,0,0,0,,Você aí, pare!
+Dialogue: 0,0:17:45.89,0:17:46.90,Main Dialogue,Nobuyuki,0,0,0,,Irmão...
+Dialogue: 0,0:18:03.22,0:18:05.31,Main Dialogue,Saburo,0,0,0,,Pare!
+Dialogue: 0,0:18:05.31,0:18:06.18,Main Dialogue,Nobuyuki,0,0,0,,Vá por ali!
+Dialogue: 0,0:18:06.18,0:18:06.96,Main Dialogue,Vassal,0,0,0,,Sim!
+Dialogue: 0,0:18:08.86,0:18:09.61,Main Dialogue,Saburo,0,0,0,,Tsune-chan!
+Dialogue: 0,0:18:09.61,0:18:10.40,Main Dialogue,Tsune,0,0,0,,Certo!
+Dialogue: 0,0:18:20.12,0:18:22.49,Main Dialogue,Saburo,0,0,0,,Pare, Nobuyuki!
+Dialogue: 0,0:18:28.83,0:18:31.12,Main Dialogue,Saburo,0,0,0,,Eu disse...
+Dialogue: 0,0:18:31.69,0:18:34.00,Main Dialogue,Saburo,0,0,0,,{\i1}...PARE!{\i0}
+Dialogue: 0,0:18:37.39,0:18:38.84,Main Dialogue,Saburo,0,0,0,,Onde está Kichou?
+Dialogue: 0,0:18:39.66,0:18:40.53,Main Dialogue,Nobuyuki,0,0,0,,Eu não sei.
+Dialogue: 0,0:18:40.53,0:18:42.59,Main Dialogue,Saburo,0,0,0,,É claro que sabe!
+Dialogue: 0,0:18:42.59,0:18:44.10,Main Dialogue,Saburo,0,0,0,,Onde você levou Kichou?
+Dialogue: 0,0:18:44.10,0:18:46.04,Main Dialogue,Nobuyuki,0,0,0,,Disse que não sei.
+Dialogue: 0,0:18:46.04,0:18:47.43,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:18:47.43,0:18:50.23,Main Dialogue,Tsune,0,0,0,,Sei onde a {\i1}madame{\i0} está.
+Dialogue: 0,0:18:50.23,0:18:53.19,Main Dialogue,Tsune,0,0,0,,O outro homem disse!
+Dialogue: 0,0:18:54.10,0:18:58.43,Main Dialogue,Saburo,0,0,0,,Nobuyuki, está jogando sujo.
+Dialogue: 0,0:18:58.43,0:19:00.88,Main Dialogue,Saburo,0,0,0,,Se é a mim que deseja, \N venha diretamente.
+Dialogue: 0,0:19:09.74,0:19:15.38,Main Dialogue,Tsune,0,0,0,,A senhorita deve estar nessa cabana, \N junto com alguém contratado pelo Nobuyuki.
+Dialogue: 0,0:19:15.88,0:19:17.71,Main Dialogue,Tsune,0,0,0,,Meu senhor, seria prudente que eu fosse antes...
+Dialogue: 0,0:19:17.71,0:19:20.82,Main Dialogue,Saburo,0,0,0,,Vocês escondidos aí dentro!
+Dialogue: 0,0:19:20.82,0:19:24.06,Main Dialogue,Saburo,0,0,0,,Venham para fora calmamente!
+Dialogue: 0,0:19:30.14,0:19:31.54,Main Dialogue,Saburo,0,0,0,,Que perca de tempo.
+Dialogue: 0,0:19:31.54,0:19:32.06,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:19:38.39,0:19:39.19,Main Dialogue,Kichou,0,0,0,,Meu senhor!
+Dialogue: 0,0:19:39.62,0:19:40.65,Main Dialogue,Saburo,0,0,0,,Kichou!
+Dialogue: 0,0:19:41.03,0:19:45.09,Main Dialogue,Kichou,0,0,0,,Meu senhor, estava com tanto medo.
+Dialogue: 0,0:19:46.87,0:19:48.35,Main Dialogue,Saburo,0,0,0,,Me desculpe.
+Dialogue: 0,0:19:48.35,0:19:53.49,Main Dialogue,Tsune,0,0,0,,Por que esses homens estão \N tremendo nesse canto?
+Dialogue: 0,0:19:54.67,0:19:58.45,Main Dialogue,Kichou,0,0,0,,Disse que essa névoa \N pode matar apenas de tocá-los,
+Dialogue: 0,0:19:58.45,0:20:00.67,Main Dialogue,Kichou,0,0,0,,então, eles pararam de vir em minha direção.
+Dialogue: 0,0:20:00.67,0:20:02.86,Main Dialogue,Saburo,0,0,0,,Literalmente, um repelente de insetos!
+Dialogue: 0,0:20:04.97,0:20:06.03,Main Dialogue,Tsune,0,0,0,,O que você...
+Dialogue: 0,0:20:06.89,0:20:09.10,Main Dialogue,Tsune,0,0,0,,Eu irei morrer? Eu irei morrer?!
+Dialogue: 0,0:20:09.36,0:20:10.62,Main Dialogue,Saburo,0,0,0,,Você provavelmente está bem.
+Dialogue: 0,0:20:10.62,0:20:11.59,Main Dialogue,Tsune,0,0,0,,Provavelmente?!
+Dialogue: 0,0:20:11.59,0:20:13.59,Main Dialogue,Tsune,0,0,0,,Provavelmente? Meu senhor!
+Dialogue: 0,0:20:13.94,0:20:14.92,Main Dialogue,Saburo,0,0,0,,Provavelmente está bem.
+Dialogue: 0,0:20:14.92,0:20:16.33,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:20:17.54,0:20:20.41,Internal Dialogue,Narrator,0,0,0,,Com suas intenções rebeldes em relação \N ao seu irmão mais velho, Nobunaga, reveladas,
+Dialogue: 0,0:20:20.41,0:20:24.83,Internal Dialogue,Narrator,0,0,0,,Nobuyuki foi trancado em um templo.
+Dialogue: 0,0:20:24.83,0:20:27.95,Internal Dialogue,Narrator,0,0,0,,E foi assim que teve fim \Nessa luta entre irmãos... Por enquanto.
+Dialogue: 0,0:20:31.17,0:20:33.75,Main Dialogue,Man 1,0,0,0,,Também iria me esconder no templo, caso fosse o Nobuyuki-sama.
+Dialogue: 0,0:20:34.08,0:20:36.67,Main Dialogue,Man 2,0,0,0,,Verdade, verdade.
+Dialogue: 0,0:20:36.67,0:20:40.74,Main Dialogue,Man 1,0,0,0,,É aterrorizante o quão tolo Nobunaga-sama se tornou.
+Dialogue: 0,0:20:41.16,0:20:42.67,Main Dialogue,Man 2,0,0,0,,Sem brincadeiras.
+Dialogue: 0,0:20:43.15,0:20:44.80,Main Dialogue,,0,0,0,,O que temos aqui?
+Dialogue: 0,0:20:45.30,0:20:47.18,Main Dialogue,Denjiro,0,0,0,,Parece uma conversa interessante.
+Dialogue: 0,0:20:47.56,0:20:51.89,Main Dialogue,Man 2,0,0,0,,Fiquei sabendo que Nobunaga-sama se \N transvestiu e enfrentou Nobuyuki-sama.
+Dialogue: 0,0:20:51.89,0:20:53.06,Main Dialogue,,0,0,0,,Nossa!
+Dialogue: 0,0:20:53.06,0:20:55.74,Main Dialogue,Man 2,0,0,0,,Ele é um tolo de verdade.
+Dialogue: 0,0:20:56.11,0:21:00.23,Main Dialogue,Man 2,0,0,0,,Realmente é um tolo.
+Dialogue: 0,0:21:16.90,0:21:18.33,Main Dialogue,Man 2,0,0,0,,Espere.
+Dialogue: 0,0:21:18.33,0:21:20.80,Main Dialogue,Man 2,0,0,0,,Será que Nobunaga irá \N acabar conquistando essas terras?
+Comment: 0,0:00:00.00,0:00:00.00,Locais,,0,0,0,,ED HERE
+Comment: 0,0:00:00.00,0:00:00.00,Locais,,0,0,0,,ED Romanji Start
+Dialogue: 0,0:21:23.51,0:21:26.09,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k39}Wake {\k20}in {\k33}lone{\k17}li{\k50}ness! {\k33}Lone{\k17}li{\k41}ness!
+Dialogue: 0,0:21:26.09,0:21:28.39,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k54}Falling {\k59}inside {\k35}your {\k82}story
+Dialogue: 0,0:21:28.39,0:21:30.89,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k65}Walking {\k48}after {\k48}you! {\k49}After {\k40}you!
+Dialogue: 0,0:21:30.89,0:21:34.56,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k31}I {\k27}will {\k65}share {\k41}my {\k168}ti{\k35}me
+Dialogue: 0,0:22:05.17,0:22:07.51,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k56}Mayoi {\k45}konda {\k69}sekai {\k64}de
+Dialogue: 0,0:22:07.51,0:22:11.35,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k49}Boku {\k23}wa {\k29}kage {\k19}to {\k143}kasanatte {\k121}ima
+Dialogue: 0,0:22:11.35,0:22:14.10,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k37}I {\k59}can't {\k35}go {\k117}back
+Dialogue: 0,0:22:14.10,0:22:16.69,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k113}Ketteiteki {\k46}boku {\k13}no {\k60}shomei {\k27}wa
+Dialogue: 0,0:22:16.69,0:22:19.65,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k63}Jidai {\k19}o {\k31}ima {\k45}koete {\k138}monogataru
+Dialogue: 0,0:22:19.65,0:22:26.32,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k37}You {\k80}Know? {\k18}I {\k29}will {\k40}be {\k13}the {\k38}brand {\k19}new {\k60}age {\k33}from {\k39}this {\k261}day
+Dialogue: 0,0:22:27.95,0:22:32.49,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k23}I {\k30}will {\k46}save {\k129}myself, {\k45}and {\k29}the {\k49}time {\k42}is {\k61}now!
+Dialogue: 0,0:22:32.49,0:22:35.08,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k64}Kill {\k21}my {\k88}weakness! {\k86}Weakness!
+Dialogue: 0,0:22:35.08,0:22:37.37,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k76}Kanarazu {\k41}koete {\k42}nagete {\k70}satte
+Dialogue: 0,0:22:37.37,0:22:39.75,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k58}And {\k13}I {\k42}stay {\k47}alive! {\k39}Stay {\k39}alive!
+Dialogue: 0,0:22:39.75,0:22:42.21,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k53}Saigo {\k18}o {\k96}shinjitaku {\k79}wanakute!
+Dialogue: 0,0:22:42.21,0:22:44.59,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k64}Kill {\k21}my {\k88}weakness! {\k86}Weakness!
+Dialogue: 0,0:22:44.59,0:22:46.93,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k61}Itsuka {\k69}kidzuita {\k27}to {\k53}shite {\k24}mo
+Dialogue: 0,0:22:46.93,0:22:50.93,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k43}I {\k32}will {\k40}prove {\k62}myself {\k25}that {\k38}I {\k23}have {\k8}to {\k33}live {\k96}today
+Dialogue: 0,0:22:50.93,0:22:52.93,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k87}Starting {\k113}now!
+Comment: 0,0:00:00.00,0:00:00.00,OP Kanji,,0,0,0,,ED Romanji End
+Comment: 0,0:00:00.00,0:00:00.00,OP Kanji,,0,0,0,,ED Kanji Start
+Dialogue: 0,0:22:05.17,0:22:07.51,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k56}迷い{\k45}込んだ{\k69}世界{\k64}で
+Dialogue: 0,0:22:07.51,0:22:11.35,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k49}僕{\k23}は{\k29}影{\k19}と{\k143}重なって{\k121}今
+Dialogue: 0,0:22:14.10,0:22:16.69,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k113}決定的{\k46}僕{\k13}の{\k60}証明{\k27}は
+Dialogue: 0,0:22:16.69,0:22:19.65,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k63}時代{\k19}を{\k31}今{\k45}越えて{\k138}物語る
+Dialogue: 0,0:22:35.08,0:22:37.37,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k76}必ず{\k41}越えて{\k42}投げて{\k70}去って
+Dialogue: 0,0:22:39.75,0:22:42.21,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k53}最後{\k18}を{\k96}信じたく{\k79}はなくて!
+Dialogue: 0,0:22:44.59,0:22:46.93,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k61}いつか{\k69}気づいた{\k27}と{\k53}して{\k24}も
+Comment: 0,0:00:00.00,0:00:00.00,OP Kanji,,0,0,0,,ED Kanji End
+Comment: 0,0:00:00.00,0:00:00.00,Locais,,0,0,0,,ED Br Start
+Dialogue: 0,0:21:23.51,0:21:26.09,OP BR,,0,0,0,,Despertei na solidão! Solidão!
+Dialogue: 0,0:21:26.09,0:21:28.39,OP BR,,0,0,0,,Caindo dentro de sua história
+Dialogue: 0,0:21:28.39,0:21:30.89,OP BR,,0,0,0,,Caminhando após você! Após você!
+Dialogue: 0,0:21:30.89,0:21:34.56,OP BR,,0,0,0,,Lhe partilharei meu tempo
+Dialogue: 0,0:22:05.17,0:22:07.51,OP BR,,0,0,0,,Num mundo totalmente perdido
+Dialogue: 0,0:22:07.51,0:22:11.35,OP BR,,0,0,0,,Agora estou junto à minha sombra
+Dialogue: 0,0:22:11.35,0:22:14.10,OP BR,,0,0,0,,Não posso voltar
+Dialogue: 0,0:22:14.10,0:22:16.69,OP BR,,0,0,0,,Minha prova decisiva é
+Dialogue: 0,0:22:16.69,0:22:19.65,OP BR,,0,0,0,,Narrar ao longo da era agora
+Dialogue: 0,0:22:19.65,0:22:26.32,OP BR,,0,0,0,,Quer saber? Marcarei essa nova era a partir de hoje
+Dialogue: 0,0:22:27.95,0:22:32.49,OP BR,,0,0,0,,Irei salvar-me, e a hora é agora!
+Dialogue: 0,0:22:32.49,0:22:35.08,OP BR,,0,0,0,,Destrua minha fraqueza! Fraqueza!
+Dialogue: 0,0:22:35.08,0:22:37.37,OP BR,,0,0,0,,Certamente chorando além da distância
+Dialogue: 0,0:22:37.37,0:22:39.75,OP BR,,0,0,0,,E eu ficarei vivo! Ficarei vivo!
+Dialogue: 0,0:22:39.75,0:22:42.21,OP BR,,0,0,0,,Não quero acreditar no fim desse conto de fadas
+Dialogue: 0,0:22:42.21,0:22:44.59,OP BR,,0,0,0,,Destrua minha fraqueza! Fraqueza!
+Dialogue: 0,0:22:44.59,0:22:46.93,OP BR,,0,0,0,,Mesmo sendo notada algum dia
+Dialogue: 0,0:22:46.93,0:22:50.93,OP BR,,0,0,0,,Irei provar a mim mesmo que preciso viver hoje
+Dialogue: 0,0:22:50.93,0:22:52.93,OP BR,,0,0,0,,Começando agora!
+Comment: 0,0:00:00.00,0:00:00.00,Locais,,0,0,0,,ED Br End
+Comment: 0,0:00:00.00,0:00:00.00,Locais,,0,0,0,,ED Credits Start
+Dialogue: 0,0:21:38.98,0:21:41.99,Credits GriloSub,,0,0,0,,{\pos(840,680)}Tradução          Grilo
+Dialogue: 0,0:21:41.99,0:21:44.99,Credits GriloSub,,0,0,0,,{\pos(380,670)}Revisão              GabrielCosta       KaueGodoy
+Dialogue: 0,0:21:44.99,0:21:47.99,Credits GriloSub,,0,0,0,,{\pos(535,590)}Karaokê       Grilo
+Dialogue: 0,0:21:47.99,0:21:50.99,Credits GriloSub,,0,0,0,,{\pos(148,676)}Revisão final     Grilo
+Dialogue: 0,0:21:54.00,0:21:57.00,Credits GriloSub,,0,0,0,,{\pos(410,480)}Tradução          Grilo  \N do Karaokê       KaueGodoy
+Dialogue: 0,0:22:33.33,0:22:52.93,Credits GriloSub,,0,0,0,,{\pos(1115,520)\a6}GriloSub \N\N Feito de fã para fã.  \N\N #GriloSub@irc.rizon.net
+Comment: 0,0:00:00.00,0:00:00.00,Locais,,0,0,0,,ED Credits End
+Dialogue: 0,0:21:20.80,0:21:22.80,Main Dialogue,,0,0,0,,

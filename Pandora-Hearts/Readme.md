@@ -1,3 +1,0 @@
-- Source: EnigmaCollective
-- Tradução: Hakone-chan
-- Revisão: Grilo

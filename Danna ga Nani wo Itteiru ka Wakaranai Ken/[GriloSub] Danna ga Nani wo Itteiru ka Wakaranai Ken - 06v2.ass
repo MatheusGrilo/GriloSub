@@ -1,0 +1,116 @@
+﻿[Script Info]
+Title: GriloSub
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Danna ga Nani Main,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,0,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Danna ga Nani Main I,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,-1,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Sign,One Stroke Script LET,27,&H00FFFFFF,&H0000FFFF,&H00000000,&H00404040,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,0
+Style: Box,Arial Black,20,&H00010101,&H000000FF,&H00010101,&H00000000,-1,0,0,0,100,100,0,0,3,10,0,2,10,10,10,1
+Style: Danna ga Nani ED Song,Arial Rounded MT Bold,50,&H009C9FFD,&H000000FF,&H00625BFF,&H00000000,-1,0,0,0,100,100,2,0,1,5,0,2,70,70,5,1
+Style: Danna ga Nani ED Song Br,CAC Moose,50,&H00010202,&H000000FF,&H00FAFAFA,&H00000000,0,0,0,0,100,100,2,0,1,3,0,8,70,70,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.43,0:00:01.48,Danna ga Nani Main,hajime,0,0,0,,Bem-vinda!
+Dialogue: 0,0:00:01.48,0:00:02.48,Danna ga Nani Main,kaoru,0,0,0,,Estou de volta.
+Dialogue: 0,0:00:02.48,0:00:04.52,Danna ga Nani Main,hajime,0,0,0,,Você fez bem em voltar, brava guerreira.
+Dialogue: 0,0:00:04.52,0:00:06.44,Danna ga Nani Main,,0,0,0,,Descanse seu corpo cansado.
+Dialogue: 0,0:00:07.11,0:00:08.11,Danna ga Nani Main,haji,0,0,0,,Hã?
+Dialogue: 0,0:00:10.86,0:00:13.86,Box,title,0,0,0,,{\c&HF9F9F9&\3c&HF9F9F9&\pos(600,464)\fscx277\fscy361}AAAAAA
+Dialogue: 0,0:00:10.86,0:00:13.86,Sign,title,0,0,0,,{\blur0.9\fnCac Moose\c&H3F3F43&\fscx227\fscy231\pos(794,526)}Não Cruze a \N {\fscx287\fscy231}Ponte Antes \N{\fscx227\fscy291}da Chegada Dele
+Dialogue: 4,0:00:10.86,0:00:13.86,Danna ga Nani Main,,0,0,0,,{\blur0.5\fnAR Christy\1a&HFF&\an1\c&H19191A&\3c&HEFEFEF&}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 4,0:00:10.86,0:00:13.86,Danna ga Nani Main,,0,0,0,,{\blur0.6\fnAR Christy\bord0\an1\c&H19191A&\3c&HEFEFEF&\pos(70,690)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:00:14.16,0:00:17.12,Danna ga Nani Main,tana,0,0,0,,Não se preocupe. Não é nada que coloque sua vida em risco.
+Dialogue: 0,0:00:17.12,0:00:18.62,Danna ga Nani Main,kaoru,0,0,0,,Ainda bem...
+Dialogue: 0,0:00:18.62,0:00:21.37,Danna ga Nani Main,tana,0,0,0,,Nunca pensei que teria que dizer isso a um amigo.
+Dialogue: 0,0:00:21.37,0:00:23.54,Danna ga Nani Main,kaoru,0,0,0,,Desculpe por preocupá-la.
+Dialogue: 0,0:00:23.54,0:00:24.37,Danna ga Nani Main,tana,0,0,0,,Sem problemas.
+Dialogue: 0,0:00:24.37,0:00:25.87,Danna ga Nani Main,tana,0,0,0,,Agora, pare de fumar.
+Dialogue: 0,0:00:25.88,0:00:26.58,Danna ga Nani Main,kaoru,0,0,0,,Hã?
+Dialogue: 0,0:00:27.13,0:00:28.63,Danna ga Nani Main,tana,0,0,0,,Pare de fumar!
+Dialogue: 0,0:00:28.63,0:00:30.63,Danna ga Nani Main,kaoru,0,0,0,,Desculpe! Desculpe mesmo!
+Dialogue: 0,0:00:30.63,0:00:31.99,Danna ga Nani Main,tana,0,0,0,,Você não fumará mais a partir de agora.
+Dialogue: 0,0:00:34.34,0:00:35.93,Danna ga Nani Main,rino,0,0,0,,Fiquei sabendo que está parando de fumar.
+Dialogue: 0,0:00:35.93,0:00:38.14,Danna ga Nani Main,kaoru,0,0,0,,Era apenas pelo cansaço do excesso de trabalho.
+Dialogue: 0,0:00:38.14,0:00:40.89,Danna ga Nani Main,koaoru,0,0,0,,Ele sequer conta algumas de suas piadas.
+Dialogue: 0,0:00:40.89,0:00:43.10,Danna ga Nani Main,rino,0,0,0,,Isso significa apenas que ele realmente se importa com você.
+Dialogue: 0,0:00:43.10,0:00:46.15,Danna ga Nani Main,rino,0,0,0,,Tenha certeza de que parará de fumar e faça-o se sentir mais sossegado.
+Dialogue: 0,0:00:46.15,0:00:49.77,Danna ga Nani Main,kaoru,0,0,0,,Prometi que não seria uma má influência às crianças.
+Dialogue: 0,0:00:49.77,0:00:51.65,Danna ga Nani Main,rino,0,0,0,,Vamos lá!
+Dialogue: 0,0:00:51.65,0:00:54.15,Danna ga Nani Main,haji,0,0,0,,Ah, alô, Miki-san?
+Dialogue: 0,0:00:54.15,0:00:55.95,Danna ga Nani Main,haji,0,0,0,,Dê-me mais trabalho, por favor.
+Dialogue: 0,0:00:55.95,0:00:58.10,Danna ga Nani Main,miki,0,0,0,,Mas te dei mais trabalho ontem mesmo!
+Dialogue: 0,0:00:58.10,0:01:00.12,Danna ga Nani Main,miki,0,0,0,,Você não está trabalhando muito?
+Dialogue: 0,0:01:00.12,0:01:02.62,Danna ga Nani Main,haji,0,0,0,,Aqueles que não tem esposa não entenderão.
+Dialogue: 0,0:01:02.62,0:01:04.16,Danna ga Nani Main,miki,0,0,0,,Bem, me desculpe.
+Dialogue: 0,0:01:04.16,0:01:06.67,Danna ga Nani Main,miki,0,0,0,,Entretanto, se continuar trabalhando tanto assim, \N você será o próximo a —
+Dialogue: 0,0:01:06.67,0:01:09.17,Danna ga Nani Main,haji,0,0,0,,Seria cem vezes melhor se eu desmaiasse.
+Dialogue: 0,0:01:09.17,0:01:12.01,Danna ga Nani Main,miki,0,0,0,,Por que os dois não trabalham sem desmaiarem?
+Dialogue: 0,0:01:12.01,0:01:14.05,Danna ga Nani Main,miki,0,0,0,,Irei lhe mandar mais trabalho em breve.
+Dialogue: 0,0:01:15.17,0:01:17.05,Danna ga Nani Main,miki,0,0,0,,Que pessoas estranhas...
+Dialogue: 0,0:01:17.05,0:01:22.06,Danna ga Nani Main,kaoru,0,0,0,,Aliás, quero que ele volte ao normal, então irei parar de fumar.
+Dialogue: 0,0:01:22.06,0:01:24.06,Danna ga Nani Main,rino,0,0,0,,Isso seria bom.
+Dialogue: 0,0:01:24.06,0:01:27.19,Danna ga Nani Main,kaoru,0,0,0,,Nozomu-kun também cuida bem de você, \N não cuida, Rinocchi?
+Dialogue: 0,0:01:27.73,0:01:29.06,Danna ga Nani Main,rino,0,0,0,,Bem...
+Dialogue: 0,0:01:30.57,0:01:34.62,Danna ga Nani Main I,nozomu,0,0,0,,Aqui está, eu vou assoprar para você, então, coma seu mingau de arroz.
+Dialogue: 0,0:01:34.62,0:01:37.07,Danna ga Nani Main,rino,0,0,0,,É muito melhor quando te tratam normalmente, não é?!
+Dialogue: 0,0:01:37.07,0:01:38.66,Danna ga Nani Main,kaoru,0,0,0,,Éh? C-Claro...
+Dialogue: 0,0:01:39.87,0:01:42.08,Danna ga Nani Main,hajime,0,0,0,,Desculpe-me, {\i1}pai{\i0}.
+Dialogue: 0,0:01:43.29,0:01:46.32,Danna ga Nani Main,dad,0,0,0,,Você não precisa vir aqui para se desculpar por isso.
+Dialogue: 0,0:01:46.32,0:01:48.08,Danna ga Nani Main,hajime,0,0,0,,Por favor, me bata.
+Dialogue: 0,0:01:48.08,0:01:51.09,Danna ga Nani Main,dad,0,0,0,,Kaoru não gostaria disso.
+Dialogue: 0,0:01:51.09,0:01:52.55,Danna ga Nani Main,dad,0,0,0,,Apenas vá para casa vê-la.
+Dialogue: 0,0:01:53.42,0:01:54.83,Danna ga Nani Main,haji,0,0,0,,Sim...
+Dialogue: 0,0:01:54.83,0:01:56.97,Danna ga Nani Main,haji,0,0,0,,Kaoru, te fiz um pouco de café.
+Dialogue: 0,0:01:57.81,0:01:58.97,Danna ga Nani Main,kaoru,0,0,0,,Obrigada.
+Dialogue: 0,0:01:58.97,0:02:01.14,Danna ga Nani Main,hajime,0,0,0,,Irei deixar o leite aqui.
+Dialogue: 0,0:02:01.14,0:02:01.97,Danna ga Nani Main,kaoru,0,0,0,,Ok.
+Dialogue: 0,0:02:01.97,0:02:03.97,Danna ga Nani Main,haji,0,0,0,,Irei à lavanderia agora.
+Dialogue: 0,0:02:03.97,0:02:05.73,Danna ga Nani Main,haji,0,0,0,,Se precisar de algo, apenas me diga.
+Dialogue: 0,0:02:05.73,0:02:06.48,Danna ga Nani Main,kaoru,0,0,0,,Ok.
+Dialogue: 0,0:02:06.48,0:02:09.45,Danna ga Nani Main,haji,0,0,0,,Ah, antes disso, irei lavar os pratos.
+Dialogue: 0,0:02:10.48,0:02:14.15,Danna ga Nani Main I,kaoru,0,0,0,,Não acho que essa irritação é pelo fato de eu não fumar...
+Dialogue: 0,0:02:16.69,0:02:19.67,Danna ga Nani Main I,kaoru,0,0,0,,Pare já com isso. Esse não é um sorriso real.
+Dialogue: 0,0:02:19.67,0:02:22.70,Danna ga Nani Main I,kaoru,0,0,0,,Você parecia melhor quando dizia coisas estúpidas com sua cara séria.
+Dialogue: 0,0:02:22.70,0:02:24.29,Danna ga Nani Main I,kaoru,0,0,0,,Se você é tão atento assim...
+Dialogue: 0,0:02:24.29,0:02:25.25,Danna ga Nani Main,kaoru,0,0,0,,Idiota!
+Dialogue: 0,0:02:26.25,0:02:29.65,Danna ga Nani Main,kaoru,0,0,0,,Se mudar assim de repente, \N parecerá uma pessoa diferente, e isso é assustador!
+Dialogue: 0,0:02:29.65,0:02:31.21,Danna ga Nani Main,kaoru,0,0,0,,Eu quero que você volte a ser o mesmo de sempre!
+Dialogue: 0,0:02:31.21,0:02:33.50,Danna ga Nani Main,kaoru,0,0,0,,Não quero vê-lo de nenhum outro jeito!
+Dialogue: 0,0:02:34.75,0:02:37.01,Danna ga Nani Main,kaoru,0,0,0,,Preste mais atenção em mim!
+Dialogue: 0,0:02:38.51,0:02:41.22,Danna ga Nani Main,haji,0,0,0,,É... Me desculpe. Não chore.
+Dialogue: 0,0:02:43.10,0:02:47.10,Danna ga Nani Main,kaoru,0,0,0,,Cigarro!
+Dialogue: 0,0:02:43.89,0:02:45.43,Danna ga Nani Main,haji,0,0,0,,{\an8}O quê?!
+Dialogue: 0,0:02:47.27,0:02:49.85,Danna ga Nani Main,kaoru,0,0,0,,Quanto tempo mais tenho que ficar sem fumar?
+Dialogue: 0,0:02:49.85,0:02:51.77,Danna ga Nani Main,tana,0,0,0,,Até seu filho nascer.
+Dialogue: 0,0:02:53.27,0:02:54.79,Danna ga Nani Main,tana,0,0,0,,Estou brincando.
+Dialogue: 0,0:02:54.79,0:02:57.27,Danna ga Nani Main,kaoru,0,0,0,,Você me assustou por um segundo!
+Dialogue: 0,0:02:57.27,0:02:58.74,Danna ga Nani Main,tana,0,0,0,,Era isso que queria que eu dissesse?
+Dialogue: 0,0:03:00.28,0:03:03.78,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\fn} {\kf47}{\kf40}ii{\kf23}ka{\kf35}gen {\kf20}ni {\kf28}shi{\kf87}te{\kf70} ~
+Dialogue: 0,0:03:00.28,0:03:03.78,Danna ga Nani ED Song Br,,0,0,0,,Estou cansada disso tudo {\fnTimes New Roman\b1}~
+Dialogue: 0,0:03:03.78,0:03:08.29,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf85}{\fn} {\kf19}ho{\kf37}shii {\kf26}ke{\kf107}do ~{\kf10} {\kf30}a{\kf22}na{\kf113}ta
+Dialogue: 0,0:03:03.78,0:03:08.29,Danna ga Nani ED Song Br,,0,0,0,,Eu quero você, meu querido.
+Dialogue: 0,0:03:08.29,0:03:14.29,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&}♠{\kf79} {\kf34}{\fn}ki{\kf30}mi {\kf17}to {\kf39}i{\kf23}ru {\kf45}to {\kf39}nan{\kf27}ka {\kf18}ta{\kf18}no{\kf27}shi{\kf200}i
+Dialogue: 0,0:03:08.29,0:03:14.29,Danna ga Nani ED Song Br,,0,0,0,,Quando estou com você, é meio divertido.
+Dialogue: 0,0:03:14.29,0:03:22.05,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf183}{\kf25}{\fn} fu{\kf21}ta{\kf23}ri{\kf23} de {\kf18}i{\kf20}ru{\kf44} to {\kf22}to{\kf21}te{\kf22}mo {\kf23}u{\kf11}re{\kf32}shi{\kf288}i
+Dialogue: 0,0:03:14.29,0:03:22.05,Danna ga Nani ED Song Br,,0,0,0,,Quando estamos juntos, fico muito feliz.
+Dialogue: 0,0:03:22.05,0:03:27.81,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}{\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\c&H605BFC&\3c&H9F9DFD&}{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se {\kf116}~
+Dialogue: 0,0:03:22.05,0:03:27.81,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\clip(178,694,1092,720)\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se{\kf116} ~
+Dialogue: 0,0:03:22.05,0:03:27.81,Danna ga Nani ED Song Br,,0,0,0,,Não sei a razão, mas estamos felizes agora {\fnTimes New Roman\b1}~
+Dialogue: 0,0:03:00.28,0:03:03.78,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(456,296)}Tradução{\i1\b1\u1}
+Dialogue: 0,0:03:00.28,0:03:03.78,Sign,,0,0,0,,{\an3\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(792,296)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:03.78,0:03:07.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(145.6,325.6)\i0\b0\u0}Revisão{\i1\b1\u1}
+Dialogue: 0,0:03:03.78,0:03:07.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(295.6,325.6)\i0\b0\u0}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:07.79,0:03:11.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(125.6,530.6)\i0\b0\u0}Karaokê{\i1\b1\u1}
+Dialogue: 0,0:03:07.79,0:03:11.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(342,530.6)}Kaitou Fansub{\i1\b1\u1}
+Dialogue: 0,0:03:07.79,0:03:11.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(120.6,460.6)\i0\b0\u0}Trad. Karaokê{\i1\b1\u1}
+Dialogue: 0,0:03:07.79,0:03:11.79,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(336,460.6)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:27.81,0:03:29.98,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs70\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(520.6,250.6)\i0\b0\u0}GriloSub{\i1\b1\u1}
+Dialogue: 0,0:03:27.81,0:03:29.98,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs50\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(368.6,320.6)\i0\b0\u0}#GriloSub@irc.rizon.net{\i1\b1\u1}

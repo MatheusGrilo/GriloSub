@@ -1,0 +1,136 @@
+﻿[Script Info]
+Title: GriloSub
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Danna ni Nani Main,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,0,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Danna ni Nani Main I,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,-1,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Sign,One Stroke Script LET,27,&H00FFFFFF,&H0000FFFF,&H00000000,&H00404040,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,0
+Style: Box,Arial Black,20,&H00010101,&H000000FF,&H00010101,&H00000000,-1,0,0,0,100,100,0,0,3,10,0,2,10,10,10,1
+Style: Danna ni Nani ED Song,Arial Rounded MT Bold,50,&H009C9FFD,&H000000FF,&H00625BFF,&H00000000,-1,0,0,0,100,100,2,0,1,5,0,2,70,70,5,1
+Style: Danna ni Nani ED Song Br,CAC Moose,50,&H00010202,&H000000FF,&H00FAFAFA,&H00000000,0,0,0,0,100,100,2,0,1,3,0,8,70,70,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 4,0:00:00.86,0:00:04.43,Danna ni Nani Main I,,0,0,0,,Me pergunto o porquê de nos casarmos.
+Dialogue: 4,0:00:04.44,0:00:07.44,Danna ni Nani Main I,,0,0,0,,Seria pelo fato de sermos capazes de conviver com os defeitos um do outro?
+Dialogue: 4,0:00:07.44,0:00:10.94,Danna ni Nani Main,,0,0,0,,Não acho que serei capaz de fazê-la feliz.
+Dialogue: 4,0:00:10.94,0:00:13.52,Danna ni Nani Main I,,0,0,0,,Ou porquê a diferença entre a nossa realidade e o nosso ideal não existe?
+Dialogue: 4,0:00:13.52,0:00:15.94,Danna ni Nani Main,,0,0,0,,Fui capaz de colocar um lindo vestido de noiva hoje,
+Dialogue: 4,0:00:15.94,0:00:18.95,Danna ni Nani Main,,0,0,0,,como uma mulher, isso me deixa muito feliz.
+Dialogue: 4,0:00:19.62,0:00:22.96,Danna ni Nani Main I,,0,0,0,,Talvez possamos vir a amar esses defeitos.
+Dialogue: 4,0:00:22.96,0:00:26.54,Danna ni Nani Main,,0,0,0,,Eu farei o possível para me sentir feliz,
+Dialogue: 4,0:00:26.54,0:00:28.82,Danna ni Nani Main,,0,0,0,,então, você deve tentar fazer o mesmo.
+Dialogue: 4,0:00:28.82,0:00:31.21,Danna ni Nani Main,,0,0,0,,Poderia dizer novamente o que é {\i1}se casar{\i0}?
+Dialogue: 4,0:00:33.71,0:00:36.45,Danna ni Nani Main,,0,0,0,,A única coisa que podemos fazer é nadar.
+Dialogue: 4,0:00:36.45,0:00:38.70,Danna ni Nani Main,,0,0,0,,Não quero ficar queimada por causa do sol.
+Dialogue: 4,0:00:38.70,0:00:40.98,Danna ni Nani Main,,0,0,0,,Mas eu queria te ver num biquíni.
+Dialogue: 4,0:00:42.06,0:00:44.40,Danna ni Nani Main,,0,0,0,,Bem, eu não me importo se quiser vê-lo no quarto.
+Dialogue: 4,0:00:46.98,0:00:48.97,Danna ni Nani Main,,0,0,0,,Eles fizeram muito sexo depois disso.
+Dialogue: 2,0:00:46.98,0:00:48.97,Sign,,0,0,0,,{\blur0.9\b1\fnArial\frz16.93\c&H5D5D67&\pos(233.6,504)\fscx311\fscy326\fs15}Eles fizeram \N muito sexo \N depois disso.
+Dialogue: 1,0:00:46.98,0:00:48.97,Box,,0,0,0,,{\c&HF3F3F3&\3c&HF3F3F3&\fscx119\fscy378\pos(208,432)\clip(m 85 336 l 74 688 147 682 257 660 408 622 377 333 b 310 325 228 327 116 332)}Eles tiveram muito sexo depois disso.
+Dialogue: 3,0:00:46.98,0:00:48.97,Box,,0,0,0,,{\c&HF3F3F3&\3c&HF3F3F3&\fscx119\fscy378\pos(208,432)\clip(m 372 599 l 396 628 380 636)}Eles tiveram muito sexo depois disso.
+Dialogue: 1,0:00:46.98,0:00:48.97,Sign,,0,0,0,,{\c&H0B0B0C&\blur0.9\bord4\1a&HFF&\3c&H5D5D67&\p1\fscx1506\fscy1308\pos(260,534)}m 0 0 b 0 0 0 0 -1 -1 b 7 -2 12 -2 19 -2 b 19 3 19 9 19 18 b 12 18 5 19 -2 20 b -2 14 -1 4 -1 -1
+Dialogue: 4,0:00:50.98,0:00:53.97,Danna ni Nani Main,,0,0,0,,Nada de especial aconteceu até o momento,
+Dialogue: 4,0:00:53.97,0:00:55.99,Danna ni Nani Main,,0,0,0,,mas de alguma forma, estou feliz.
+Dialogue: 4,0:00:55.99,0:00:58.99,Danna ni Nani Main,,0,0,0,,{\blur0.9\fnAR Christy\an1\c&H19191A&\3c&HEFEFEF&\fscx106\fscy124\pos(70,690)}Eu não compreendo o \N que meu marido está dizendo
+Dialogue: 4,0:00:55.99,0:00:58.99,Sign,,0,0,0,,{\fnKG Shadow of the Day\an5\b1\blur0.9\c&H434242&\3c&HEFEFEF&\fscx190\fscy191\frx356\fry358\pos(810,467.2)}Conflito de Hobbies \N e Vício!
+Dialogue: 3,0:00:55.99,0:00:58.99,Box,,0,0,0,,{\c&HF9F9F9&\3c&HF9F9F9&\pos(600,464)\fscx277\fscy361}AAAAAA
+Dialogue: 4,0:00:58.99,0:01:01.49,Danna ni Nani Main,,0,0,0,,Meu marido é dois anos mais novo que eu.
+Dialogue: 4,0:01:01.50,0:01:03.58,Danna ni Nani Main,,0,0,0,,Ele é o que chamam de “otaku”,
+Dialogue: 4,0:01:03.58,0:01:06.50,Danna ni Nani Main,,0,0,0,,e ele provavelmente morreria caso não assistisse anime.
+Dialogue: 4,0:01:06.50,0:01:10.29,Danna ni Nani Main,,0,0,0,,Não consigo nem compreender o que é isso.
+Dialogue: 4,0:01:10.29,0:01:11.39,Danna ni Nani Main,,0,0,0,,Eles são tão divertidos?
+Dialogue: 4,0:01:11.39,0:01:12.51,Danna ni Nani Main,,0,0,0,,“Divertidos”?
+Dialogue: 4,0:01:12.51,0:01:16.01,Danna ni Nani Main I,,0,0,0,,{\an8}Waifu significa “esposa” para os otakus; \N Esposa é pronunciada como “Wife”.
+Dialogue: 4,0:01:12.51,0:01:14.38,Danna ni Nani Main,,0,0,0,,Mashiro-tan é minha waifu!
+Dialogue: 4,0:01:14.38,0:01:16.01,Danna ni Nani Main,,0,0,0,,Mas{\fsp4\i1} eu sou{\i0\fsp0} sua esposa!
+Dialogue: 0,0:01:16.01,0:01:17.01,Sign,,0,0,0,,{\an1\blur0.6\fs45\b0\fnAR Christy\bord1.5\xshad-3\yshad2\c&HFFFFFF&\3c&H0B0B0B&\4c&H1B1B1C&\fscx124\fscy97\pos(710,350)}Eu não compreendo o que\N meu marido está dizendo
+Dialogue: 0,0:01:16.01,0:01:17.01,Sign,,0,0,0,,{\an1\blur0.6\fs45\b0\fnAR Christy\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx124\fscy97\pos(710,350)}Eu não compreendo o que\N meu marido está dizendo
+Dialogue: 4,0:01:17.01,0:01:19.51,Danna ni Nani Main,,0,0,0,,Meu marido é um blogger, \N então está sempre em frente ao computador.
+Dialogue: 4,0:01:19.51,0:01:22.23,Danna ni Nani Main,,0,0,0,,É realmente incrível que você ganhe dinheiro fazendo isso.
+Dialogue: 4,0:01:22.23,0:01:25.90,Danna ni Nani Main,,0,0,0,,Não pretendo trabalhar até a morte como todos os outros.
+Dialogue: 4,0:01:25.90,0:01:29.02,Danna ni Nani Main,,0,0,0,,Você realmente {\i1}odeia{\i0} trabalhar, não é?
+Dialogue: 4,0:01:29.02,0:01:30.40,Danna ni Nani Main,,0,0,0,,Meu desejo é não trabalhar!
+Dialogue: 4,0:01:30.40,0:01:32.66,Danna ni Nani Main,,0,0,0,,Meu desejo de não trabalhar será eterno!
+Dialogue: 4,0:01:32.66,0:01:35.03,Danna ni Nani Main,,0,0,0,,O que você está fazendo com sua vida?
+Dialogue: 0,0:01:35.03,0:01:36.03,Sign,,0,0,0,,{\an2\blur0.7\fs45\b1\fnMontara Gothic\bord3.8\c&H151516&\3c&HE1E1E1&\4c&H1B1B1C&\fscx126\fscy125\pos(368.2,718.4)}Ele pensa que conseguir \N um emprego significa derrota
+Dialogue: 0,0:01:35.03,0:01:36.03,Sign,,0,0,0,,{\an2\blur1\fs45\b1\fnMontara Gothic\bord0\c&H151516&\3c&HE1E1E1&\4c&H1B1B1C&\fscx126\fscy125\pos(368.2,718.4)}Ele pensa que conseguir \N um emprego significa derrota
+Dialogue: 0,0:01:35.03,0:01:36.03,Sign,,0,0,0,,{\an1\blur0.7\fs45\fnAR Christy\bord1.5\xshad-3\yshad3\c&HFFFFFF&\3c&H0B0B0B&\4c&H1B1B1C&\fscx119\fscy92\pos(668,106)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:01:35.03,0:01:36.03,Sign,,0,0,0,,{\an1\blur0.6\fs45\fnAR Christy\c&HFFFFFF&\3c&H0B0B0B&\4c&H1B1B1C&\fscx119\fscy92\pos(668,106)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 4,0:01:36.03,0:01:38.53,Danna ni Nani Main,,0,0,0,,Não deixe essas coisas jogadas na sala de estar.
+Dialogue: 4,0:01:38.53,0:01:40.15,Danna ni Nani Main,,0,0,0,,É constrangedor!
+Dialogue: 4,0:01:40.15,0:01:43.68,Danna ni Nani Main,,0,0,0,,Me perdoe. Esqueci de guardá-las após usá-las.
+Dialogue: 4,0:01:43.68,0:01:46.04,Danna ni Nani Main,,0,0,0,,Você disse “usá-las”, e não “lê-las”?
+Dialogue: 4,0:01:46.46,0:01:49.54,Danna ni Nani Main,,0,0,0,,Espere, não há nada além de peitos aqui!
+Dialogue: 4,0:01:49.55,0:01:51.54,Danna ni Nani Main,,0,0,0,,Então, todos os homens só pensam em peitos?!
+Dialogue: 4,0:01:52.36,0:01:53.81,Danna ni Nani Main,,0,0,0,,Isso mesmo!
+Dialogue: 4,0:01:53.81,0:01:55.31,Danna ni Nani Main,,0,0,0,,Eu{\fscx300}-
+Dialogue: 4,0:01:55.31,0:01:58.31,Danna ni Nani Main,,0,0,0,,{\fad(0,1400)\t(1600,$end,\fs55)}Não! {\i1}Nó{\fsp3}s{\i0\fsp0} amamos peitos!
+Dialogue: 4,0:01:57.04,0:01:59.55,Danna ni Nani Main,,0,0,0,,{\an8}Mas o que você quer dizer com “nós”?!
+Dialogue: 0,0:01:59.55,0:02:00.55,Box,,0,0,0,,{\c&HE0E0E0&\3c&HE0E0E0&\clip(m 744 32 l 755 513 630 523 633 681 1280 678 1286 16)\pos(1009.6,220.4)\fscx348\fscy593}TEXTO PARA TAMPAR O JAPONÊS
+Dialogue: 0,0:01:59.55,0:02:00.55,Sign,,0,0,0,,{\blur0.9\fs70\fnHelveticaRounded LT Std Bd\b1\c&H37567D&\pos(1004.8,343.6)}P\NE\N\N\NO\NS\N!
+Dialogue: 0,0:01:59.55,0:02:00.55,Sign,,0,0,0,,{\blur0.9\fs70\fnHelveticaRounded LT Std Bd\fsp20\b1\c&H37567D&\pos(1030.4,308.8)}PEITOS!
+Dialogue: 0,0:01:59.55,0:02:00.55,Sign,,0,0,0,,{\blur0.9\fs70\fnHelveticaRounded LT Std Bd\fsp20\b1\c&H37567D&\pos(1030.4,308.8)}PEITOS!
+Dialogue: 0,0:01:59.55,0:02:00.55,Sign,,0,0,0,,{\an1\blur0.6\fs45\fnAR Christy\bord1.3\xshad-3\yshad3\c&HFFFFFF&\3c&H0B0B0B&\4c&H1B1B1C&\fscx139\fscy114\pos(610.6,689.6)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:01:59.55,0:02:00.55,Sign,,0,0,0,,{\an1\blur0.6\fs45\fnAR Christy\bord0\c&HFFFFFF&\3c&H0B0B0B&\4c&H1B1B1C&\fscx139\fscy114\pos(610.6,689.6)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:02:01.39,0:02:03.39,Danna ni Nani Main I,,0,0,0,,{\an8}Moe pode ser usado para referir-se à personagens inocentes, fofas ou com uma personalidade adorável.
+Dialogue: 4,0:02:01.41,0:02:02.56,Danna ni Nani Main,,0,0,0,,Moe.
+Dialogue: 4,0:02:02.57,0:02:04.02,Danna ni Nani Main,,0,0,0,,Ele simplesmente não consegue ficar sem isso.
+Dialogue: 4,0:02:04.02,0:02:05.06,Danna ni Nani Main,,0,0,0,,Algo assim.
+Dialogue: 4,0:02:05.41,0:02:06.81,Danna ni Nani Main,,0,0,0,,Sensor de moe?!
+Dialogue: 4,0:02:06.81,0:02:07.75,Danna ni Nani Main,,0,0,0,,Encontrei!
+Dialogue: 0,0:02:08.56,0:02:09.58,Sign,,0,0,0,,{\blur0.7\1a&HFF&\bord6\fnCutie Pop\b1\pos(640,38.4)\fscx319\fscy247\c&H7276E2&\3c&HE8ECED&}Quest{\fnAR Christy}ã{\fnCutie Pop}o de Sorriso
+Dialogue: 0,0:02:08.56,0:02:09.58,Sign,,0,0,0,,{\blur0.9\fnCutie Pop\b1\pos(640,38.4)\fscx319\fscy247\c&H7276E2&}Quest{\fnAR Christy}ã{\fnCutie Pop}o de Sorriso
+Dialogue: 0,0:02:08.56,0:02:09.58,Sign,,0,0,0,,{\an1\blur0.6\fs45\fnAR Christy\bord1.3\xshad-3\yshad3\c&HFFFFFF&\3c&H0B0B0B&\4c&H1B1B1C&\fscx139\fscy114\pos(13.8,654)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:02:08.56,0:02:09.58,Sign,,0,0,0,,{\an1\blur0.9\fs45\fnAR Christy\c&HFBFCFC&\3c&H0B0B0B&\4c&H1B1B1C&\fscx139\fscy114\pos(13.8,654)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 4,0:02:09.58,0:02:11.89,Danna ni Nani Main,,0,0,0,,Hoje é meu dia de folga. \N Vamos sair e nos divertir um pouco.
+Dialogue: 4,0:02:11.89,0:02:14.89,Danna ni Nani Main,,0,0,0,,Houve um {\i1}festival{\i0} noite passada, estou realmente exausto.
+Dialogue: 4,0:02:14.89,0:02:15.92,Danna ni Nani Main,,0,0,0,,Um {\i1}festival{\i0}?
+Dialogue: 4,0:02:15.92,0:02:17.57,Danna ni Nani Main,,0,0,0,,Mas, se quiser que eu mude de ideia,
+Dialogue: 4,0:02:17.57,0:02:19.57,Danna ni Nani Main,,0,0,0,,faça algo {\i1}moe{\i0} para me encorajar!
+Dialogue: 4,0:02:21.43,0:02:23.58,Danna ni Nani Main,,0,0,0,,{\fad(300,600)}Meow.
+Dialogue: 4,0:02:25.58,0:02:28.03,Danna ni Nani Main,,0,0,0,,Você quer assistir um filme animado, certo?
+Dialogue: 4,0:02:28.03,0:02:30.58,Danna ni Nani Main,,0,0,0,,Bem, eu {\i1}precis{\fsp3}o{\i0\fsp0} fazer uma análise para meu blog.
+Dialogue: 0,0:02:30.58,0:02:31.59,Danna ni Nani Main,,0,0,0,,{\shad0\bord0\blur0.7\be1\fs180\fsp0\c&HE6EDF1&\3c&H000000&\pos(800,400)}Depois do\N {\c&H1312D0&} filme
+Dialogue: 4,0:02:31.59,0:02:34.16,Danna ni Nani Main,,0,0,150,,{\an8}Isso foi muito bom.
+Dialogue: 0,0:02:31.63,0:02:34.63,Danna ni Nani Main,,0,0,0,,{\an8}Tinha um cenário clichê sem nada de especial. \N Um protagonista banal, que desaparece
+Dialogue: 0,0:02:34.63,0:02:37.84,Danna ni Nani Main,,0,0,0,,{\an8}metade do filme, fazendo com que as histórias dos personagens secundários se tornem muito longas.
+Dialogue: 0,0:02:37.84,0:02:41.05,Danna ni Nani Main,,0,0,0,,{\an8}As crianças irão gostar de assistir esses efeitos especiais,
+Dialogue: 0,0:02:41.05,0:02:43.43,Danna ni Nani Main,,0,0,0,,{\an8}o que contradiz com o que a Flex Comic escreve e não é voltada ao público mais velho.
+Dialogue: 0,0:02:43.43,0:02:45.60,Danna ni Nani Main,,0,0,0,,{\an8}Usaram regras padrões fazendo com que o filme ficasse chato.
+Dialogue: 4,0:02:32.13,0:02:45.60,Danna ni Nani Main,,20,20,0,,{\fnTimes New Roman\i\b0\3c&H81929E&\shad2\bord0.5\b1\4c&HA39CAB&\fscx101\fscy90\c&HEEEEEE&}{\q2\an4\move(1280,690,-7330,690,0,12448)} Tinha um cenário clichê sem nada de especial. Um protagonista banal, que desaparece metade do filme, fazendo com que as histórias dos personagens secundários se tornem muito longas. As crianças irão gostar de assistir esses efeitos especiais, o que contradiz com o que a Flex Comic escreve e não é voltada ao público mais velho. Usaram regras padrões fazendo com que o filme ficasse chato.
+Dialogue: 4,0:02:45.60,0:02:48.10,Danna ni Nani Main,,0,0,0,,Desculpe-me por assistir sem pensar tanto sobre isso.
+Dialogue: 0,0:02:48.10,0:02:49.11,Sign,,0,0,0,,{\an1\blur0.6\fs45\fnAR Christy\bord1.3\xshad-3\yshad3\c&HFFFFFF&\3c&H0B0B0B&\4c&H1B1B1C&\fscx139\fscy114\pos(600.6,663.6)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:02:48.10,0:02:49.11,Sign,,0,0,0,,{\an1\blur0.8\fs45\fnAR Christy\c&HFFFFFE&\3c&H0B0B0B&\4c&H1B1B1C&\fscx139\fscy114\pos(600.6,663.6)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 4,0:02:49.11,0:02:51.37,Danna ni Nani Main,,0,0,0,,Devemos ir para casa?
+Dialogue: 4,0:02:51.37,0:02:53.61,Danna ni Nani Main,,0,0,0,,Ainda não. Vamos fazer {\i1}iss{\fsp3}o{\i0\fsp0} antes de irmos.
+Dialogue: 4,0:02:53.61,0:02:54.76,Danna ni Nani Main,,0,0,0,,Isso, é...
+Dialogue: 0,0:02:57.02,0:02:57.68,Danna ni Nani Main,,0,0,0,,Certo.
+Dialogue: 0,0:02:59.99,0:03:03.49,Danna ni Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\fn} {\kf47}{\kf40}ii{\kf23}ka{\kf35}gen {\kf20}ni {\kf28}shi{\kf87}te{\kf70} ~
+Dialogue: 0,0:02:59.99,0:03:03.49,Danna ni Nani ED Song Br,,0,0,0,,Estou cansada disso tudo {\fnTimes New Roman\b1}~
+Dialogue: 0,0:03:03.49,0:03:08.00,Danna ni Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf85}{\fn} {\kf19}ho{\kf37}shii {\kf26}ke{\kf107}do ~{\kf10} {\kf30}a{\kf22}na{\kf113}ta
+Dialogue: 0,0:03:03.49,0:03:08.00,Danna ni Nani ED Song Br,,0,0,0,,Eu quero você, meu querido.
+Dialogue: 0,0:03:08.00,0:03:14.00,Danna ni Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&}♠{\kf79} {\kf34}{\fn}ki{\kf30}mi {\kf17}to {\kf39}i{\kf23}ru {\kf45}to {\kf39}nan{\kf27}ka {\kf18}ta{\kf18}no{\kf227}shii
+Dialogue: 0,0:03:08.00,0:03:14.00,Danna ni Nani ED Song Br,,0,0,0,,Quando estou com você, é meio divertido.
+Dialogue: 0,0:03:14.00,0:03:21.76,Danna ni Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf183}{\kf25}{\fn} fu{\kf21}ta{\kf23}ri{\kf23} de {\kf18}i{\kf20}ru{\kf44} to {\kf22}to{\kf21}te{\kf22}mo {\kf23}u{\kf11}re{\kf32}shi{\kf288}i
+Dialogue: 0,0:03:14.00,0:03:21.76,Danna ni Nani ED Song Br,,0,0,0,,Quando estamos juntos, fico muito feliz.
+Dialogue: 0,0:03:21.76,0:03:27.52,Danna ni Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}{\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\c&H605BFC&\3c&H9F9DFD&}{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se {\kf116}~
+Dialogue: 0,0:03:21.76,0:03:27.52,Danna ni Nani ED Song,,0,0,0,,{\kf0}{\clip(178,694,1092,720)\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se{\kf116} ~
+Dialogue: 0,0:03:21.76,0:03:27.52,Danna ni Nani ED Song Br,,0,0,0,,Não sei a razão, mas estamos felizes agora {\fnTimes New Roman\b1}~
+Dialogue: 0,0:02:59.99,0:03:03.49,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(456,296)}Tradução{\i1\b1\u1}
+Dialogue: 0,0:02:59.99,0:03:03.49,Sign,,0,0,0,,{\an3\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(792,296)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:03.49,0:03:07.50,Sign,,0,0,0,,{\an3\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(224,446)}Revisão{\i1\b1\u1}
+Dialogue: 0,0:03:03.49,0:03:07.50,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(268,492)}GabrielCosta\NGrilo{\i1\b1\u1}
+Dialogue: 0,0:03:07.50,0:03:11.50,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(124,540)}Karaokê{\i1\b1\u1}
+Dialogue: 0,0:03:07.50,0:03:11.50,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(340,540)}Kaitou Fansub{\i1\b1\u1}
+Dialogue: 0,0:03:11.50,0:03:14.46,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(120.6,426)\i0\b0\u0}Trad. Karaokê{\i1\b1\u1}
+Dialogue: 0,0:03:11.50,0:03:14.46,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(348,426)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:27.52,0:03:29.64,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs70\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(520.6,250.6)\i0\b0\u0}GriloSub{\i1\b1\u1}
+Dialogue: 0,0:03:27.52,0:03:29.64,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs50\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(368.6,320.6)\i0\b0\u0}#GriloSub@irc.rizon.net{\i1\b1\u1}

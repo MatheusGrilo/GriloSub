@@ -1,2 +1,0 @@
-- Source: Ohys-Raws, Harunatsu
-- Tradução: Grilo

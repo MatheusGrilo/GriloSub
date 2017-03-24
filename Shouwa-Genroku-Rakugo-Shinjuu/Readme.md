@@ -1,5 +1,0 @@
-- Source: HorribleSubs
-- Revisão: Grilo
-- QC: Hakone-chan
-
-Parceria: Ichiban Fansub

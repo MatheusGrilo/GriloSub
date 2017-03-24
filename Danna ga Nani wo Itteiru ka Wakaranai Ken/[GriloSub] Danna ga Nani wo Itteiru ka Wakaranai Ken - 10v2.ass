@@ -1,0 +1,132 @@
+﻿[Script Info]
+Title: GriloSub
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Danna ga Nani Main,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,0,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Danna ga Nani Main I,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,-1,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Sign,One Stroke Script LET,27,&H00FFFFFF,&H0000FFFF,&H00000000,&H00404040,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,0
+Style: Box,Arial Black,20,&H00010101,&H000000FF,&H00010101,&H00000000,-1,0,0,0,100,100,0,0,3,10,0,2,10,10,10,1
+Style: Danna ga Nani ED Song,Arial Rounded MT Bold,50,&H009C9FFD,&H000000FF,&H00625BFF,&H00000000,-1,0,0,0,100,100,2,0,1,5,0,2,70,70,5,1
+Style: Danna ga Nani ED Song Br,CAC Moose,50,&H00010202,&H000000FF,&H00FAFAFA,&H00000000,0,0,0,0,100,100,2,0,1,3,0,8,70,70,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:01.05,0:00:02.06,Danna ga Nani Main,haji,0,0,0,,{\an8}Oh?
+Dialogue: 0,0:00:02.06,0:00:03.98,Danna ga Nani Main,haji,0,0,0,,{\an8}Me pergunto quem poderia ser nessa hora.
+Dialogue: 0,0:00:03.98,0:00:04.98,Box,,0,0,0,,{\c&H3C39D4&\3c&H3C39D4&\fscx330\fscy499\\pos(110,204)}A
+Dialogue: 0,0:00:03.98,0:00:04.98,Danna ga Nani Main,,0,0,0,,{\pos(120,638)\b0}D\NE\NS\NT\NR\NU\NI\ND\NO\NR\NA
+Dialogue: 0,0:00:03.98,0:00:04.98,Danna ga Nani Main,,0,0,0,,{\pos(202,576)\b0}D\NE\N \NC\NA\NS\NA\NS
+Dialogue: 0,0:00:06.01,0:00:07.27,Danna ga Nani Main,mom,0,0,0,,{\an8}Abra agora, Takashi.
+Dialogue: 0,0:00:07.27,0:00:10.28,Box,title,0,0,0,,{\c&HF9F9F9&\3c&HF9F9F9&\pos(529.6,420.8)\fscx310\fscy399\clip(m 1068 684 l 1056 489 1030 440 1051 363 145 280 112 696)}AAAAAA
+Dialogue: 0,0:00:07.27,0:00:10.28,Sign,title,0,0,0,,{\an5\fax0.1\blur1.5\b1\fnPaintyPaint\c&H272729&\fscx353\fscy217\pos(722,446)}A Criança que Está\N{\fs50}Tão Perto\N {\fs30}e ao Mesmo Tempo \N Tão Longe
+Dialogue: 4,0:00:07.27,0:00:10.28,Danna ga Nani Main,,0,0,0,,{\blur0.5\fnAR CHRISTY\1a&HFF&\an1\c&H19191A&\3c&HEFEFEF&}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 4,0:00:07.27,0:00:10.28,Danna ga Nani Main,,0,0,0,,{\blur0.6\fnAR CHRISTY\bord0\an1\c&H19191A&\3c&HEFEFEF&\pos(70,690)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:00:10.28,0:00:12.65,Danna ga Nani Main,mom,0,0,0,,Por que não me contou que conseguiu um emprego?
+Dialogue: 0,0:00:12.65,0:00:13.78,Danna ga Nani Main,haji,0,0,0,,Me esqueci.
+Dialogue: 0,0:00:13.78,0:00:16.99,Danna ga Nani Main,mom,0,0,0,,Fiquei tão feliz, \N não sabia o que fazer comigo mesma.
+Dialogue: 0,0:00:16.99,0:00:18.28,Danna ga Nani Main,haji,0,0,0,,Então arrombou a porta?
+Dialogue: 0,0:00:18.28,0:00:21.96,Danna ga Nani Main,mom,0,0,0,,Você nunca me conta coisas importantes.
+Dialogue: 0,0:00:21.96,0:00:22.79,Danna ga Nani Main,haji,0,0,0,,Desculpe.
+Dialogue: 0,0:00:22.79,0:00:24.33,Danna ga Nani Main,mom,0,0,0,,Mas mesmo quando atingiu a puberdade,
+Dialogue: 0,0:00:24.33,0:00:25.92,Danna ga Nani Main,,0,0,0,,continuou aquele bom garoto, sem me contar.
+Dialogue: 0,0:00:25.92,0:00:27.75,Danna ga Nani Main I,haji,0,0,0,,Não havia nenhuma chance de eu contar isso a você.
+Dialogue: 0,0:00:27.99,0:00:29.80,Danna ga Nani Main,mom,0,0,0,,Em todo caso, Takashi!
+Dialogue: 0,0:00:29.80,0:00:31.17,Danna ga Nani Main,mom,0,0,0,,Já conseguiu uma criança?
+Dialogue: 0,0:00:31.17,0:00:35.59,Danna ga Nani Main,haji,0,0,0,,Criança? Mesmo {\i1}e{\fsp5}u{\fsp0\i0} sei que \N não posso me casar com estudantes do primário.
+Dialogue: 0,0:00:35.59,0:00:37.26,Danna ga Nani Main,mom,0,0,0,,Quis dizer {\i1}su{\fsp5}a{\fsp0\i0} criança, com sua esposa!
+Dialogue: 0,0:00:37.26,0:00:39.97,Danna ga Nani Main,haji,0,0,0,,Mayotama trará três ou quatro para você.
+Dialogue: 0,0:00:39.97,0:00:41.52,Danna ga Nani Main,mom,0,0,0,,Youta é um garoto!
+Dialogue: 0,0:00:41.53,0:00:42.51,Sign,sfx,0,0,0,,{\an1\blur1\fnThrow My Hands Up in the Air\c&H336189&\frz360\fscx203\fscy139\pos(612.8,289.6)}Miki-san,\Ngostaria de  \N uma criança \N em brev{\fsp4}e...
+Dialogue: 0,0:00:41.53,0:00:42.51,Sign,sfx,0,0,0,,{\blur0.8\fax-0.1\fnPaintyPaint\fscx305\fscy235\c&H336189&\frz332.3\frx354\fry346\pos(628.8,440)}PFFT
+Dialogue: 0,0:00:41.53,0:00:42.51,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord2\xshad-2\yshad2\c&HF7F7F7&\3c&H010102&\4c&H1B1A1A&\fscx119\fscy100\pos(114.667,675.467)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:00:41.53,0:00:42.51,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx119\fscy100\pos(114.667,675.467)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:00:42.51,0:00:45.19,Danna ga Nani Main,kaoru,0,0,0,,Hã? Então sua mãe veio hoje para parabenizá-lo?
+Dialogue: 0,0:00:45.19,0:00:48.11,Danna ga Nani Main,haji,0,0,0,,Apesar de mais parecer que ela estava me xingando.
+Dialogue: 0,0:00:48.11,0:00:49.07,Danna ga Nani Main,haji,0,0,0,,Kaoru...
+Dialogue: 0,0:00:49.07,0:00:50.02,Danna ga Nani Main,kaoru,0,0,0,,Hmm?
+Dialogue: 0,0:00:50.02,0:00:52.03,Danna ga Nani Main,haji,0,0,0,,Você quer uma criança?
+Dialogue: 0,0:00:52.03,0:00:55.03,Danna ga Nani Main,kaoru,0,0,0,,Você sabe disso, não é?! \N Não pode se casar com estudantes do primário!
+Dialogue: 0,0:00:55.03,0:00:57.07,Danna ga Nani Main,haji,0,0,0,,Uau... Você definitivamente {\i1}é minh{\fsp5}a{\fsp0\i0} esposa.
+Dialogue: 0,0:00:57.07,0:00:58.58,Danna ga Nani Main,kaoru,0,0,0,,Uma criança, hum?
+Dialogue: 0,0:00:58.58,0:01:01.33,Danna ga Nani Main I,kaoru,0,0,0,,Precisamos de tempo para estabilizar-mos.\N Eu teria que tirar minha licença maternidade.
+Dialogue: 0,0:01:01.33,0:01:02.45,Danna ga Nani Main I,kaoru,0,0,0,,Gostaria de pensar melhor antes.
+Dialogue: 0,0:01:02.45,0:01:05.00,Danna ga Nani Main I,kaoru,0,0,0,,Não me imagino como mãe, em primeiro lugar.
+Dialogue: 0,0:01:05.00,0:01:06.79,Danna ga Nani Main,kaoru,0,0,0,,Qual sua opinião sobre isso?
+Dialogue: 0,0:01:06.79,0:01:07.79,Danna ga Nani Main,haji,0,0,0,,Hã?
+Dialogue: 0,0:01:07.79,0:01:10.84,Danna ga Nani Main I,kaoru,0,0,0,,Não adianta. \N Ele é menos capaz que eu para imaginar isso.
+Dialogue: 0,0:01:10.84,0:01:13.26,Danna ga Nani Main,haji,0,0,0,,Primeiro, você deve parar de fumar.
+Dialogue: 0,0:01:13.26,0:01:15.09,Danna ga Nani Main,kaoru,0,0,0,,C-Certo! Tudo bem.
+Dialogue: 0,0:01:16.05,0:01:17.39,Danna ga Nani Main,rino,0,0,0,,Uma criança, hã?
+Dialogue: 0,0:01:17.39,0:01:20.56,Danna ga Nani Main,,0,0,0,,Nozomu não faz muito isso comigo, para começar.
+Dialogue: 0,0:01:20.56,0:01:24.43,Danna ga Nani Main,kaoru,0,0,0,,Talvez ele esteja se segurando por você ser tão pequena.
+Dialogue: 0,0:01:24.43,0:01:26.56,Danna ga Nani Main,rino,0,0,0,,Não gosto desse tipo de elogio!
+Dialogue: 0,0:01:26.56,0:01:28.31,Danna ga Nani Main,kaoru,0,0,0,,Você quer uma criança?
+Dialogue: 0,0:01:28.31,0:01:30.86,Danna ga Nani Main,rino,0,0,0,,Bem, sim, desde que seja fruto de nosso amor.
+Dialogue: 0,0:01:30.86,0:01:34.57,Danna ga Nani Main,nozo,0,0,0,,Uma criança?\N Eu já gosto da mãe dela.
+Dialogue: 0,0:01:30.86,0:01:35.86,Box,sign,0,0,0,,{\c&HADB24B&\3c&HADB24B&\fscx200\fscy120\pos(1125,443)}AAAAAA
+Dialogue: 1,0:01:30.86,0:01:35.86,Sign,sign,0,0,0,,{\blur0.5\bord1.5\fnFranklin Gothic Demi\pos(1163.2,399.4)\c&H7396A2&\3c&H7396A2&\fscx193\fscy223}Enquanto \N isso
+Dialogue: 1,0:01:30.86,0:01:35.86,Sign,sign,0,0,0,,{\blur0.8\fnFranklin Gothic Demi\pos(1163.2,399.4)\c&H2F1930&\fscx193\fscy223}Enquanto \N isso
+Dialogue: 0,0:01:34.57,0:01:35.86,Danna ga Nani Main,haji,0,0,0,,Isso é um problema por si mesmo.
+Dialogue: 0,0:01:35.86,0:01:36.86,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord2\xshad-2\yshad2\c&HF7F7F7&\3c&H010102&\4c&H1B1A1A&\fscx119\fscy100\pos(100.267,654.667)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:01:35.86,0:01:36.86,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx119\fscy100\pos(100.267,654.667)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:01:36.86,0:01:39.07,Danna ga Nani Main,kaoru,0,0,0,,Que tal pensarmos no nome agora?
+Dialogue: 0,0:01:39.07,0:01:40.41,Danna ga Nani Main,haji,0,0,0,,Um nome, é?
+Dialogue: 0,0:01:40.41,0:01:44.75,Danna ga Nani Main,haji,0,0,0,,Ele sofreria se déssemos um nome excêntrico, \N pois afetaria o resto de sua vida.
+Dialogue: 0,0:01:44.75,0:01:47.87,Danna ga Nani Main,kaoru,0,0,0,,Vamos dar a criança algum nome \N que poderá seguir com sua família.
+Dialogue: 0,0:01:47.87,0:01:50.34,Danna ga Nani Main,haji,0,0,0,,Se for um garoto, Shinji. \N Se for uma garota, Rei. {ROFL}
+Dialogue: 0,0:01:50.34,0:01:51.71,Danna ga Nani Main,kaoru,0,0,0,,O que acabei de dizer?
+Dialogue: 0,0:01:51.71,0:01:53.09,Danna ga Nani Main,haji,0,0,0,,Esses não contam como excêntricos!
+Dialogue: 0,0:01:53.46,0:01:57.76,Danna ga Nani Main,haji,0,0,0,,Todos os nomes já apareceram em algum anime, mangá ou jogo aqui!
+Dialogue: 0,0:01:57.76,0:01:59.76,Danna ga Nani Main,kaoru,0,0,0,,Meu nome já apareceu em algo?
+Dialogue: 0,0:01:59.76,0:02:00.60,Danna ga Nani Main,haji,0,0,0,,Eva*******.{Kaworu?}
+Dialogue: 0,0:02:00.60,0:02:01.60,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord2\xshad-2\yshad2\c&HF7F7F7&\3c&H010102&\4c&H1B1A1A&\fscx119\fscy100\pos(85.867,165.067)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:02:00.60,0:02:01.60,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx119\fscy100\pos(85.867,165.067)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:02:03.10,0:02:06.68,Danna ga Nani Main I,kaoru,0,0,0,,Depois de refletir sobre isso em minha cabeça, {Really?}
+Dialogue: 0,0:02:06.68,0:02:09.60,Danna ga Nani Main I,,0,0,0,,começo a pensar em como eu poderia ou não fazê-lo.
+Dialogue: 0,0:02:09.60,0:02:12.32,Danna ga Nani Main I,kaoru,0,0,0,,Não sinto como se fosse necessário avaliar sobre nosso filho.
+Dialogue: 0,0:02:12.32,0:02:16.11,Danna ga Nani Main I,kaoru,0,0,0,,Mas não quero ser egoísta também.
+Dialogue: 0,0:02:16.12,0:02:19.41,Danna ga Nani Main I,kaoru,0,0,0,,Mas, bem... \N Tenho certeza que isso não irá acontecer por um tempo.
+Dialogue: 0,0:02:20.66,0:02:22.87,Danna ga Nani Main,kaoru,0,0,0,,Ah, o que ouve, {\i1}mãe{\i0}?
+Dialogue: 0,0:02:22.87,0:02:26.29,Danna ga Nani Main,mom,0,0,0,,Desculpe pelo outro dia. \N Não havia pensado sobre a situação.
+Dialogue: 0,0:02:26.29,0:02:29.42,Danna ga Nani Main,mom,0,0,0,,Estava tão feliz e fiquei tão animada.
+Dialogue: 0,0:02:29.42,0:02:31.75,Danna ga Nani Main,kaoru,0,0,0,,Não foi nada. Apenas nos deu uma \N oportunidade para pensar a respeito.
+Dialogue: 0,0:02:31.75,0:02:35.21,Danna ga Nani Main I,mom,0,0,0,,Meu marido estava dizendo que ele ter conseguido um emprego deveria ser uma piada também.
+Dialogue: 0,0:02:35.21,0:02:37.17,Danna ga Nani Main,kaoru,0,0,0,,Posso ver porque ele pensou isso.
+Dialogue: 0,0:02:37.63,0:02:39.72,Danna ga Nani Main,kaoru,0,0,0,,Certo... Certo.
+Dialogue: 0,0:02:39.72,0:02:42.14,Danna ga Nani Main I,kaoru,0,0,0,,Ela deve estar realmente feliz.
+Dialogue: 0,0:02:42.14,0:02:43.13,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord2\xshad-2\yshad2\c&HF7F7F7&\3c&H010102&\4c&H1B1A1A&\fscx119\fscy100\pos(77.867,158.667)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:02:42.14,0:02:43.13,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx119\fscy100\pos(77.867,158.667)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:02:42.13,0:02:43.13,Sign,sign,0,0,0,,{\blur1\fnPolo\c&H31382F&\fscx182\fscy176\pos(720,51.2)}Pai: Denji
+Dialogue: 0,0:02:42.13,0:02:43.13,Sign,sign,0,0,0,,{\an1\blur1\fnPolo\c&H505756&\fscx182\fscy176\pos(648,486.4)}Não era \N uma piada?
+Dialogue: 0,0:02:43.13,0:02:47.68,Danna ga Nani Main,haji,0,0,0,,{\fs46}Garotas de uma certa idade dizem, “Não lavem minhas calcinhas junto às cuecas de meu pai”, não dizem?
+Dialogue: 0,0:02:47.68,0:02:48.64,Danna ga Nani Main,kaoru,0,0,0,,Sim.
+Dialogue: 0,0:02:48.64,0:02:52.15,Danna ga Nani Main,haji,0,0,0,,Então isso significa que a filha e o pai apenas tem que vestir a mesma roupa íntima!
+Dialogue: 0,0:02:52.15,0:02:55.65,Danna ga Nani Main,haji,0,0,0,,Se ele for sortudo, ela poderá deixá-lo vestir suas calcinhas!
+Dialogue: 0,0:02:55.65,0:02:57.92,Danna ga Nani Main I,kaoru,0,0,0,,Uma criança com esse cara?
+Dialogue: 0,0:02:58.60,0:03:00.03,Danna ga Nani Main,kaoru,0,0,0,,Não irá acontecer.
+Dialogue: 0,0:03:00.03,0:03:03.53,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\fn} {\kf47}{\kf40}ii{\kf23}ka{\kf35}gen {\kf20}ni {\kf28}shi{\kf87}te{\kf70} ~
+Dialogue: 0,0:03:00.03,0:03:03.53,Danna ga Nani ED Song Br,,0,0,0,,Estou cansada disso tudo {\fnTimes New Roman\b1}~
+Dialogue: 0,0:03:03.53,0:03:08.04,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf85}{\fn} {\kf19}ho{\kf37}shii {\kf26}ke{\kf107}do ~{\kf10} {\kf30}a{\kf22}na{\kf113}ta
+Dialogue: 0,0:03:03.53,0:03:08.04,Danna ga Nani ED Song Br,,0,0,0,,Eu quero você, meu querido.
+Dialogue: 0,0:03:08.04,0:03:14.04,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&}♠{\kf79} {\kf34}{\fn}ki{\kf30}mi {\kf17}to {\kf39}i{\kf23}ru {\kf45}to {\kf39}nan{\kf27}ka {\kf18}ta{\kf18}no{\kf27}shi{\kf200}i
+Dialogue: 0,0:03:08.04,0:03:14.04,Danna ga Nani ED Song Br,,0,0,0,,Eu quero você, meu querido.
+Dialogue: 0,0:03:14.04,0:03:21.80,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf183}{\kf25}{\fn} fu{\kf21}ta{\kf23}ri{\kf23} de {\kf18}i{\kf20}ru{\kf44} to {\kf22}to{\kf21}te{\kf22}mo {\kf23}u{\kf11}re{\kf32}shi{\kf288}i
+Dialogue: 0,0:03:14.04,0:03:21.80,Danna ga Nani ED Song Br,,0,0,0,,Quando estamos juntos, fico muito feliz.
+Dialogue: 0,0:03:21.80,0:03:27.56,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}{\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\c&H605BFC&\3c&H9F9DFD&}{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se {\kf116}~
+Dialogue: 0,0:03:21.80,0:03:27.56,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\clip(178,694,1092,720)\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se{\kf116} ~
+Dialogue: 0,0:03:21.80,0:03:27.56,Danna ga Nani ED Song Br,,0,0,0,,Não sei a razão, mas estamos felizes agora {\fnTimes New Roman\b1}~
+Dialogue: 0,0:03:00.03,0:03:03.53,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(456,296)}Tradução{\i1\b1\u1}
+Dialogue: 0,0:03:00.03,0:03:03.53,Sign,,0,0,0,,{\an3\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(792,296)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:03.53,0:03:07.54,Sign,,0,0,0,,{\an6\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(922,380)}Revisão{\i1\b1\u1}
+Dialogue: 0,0:03:03.53,0:03:07.54,Sign,,0,0,0,,{\an4\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(970,380)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:07.54,0:03:11.54,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(656,304)}Trad. Karaokê   Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:07.54,0:03:11.54,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(658,570)}Karaokê           Kaitou Fansub{\i1\b1\u1}
+Dialogue: 0,0:03:27.56,0:03:29.73,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs70\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(520.6,250.6)\i0\b0\u0}GriloSub{\i1\b1\u1}
+Dialogue: 0,0:03:27.56,0:03:29.73,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs50\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(368.6,320.6)\i0\b0\u0}#GriloSub@irc.rizon.net{\i1\b1\u1}

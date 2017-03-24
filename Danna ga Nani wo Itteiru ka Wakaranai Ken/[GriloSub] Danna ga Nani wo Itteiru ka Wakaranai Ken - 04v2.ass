@@ -1,0 +1,278 @@
+﻿[Script Info]
+Title: GriloSub
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.601
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Danna ga Nani Main,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,0,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Danna ga Nani Main I,ITC Legacy Sans Std Book,50,&H00FFFFFF,&H000000FF,&H00331807,&H00000000,-1,-1,0,0,100,100,0.3,0,1,2.8,0,2,70,70,30,1
+Style: Sign,One Stroke Script LET,27,&H00FFFFFF,&H0000FFFF,&H00000000,&H00404040,0,0,0,0,100,100,0,0,1,0,0,5,10,10,10,0
+Style: Box,Arial Black,20,&H00010101,&H000000FF,&H00010101,&H00000000,-1,0,0,0,100,100,0,0,3,10,0,2,10,10,10,1
+Style: Danna ga Nani ED Song,Arial Rounded MT Bold,50,&H009C9FFD,&H000000FF,&H00625BFF,&H00000000,-1,0,0,0,100,100,2,0,1,5,0,2,70,70,5,1
+Style: Danna ga Nani ED Song Br,CAC Moose,50,&H00010202,&H000000FF,&H00FAFAFA,&H00000000,0,0,0,0,100,100,2,0,1,3,0,8,70,70,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.44,0:00:01.81,Danna ga Nani Main,hajime,0,0,0,,Deixe-me contar uma história.
+Dialogue: 0,0:00:01.81,0:00:05.35,Danna ga Nani Main,hajime,0,0,0,,Aconteceu há 26—não, 25 anos atrás.
+Dialogue: 0,0:00:05.35,0:00:07.90,Danna ga Nani Main,hajime,0,0,0,,Não, foi há dois anos e seis meses atrás.
+Dialogue: 0,0:00:07.94,0:00:11.44,Danna ga Nani Main,hajime,0,0,0,,Mas o que é o tempo, afinal?\N Para mim, parece que foi ontem.
+Dialogue: 0,0:00:11.49,0:00:14.53,Danna ga Nani Main,hajime,0,0,0,,Pra você, poderia ser amanhã.
+Dialogue: 0,0:00:12.86,0:00:14.53,Danna ga Nani Main,kaoru,0,0,0,,{\an8}Ei, ei...
+Dialogue: 0,0:00:14.53,0:00:16.82,Danna ga Nani Main,kaoru,0,0,0,,Quanto tempo essa história irá durar?
+Dialogue: 0,0:00:16.82,0:00:18.63,Danna ga Nani Main,hajime,0,0,0,,Não se preocupe. Tudo está bem.
+Dialogue: 0,0:00:18.63,0:00:19.54,Danna ga Nani Main,kaoru,0,0,0,,O quê?
+Dialogue: 0,0:00:19.54,0:00:22.54,Box,title,0,0,0,,{\c&HF9F9F9&\3c&HF9F9F9&\pos(600,464)\fscx277\fscy361}AAAAAA
+Dialogue: 0,0:00:19.54,0:00:22.54,Sign,title,0,0,0,,{\blur0.9\fnCac Moose\c&H3F3F43&\fscx227\fscy231\pos(794,511.6)}Meu Marido Trabalha \N Principalmente no Ramo \N de Vigilância em Casa \N Durante o Ano Todo
+Dialogue: 4,0:00:19.54,0:00:22.54,Danna ga Nani Main,,0,0,0,,{\blur0.5\fnAR Christy\1a&HFF&\an1\c&H19191A&\3c&HEFEFEF&}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 4,0:00:19.54,0:00:22.54,Danna ga Nani Main,,0,0,0,,{\blur0.6\fnAR Christy\bord0\an1\c&H19191A&\3c&HEFEFEF&\pos(70,690)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:00:23.50,0:00:25.40,Danna ga Nani Main,kaoru,0,0,0,,Você apenas postou no seu blog?
+Dialogue: 0,0:00:25.40,0:00:27.27,Danna ga Nani Main,hajime,0,0,0,,Não, eu o larguei.
+Dialogue: 0,0:00:27.27,0:00:27.79,Danna ga Nani Main,kaoru,0,0,0,,Hã?
+Dialogue: 0,0:00:27.79,0:00:31.30,Danna ga Nani Main,hajime,0,0,0,,Estive pensando, e decidi voltar a ser apenas um usuário.
+Dialogue: 0,0:00:31.30,0:00:33.80,Danna ga Nani Main,kaoru,0,0,0,,Hm... Então isso significa...
+Dialogue: 0,0:00:33.80,0:00:35.80,Danna ga Nani Main,hajime,0,0,0,,Eu serei um completo NEET.
+Dialogue: 0,0:00:37.80,0:00:39.61,Danna ga Nani Main,hajime,0,0,0,,Terno de emprego...
+Dialogue: 0,0:00:39.61,0:00:40.81,Danna ga Nani Main,hajime,0,0,0,,Equipado.
+Dialogue: 0,0:00:40.81,0:00:42.66,Danna ga Nani Main,kaoru,0,0,0,,Sério? Você está falando sério?
+Dialogue: 0,0:00:42.66,0:00:45.02,Danna ga Nani Main,hajime,0,0,0,,Você deveria acreditar em mim seriamente.
+Dialogue: 0,0:00:45.81,0:00:48.65,Danna ga Nani Main I,kaoru,0,0,0,,Isso! Posso finalmente dizer isso!
+Dialogue: 0,0:00:48.65,0:00:50.57,Danna ga Nani Main I,kaoru,0,0,0,,Quando as donas de casa vizinhas perguntarem,
+Dialogue: 0,0:00:50.57,0:00:53.07,Danna ga Nani Main,kaoru,0,0,0,,“O que seu marido faz da vida?”
+Dialogue: 0,0:00:53.32,0:00:55.76,Danna ga Nani Main I,kaoru,0,0,0,,Eu posso respondê-las adequadamente agora!
+Dialogue: 0,0:00:56.07,0:00:58.51,Danna ga Nani Main,hajime,0,0,0,,Em relação ao meu período de desemprego...
+Dialogue: 0,0:00:58.51,0:01:02.08,Danna ga Nani Main,hajime,0,0,0,,Direi que estava expandindo meus conhecimentos através da Internet.
+Dialogue: 0,0:01:02.08,0:01:04.33,Danna ga Nani Main I,kaoru,0,0,0,,Ele não tem solução.
+Dialogue: 0,0:01:04.33,0:01:05.33,Box,large sign,0,0,0,,{\c&HD7D7D7&\3c&HD7D7D7&\fscx388\fscy338\pos(395.2,310)}AAAAAAAAAAAAAA
+Dialogue: 0,0:01:04.33,0:01:05.33,Sign,large sign,0,0,0,,{\blur0.9\fnManaspace\fscx448\fscy510\c&H646467&}Uma semana depois
+Dialogue: 0,0:01:05.33,0:01:06.27,Danna ga Nani Main,hajime,0,0,0,,Por que isso?
+Dialogue: 0,0:01:06.27,0:01:07.17,Danna ga Nani Main,hajime,0,0,0,,Por quê?
+Dialogue: 0,0:01:07.51,0:01:08.50,Danna ga Nani Main,hajime,0,0,0,,Seria pela economia?
+Dialogue: 0,0:01:08.85,0:01:10.67,Danna ga Nani Main,hajime,0,0,0,,Sou um fracasso...
+Dialogue: 0,0:01:10.67,0:01:13.09,Danna ga Nani Main,kaoru,0,0,0,,Anime-se, vamos. \N Você preencheu os documentos corretamente?
+Dialogue: 0,0:01:13.09,0:01:14.30,Danna ga Nani Main,kaoru,0,0,0,,Deixe-me vê-los.
+Dialogue: 0,0:01:14.30,0:01:16.64,Danna ga Nani Main,kaoru,0,0,0,,{\a6}Oh, a caligrafica dele é melhor que a minha...
+Dialogue: 0,0:01:14.30,0:01:17.80,Sign,bottom right,0,0,0,,{\an1\bord5\blur0.7\fnCG Times\c&H111111&\pos(627.2,644.8)\fscx119\fscy125\3c&HFBFBFB&}• A imagem está borrada para proteger sua privacidade
+Dialogue: 0,0:01:14.30,0:01:17.80,Sign,bottom right,0,0,0,,{\an1\blur0.7\fnCG Times\c&H111111&\pos(627.2,644.8)\fscx119\fscy125}• A imagem está borrada para proteger sua privacidade
+Dialogue: 0,0:01:17.50,0:01:19.04,Danna ga Nani Main,kaoru,0,0,0,,{\an8}Você usou essa foto!
+Dialogue: 0,0:01:19.04,0:01:20.81,Danna ga Nani Main,hajime,0,0,0,,É meu ícone Shabetter.
+Dialogue: 0,0:01:20.81,0:01:21.81,Box,sign,0,0,0,,{\c&HE4E4E4&\3c&HE4E4E4&\pos(1017.6,351.6)\fscx271\fscy285\clip(m 888 315 l 884 364 894 392 1294 385 1290 226)}AAAAAAAA
+Dialogue: 0,0:01:20.81,0:01:21.81,Sign,sign,0,0,0,,{\fnTimes New Roman\b1\fax-0.06\bord4\1a&H00&\c&H1B4BFD&\3c&H1BD0F5&\pos(1031.6,336)\fscx103\fscy258\frx4\fry336\frz6.582}Não se preocupe. {\fax-0.08}Tudo{\fax-0.1} acabará bem!
+Dialogue: 0,0:01:20.81,0:01:21.81,Sign,sign,0,0,0,,{\fnTimes New Roman\b1\blur0.9\fax-0.06\bord0\c&H1B4BFD&\3c&H1BD0F5&\pos(1031.6,336)\fscx103\fscy258\frx4\fry336\frz6.582}Não se preocupe. {\fax-0.08}Tudo{\fax-0.1} acabará bem!
+Dialogue: 0,0:01:20.81,0:01:21.81,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord2\xshad-2\yshad2\c&HF7F7F7&\3c&H010102&\4c&H1B1A1A&\fscx104\fscy98\pos(97.067,659.467)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:01:20.81,0:01:21.81,Sign,,0,0,0,,{\an1\fsp4\blur0.8\fs45\b0\fnKG Ten Thousand Reasons\bord0\c&HF7F7F7&\3c&H0B0B0B&\4c&H1B1B1C&\fscx104\fscy98\pos(97.067,659.467)}Eu não compreendo o que \N meu marido está dizendo
+Dialogue: 0,0:01:21.81,0:01:24.60,Danna ga Nani Main,kaoru,0,0,0,,Por que não ajuda no trabalho de Miki-san novamente?
+Dialogue: 0,0:01:26.47,0:01:27.81,Danna ga Nani Main,haji,0,0,0,,Ah, alô...
+Dialogue: 0,0:01:27.81,0:01:30.08,Danna ga Nani Main,miki,0,0,0,,Você teve coragem de me ligar?
+Dialogue: 0,0:01:30.08,0:01:32.82,Danna ga Nani Main,miki,0,0,0,,Sua irmã tem uma palmeira e cocos!
+Dialogue: 0,0:01:32.82,0:01:35.32,Danna ga Nani Main,miki,0,0,0,,Linguiça... elefante... espada!
+Dialogue: 0,0:01:35.32,0:01:37.82,Danna ga Nani Main,miki,0,0,0,,Vá tomar no seu **, Destiny!
+Dialogue: 0,0:01:35.32,0:01:40.33,Danna ga Nani Main,note,0,0,0,,{\an8}É uma piada com seu apelido: \N “Destiny Fucker” e “Fuck Off Destiny”.
+Dialogue: 0,0:01:37.82,0:01:40.33,Danna ga Nani Main,haji,0,0,0,,Na verdade, isso só significa que você é apressado.
+Dialogue: 0,0:01:40.33,0:01:40.94,Danna ga Nani Main,kaoru,0,0,0,,O quê?!
+Dialogue: 0,0:01:40.94,0:01:42.90,Danna ga Nani Main,haji,0,0,0,,Para fazer as pazes, irei ajudá-lo com o trabalho.
+Dialogue: 0,0:01:42.90,0:01:45.40,Danna ga Nani Main I,miki,0,0,0,,O que disse?! \N Certo! Irei lhe dar muito trabalho!
+Dialogue: 0,0:01:45.40,0:01:46.83,Danna ga Nani Main I,kaoru,0,0,0,,Miki-san...
+Dialogue: 0,0:01:46.83,0:01:47.83,Sign,sign,0,0,0,,{\an1\blur0.9\fnCAC Moose\c&H433E3B&\fscx228\fscy247\frz348.3\pos(9.6,624)}Você realmente pensou \N que era uma espada?
+Dialogue: 0,0:01:46.83,0:01:47.83,Sign,sign,0,0,0,,{\fnCAC Moose\pos(1032,608)\blur0.9\frz15.83\c&H413B38&\fscx236\fscy249}Que pena!\N Era um elefante!
+Dialogue: 0,0:01:47.83,0:01:47.87,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(763.2,448)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:47.87,0:01:47.92,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(752.6,447.93)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:47.92,0:01:47.96,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(742.16,447.99)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:47.96,0:01:48.00,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(731.4,447.91)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.00,0:01:48.04,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(721.04,447.99)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.04,0:01:48.08,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(710.37,447.94)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.08,0:01:48.12,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(699.85,447.97)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.12,0:01:48.17,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(689.21,447.93)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.17,0:01:48.21,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(678.78,447.97)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.21,0:01:48.25,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(668.09,447.95)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.25,0:01:48.29,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(657.64,447.94)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.29,0:01:48.33,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(646.99,447.96)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.33,0:01:48.37,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(636.46,447.95)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.37,0:01:48.42,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(625.9,447.95)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.42,0:01:48.46,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(615.29,447.92)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.46,0:01:48.50,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(604.73,447.93)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.50,0:01:48.54,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(594.17,447.91)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.54,0:01:48.58,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(583.63,447.93)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.58,0:01:48.63,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(573,447.89)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.63,0:01:48.67,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(562.46,447.94)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.67,0:01:48.71,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(551.89,447.91)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.71,0:01:48.75,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(541.37,447.95)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.75,0:01:48.79,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(530.72,447.9)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.79,0:01:48.83,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(520.23,447.95)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.83,0:01:48.88,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(509.6,447.89)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.88,0:01:48.92,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(499.07,447.88)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.92,0:01:48.96,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(488.51,447.92)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:48.96,0:01:49.00,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(477.92,447.86)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.00,0:01:49.04,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(467.46,447.95)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.04,0:01:49.08,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(456.83,447.9)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.08,0:01:49.13,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(446.24,447.91)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.13,0:01:49.17,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(435.66,447.89)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.17,0:01:49.21,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(425.16,447.92)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.21,0:01:49.25,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(414.58,447.88)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.25,0:01:49.29,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(404.06,447.92)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.29,0:01:49.33,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(393.43,447.89)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.33,0:01:49.38,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(382.87,447.92)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.38,0:01:49.42,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(372.34,447.91)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.42,0:01:49.46,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(361.8,447.91)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.46,0:01:49.50,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(351.2,447.87)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.50,0:01:49.54,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(340.52,447.91)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.54,0:01:49.58,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(330.09,447.85)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.58,0:01:49.63,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(319.47,447.89)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.63,0:01:49.67,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(308.91,447.89)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.67,0:01:49.71,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(298.39,447.89)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.71,0:01:49.75,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(287.78,447.94)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.75,0:01:49.79,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(277.14,447.85)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:49.79,0:01:49.83,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\pos(266.55,447.88)\c&HFFFFFF&}Escritório
+Dialogue: 0,0:01:47.83,0:01:47.87,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(1080,267.2)\frx354\fry8}Detetive
+Dialogue: 0,0:01:47.87,0:01:47.92,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(1069.4,267.13)\frx354\fry8}Detetive
+Dialogue: 0,0:01:47.92,0:01:47.96,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(1058.96,267.19)\frx354\fry8}Detetive
+Dialogue: 0,0:01:47.96,0:01:48.00,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(1048.2,267.11)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.00,0:01:48.04,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(1037.84,267.19)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.04,0:01:48.08,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(1027.17,267.14)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.08,0:01:48.12,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(1016.65,267.17)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.12,0:01:48.17,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(1006.01,267.13)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.17,0:01:48.21,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(995.58,267.17)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.21,0:01:48.25,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(984.89,267.15)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.25,0:01:48.29,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(974.44,267.14)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.29,0:01:48.33,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(963.79,267.16)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.33,0:01:48.37,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(953.26,267.15)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.37,0:01:48.42,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(942.7,267.15)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.42,0:01:48.46,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(932.09,267.12)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.46,0:01:48.50,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(921.53,267.13)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.50,0:01:48.54,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(910.97,267.11)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.54,0:01:48.58,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(900.43,267.13)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.58,0:01:48.63,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(889.8,267.09)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.63,0:01:48.67,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(879.26,267.14)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.67,0:01:48.71,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(868.69,267.11)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.71,0:01:48.75,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(858.17,267.15)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.75,0:01:48.79,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(847.52,267.09)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.79,0:01:48.83,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(837.03,267.15)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.83,0:01:48.88,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(826.4,267.09)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.88,0:01:48.92,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(815.87,267.08)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.92,0:01:48.96,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(805.31,267.12)\frx354\fry8}Detetive
+Dialogue: 0,0:01:48.96,0:01:49.00,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(794.72,267.06)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.00,0:01:49.04,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(784.26,267.15)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.04,0:01:49.08,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(773.63,267.1)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.08,0:01:49.13,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(763.04,267.11)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.13,0:01:49.17,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(752.46,267.09)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.17,0:01:49.21,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(741.96,267.12)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.21,0:01:49.25,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(731.38,267.08)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.25,0:01:49.29,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(720.86,267.12)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.29,0:01:49.33,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(710.23,267.09)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.33,0:01:49.38,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(699.67,267.12)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.38,0:01:49.42,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(689.14,267.11)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.42,0:01:49.46,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(678.6,267.11)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.46,0:01:49.50,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(668,267.07)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.50,0:01:49.54,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(657.32,267.11)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.54,0:01:49.58,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(646.89,267.05)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.58,0:01:49.63,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(636.27,267.09)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.63,0:01:49.67,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(625.71,267.08)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.67,0:01:49.71,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(615.18,267.09)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.71,0:01:49.75,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(604.58,267.14)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.75,0:01:49.79,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(593.94,267.05)\frx354\fry8}Detetive
+Dialogue: 0,0:01:49.79,0:01:49.83,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\pos(583.35,267.08)\frx354\fry8}Detetive
+Dialogue: 0,0:01:47.83,0:01:47.87,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1148.8,470.4)}do Miki
+Dialogue: 0,0:01:47.87,0:01:47.92,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1138.2,470.33)}do Miki
+Dialogue: 0,0:01:47.92,0:01:47.96,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1127.76,470.39)}do Miki
+Dialogue: 0,0:01:47.96,0:01:48.00,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1117,470.31)}do Miki
+Dialogue: 0,0:01:48.00,0:01:48.04,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1106.64,470.39)}do Miki
+Dialogue: 0,0:01:48.04,0:01:48.08,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1095.97,470.34)}do Miki
+Dialogue: 0,0:01:48.08,0:01:48.12,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1085.45,470.37)}do Miki
+Dialogue: 0,0:01:48.12,0:01:48.17,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1074.81,470.33)}do Miki
+Dialogue: 0,0:01:48.17,0:01:48.21,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1064.38,470.37)}do Miki
+Dialogue: 0,0:01:48.21,0:01:48.25,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1053.69,470.35)}do Miki
+Dialogue: 0,0:01:48.25,0:01:48.29,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1043.24,470.34)}do Miki
+Dialogue: 0,0:01:48.29,0:01:48.33,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1032.59,470.36)}do Miki
+Dialogue: 0,0:01:48.33,0:01:48.37,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1022.06,470.35)}do Miki
+Dialogue: 0,0:01:48.37,0:01:48.42,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1011.5,470.35)}do Miki
+Dialogue: 0,0:01:48.42,0:01:48.46,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(1000.89,470.32)}do Miki
+Dialogue: 0,0:01:48.46,0:01:48.50,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(990.33,470.33)}do Miki
+Dialogue: 0,0:01:48.50,0:01:48.54,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(979.77,470.31)}do Miki
+Dialogue: 0,0:01:48.54,0:01:48.58,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(969.22,470.33)}do Miki
+Dialogue: 0,0:01:48.58,0:01:48.63,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(958.6,470.29)}do Miki
+Dialogue: 0,0:01:48.63,0:01:48.67,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(948.06,470.34)}do Miki
+Dialogue: 0,0:01:48.67,0:01:48.71,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(937.49,470.31)}do Miki
+Dialogue: 0,0:01:48.71,0:01:48.75,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(926.97,470.35)}do Miki
+Dialogue: 0,0:01:48.75,0:01:48.79,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(916.32,470.29)}do Miki
+Dialogue: 0,0:01:48.79,0:01:48.83,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(905.83,470.35)}do Miki
+Dialogue: 0,0:01:48.83,0:01:48.88,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(895.2,470.29)}do Miki
+Dialogue: 0,0:01:48.88,0:01:48.92,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(884.67,470.28)}do Miki
+Dialogue: 0,0:01:48.92,0:01:48.96,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(874.11,470.32)}do Miki
+Dialogue: 0,0:01:48.96,0:01:49.00,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(863.52,470.26)}do Miki
+Dialogue: 0,0:01:49.00,0:01:49.04,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(853.06,470.35)}do Miki
+Dialogue: 0,0:01:49.04,0:01:49.08,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(842.43,470.3)}do Miki
+Dialogue: 0,0:01:49.08,0:01:49.13,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(831.84,470.31)}do Miki
+Dialogue: 0,0:01:49.13,0:01:49.17,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(821.26,470.29)}do Miki
+Dialogue: 0,0:01:49.17,0:01:49.21,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(810.76,470.32)}do Miki
+Dialogue: 0,0:01:49.21,0:01:49.25,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(800.18,470.28)}do Miki
+Dialogue: 0,0:01:49.25,0:01:49.29,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(789.66,470.32)}do Miki
+Dialogue: 0,0:01:49.29,0:01:49.33,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(779.03,470.29)}do Miki
+Dialogue: 0,0:01:49.33,0:01:49.38,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(768.47,470.32)}do Miki
+Dialogue: 0,0:01:49.38,0:01:49.42,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(757.94,470.31)}do Miki
+Dialogue: 0,0:01:49.42,0:01:49.46,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(747.4,470.31)}do Miki
+Dialogue: 0,0:01:49.46,0:01:49.50,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(736.8,470.27)}do Miki
+Dialogue: 0,0:01:49.50,0:01:49.54,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(726.12,470.31)}do Miki
+Dialogue: 0,0:01:49.54,0:01:49.58,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(715.69,470.25)}do Miki
+Dialogue: 0,0:01:49.58,0:01:49.63,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(705.07,470.29)}do Miki
+Dialogue: 0,0:01:49.63,0:01:49.67,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(694.51,470.29)}do Miki
+Dialogue: 0,0:01:49.67,0:01:49.71,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(683.98,470.29)}do Miki
+Dialogue: 0,0:01:49.71,0:01:49.75,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(673.38,470.34)}do Miki
+Dialogue: 0,0:01:49.75,0:01:49.79,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(662.74,470.25)}do Miki
+Dialogue: 0,0:01:49.79,0:01:49.83,Sign,miki,0,0,0,,{\fnChewy\b1\1a&H80&\blur0.9\fscx173\fscy130\frz16.72\c&HFFFFFF&\frx354\fry8\pos(652.15,470.28)}do Miki
+Dialogue: 0,0:01:47.83,0:01:49.83,Danna ga Nani Main,miki,0,0,0,,Você estará fazendo o registro dos dados.
+Dialogue: 0,0:01:49.83,0:01:50.99,Danna ga Nani Main,miki,0,0,0,,Bom trabalho.
+Dialogue: 0,0:01:50.99,0:01:52.34,Danna ga Nani Main,hajime,0,0,0,,Entendido.
+Dialogue: 0,0:01:52.95,0:01:54.09,Danna ga Nani Main,hajime,0,0,0,,Quem é esta?
+Dialogue: 0,0:01:54.09,0:01:55.80,Danna ga Nani Main,miki,0,0,0,,É minha parente, Akiko.
+Dialogue: 0,0:01:57.05,0:01:59.20,Danna ga Nani Main,hajime,0,0,0,,Parece que você já tem ajuda o suficiente...
+Dialogue: 0,0:01:59.20,0:02:00.49,Danna ga Nani Main,miki,0,0,0,,Mentiroso...
+Dialogue: 0,0:02:00.97,0:02:02.85,Danna ga Nani Main,hajime,0,0,0,,Realmente... sinto muito.
+Dialogue: 0,0:02:02.85,0:02:06.85,Danna ga Nani Main,miki,0,0,0,,Agora que está trabalhando, \N não significa que sua mulher está feliz?
+Dialogue: 0,0:02:07.15,0:02:08.14,Danna ga Nani Main,hajime,0,0,0,,Sim...
+Dialogue: 0,0:02:08.15,0:02:11.65,Danna ga Nani Main,hajime,0,0,0,,Mas isso significa que minha identidade está sendo destruída.
+Dialogue: 0,0:02:11.65,0:02:14.15,Danna ga Nani Main,miki,0,0,0,,Jogue essa auto-imagem longe!
+Dialogue: 0,0:02:14.15,0:02:27.91,Box,sign,0,0,0,,{\c&HD7E3E9&\3c&HD7E3E9&\pos(675.2,230.2)\fscx120\fscy291\clip(m 659 155 l 686 153 688 350 660 352)}Quadro de Planos Mensais
+Dialogue: 0,0:02:14.15,0:02:27.91,Sign,sign,0,0,0,,{\b1\blur0.9\frz91\pos(673.143,230.429)\c&H53606B&}Quadro de Planos Mensais
+Dialogue: 0,0:02:14.72,0:02:18.86,Danna ga Nani Main,miki,0,0,0,,Bem, você deve usar isso como uma \N oportunidade de abrir suas asas na sociedade.
+Dialogue: 0,0:02:18.86,0:02:20.27,Danna ga Nani Main,hajime,0,0,0,,Sociedade...
+Dialogue: 0,0:02:20.27,0:02:23.77,Danna ga Nani Main,hajime,0,0,0,,Onde ficam as pessoas antes de saírem para a sociedade?
+Dialogue: 0,0:02:23.77,0:02:27.91,Danna ga Nani Main,miki,0,0,0,,Tenho certeza que dentro dum buraco escuro, \N tanto antes quanto agora.
+Dialogue: 0,0:02:27.91,0:02:29.42,Danna ga Nani Main,hajime,0,0,0,,Você consideraria me contratar?
+Dialogue: 0,0:02:30.99,0:02:31.92,Danna ga Nani Main,miki,0,0,0,,Não.
+Dialogue: 0,0:02:31.92,0:02:34.75,Danna ga Nani Main,miki,0,0,0,,Trabalhe na sua casa. Irei lhe ajudar com isso.
+Dialogue: 0,0:02:34.75,0:02:36.92,Danna ga Nani Main,miki,0,0,0,,Aproveite seu tempo de marido e mulher.
+Dialogue: 0,0:02:37.10,0:02:38.42,Danna ga Nani Main,hajime,0,0,0,,Miki-san...
+Dialogue: 0,0:02:38.42,0:02:39.93,Danna ga Nani Main,hajime,0,0,0,,Que tal “efeitos especiais”?
+Dialogue: 0,0:02:39.93,0:02:40.93,Danna ga Nani Main,hajime,0,0,0,,Isso não é trabalho!
+Dialogue: 0,0:02:40.93,0:02:43.11,Danna ga Nani Main,kaoru,0,0,0,,Web designer?
+Dialogue: 0,0:02:43.11,0:02:43.93,Danna ga Nani Main,hajime,0,0,0,,Sim.
+Dialogue: 0,0:02:44.50,0:02:47.44,Danna ga Nani Main,hajime,0,0,0,,Eu tenho essas habilidades.
+Dialogue: 0,0:02:47.44,0:02:50.32,Danna ga Nani Main,kaoru,0,0,0,,Bem, estou feliz que esteja trabalhando.
+Dialogue: 0,0:02:50.32,0:02:54.69,Danna ga Nani Main,hajime,0,0,0,,Mas as donas de casa vizinhas não entenderão o que faço.
+Dialogue: 0,0:02:55.63,0:02:58.03,Danna ga Nani Main,kaoru,0,0,0,,Está tudo bem, desde que eu entenda.
+Dialogue: 0,0:03:00.20,0:03:03.70,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\fn} {\kf47}{\kf40}ii{\kf23}ka{\kf35}gen {\kf20}ni {\kf28}shi{\kf87}te{\kf70} ~
+Dialogue: 0,0:03:00.20,0:03:03.70,Danna ga Nani ED Song Br,,0,0,0,,Estou cansada disso tudo {\fnTimes New Roman\b1}~
+Dialogue: 0,0:03:03.70,0:03:08.20,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf85}{\fn} {\kf19}ho{\kf37}shii {\kf26}ke{\kf107}do ~{\kf10} {\kf30}a{\kf22}na{\kf113}ta
+Dialogue: 0,0:03:03.70,0:03:08.20,Danna ga Nani ED Song Br,,0,0,0,,Eu quero você, meu querido.
+Dialogue: 0,0:03:08.20,0:03:14.21,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&}♠{\kf79} {\kf34}{\fn}ki{\kf30}mi {\kf17}to {\kf39}i{\kf23}ru {\kf45}to {\kf39}nan{\kf27}ka {\kf18}ta{\kf18}no{\kf27}shi{\kf200}i
+Dialogue: 0,0:03:08.20,0:03:14.21,Danna ga Nani ED Song Br,,0,0,0,,Quando estou com você, é meio divertido.
+Dialogue: 0,0:03:14.21,0:03:21.97,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}♥{\kf183}{\kf25}{\fn} fu{\kf21}ta{\kf23}ri{\kf23} de {\kf18}i{\kf20}ru{\kf44} to {\kf22}to{\kf21}te{\kf22}mo {\kf23}u{\kf11}re{\kf32}shi{\kf288}i
+Dialogue: 0,0:03:14.21,0:03:21.97,Danna ga Nani ED Song Br,,0,0,0,,Quando estamos juntos, fico muito feliz.
+Dialogue: 0,0:03:21.97,0:03:27.72,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H605BFC&\3c&H9F9DFD&}{\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\c&H605BFC&\3c&H9F9DFD&}{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se {\kf116}~
+Dialogue: 0,0:03:21.97,0:03:27.72,Danna ga Nani ED Song,,0,0,0,,{\kf0}{\clip(178,694,1092,720)\pos(640,713)\fscy85\fnArial\2c&HFFFFFF&\c&H57DA28&\3c&HABEB94&\c&H605BFC&\3c&H9F9DFD&}♥{\c&H57DA28&\3c&HABEB94&} ♠{\kf95}{\kf44}{\fn} nan{\kf17}da{\kf69} kan{\kf43}da{\kf19} i{\kf22}ma{\kf16} ga{\kf26} shi{\kf21}a{\kf18}wa{\kf70}se{\kf116} ~
+Dialogue: 0,0:03:21.97,0:03:27.72,Danna ga Nani ED Song Br,,0,0,0,,Não sei a razão, mas estamos felizes agora {\fnTimes New Roman\b1}~
+Dialogue: 0,0:03:00.20,0:03:03.70,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(456,296)}Tradução{\i1\b1\u1}
+Dialogue: 0,0:03:00.20,0:03:03.70,Sign,,0,0,0,,{\an3\bord3\blur0.8\fs40\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(792,296)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:03.70,0:03:07.71,Sign,,0,0,0,,{\an6\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(252,339}Revisão{\i1\b1\u1}
+Dialogue: 0,0:03:03.70,0:03:07.71,Sign,,0,0,0,,{\an4\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(308,339)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:07.71,0:03:11.71,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(125.6,525.6)\i0\b0\u0}Karaokê{\i1\b1\u1}
+Dialogue: 0,0:03:07.71,0:03:11.71,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(342,525.6)}Kaitou Fansub{\i1\b1\u1}
+Dialogue: 0,0:03:07.71,0:03:11.71,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(120.6,455.6)\i0\b0\u0}Trad. Karaokê{\i1\b1\u1}
+Dialogue: 0,0:03:07.71,0:03:11.71,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs30\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\i0\b0\u0\pos(336,455.6)}Grilo{\i1\b1\u1}
+Dialogue: 0,0:03:27.72,0:03:29.89,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs70\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(520.6,250.6)\i0\b0\u0}GriloSub{\i1\b1\u1}
+Dialogue: 0,0:03:27.72,0:03:29.89,Sign,,0,0,0,,{\an1\bord3\blur0.8\fs50\fnAR Christy\c&H000000&\3c&HFFFFFF&\4c&HFFFFFF&\fscx139\fscy114\pos(368.6,320.6)\i0\b0\u0}#GriloSub@irc.rizon.net{\i1\b1\u1}

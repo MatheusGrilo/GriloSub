@@ -1,2 +1,0 @@
-- Source: Magai (Youtube)
-- Tradução do texto no início: Grilo

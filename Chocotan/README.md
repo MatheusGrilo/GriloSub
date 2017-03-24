@@ -1,3 +1,0 @@
-- Source: NyanTaku
-- Tradução: Ronin
-- Revisão: Grilo

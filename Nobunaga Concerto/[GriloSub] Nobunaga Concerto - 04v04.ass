@@ -1,0 +1,400 @@
+﻿[Script Info]
+Title: HorribleSubs
+ScriptType: v4.00+
+WrapStyle: 0
+PlayResX: 1280
+PlayResY: 720
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Main Dialogue,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00020713,&H00000000,-1,0,0,0,100,100,0,0,1,2.55,0,2,0,0,42,1
+Style: Signs,Open Sans Semibold,45,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,8,41,41,36,1
+Style: Main Dialogue Top,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,3,1.5,8,5,5,50,1
+Style: Internal Dialogue,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,1.5,2,5,5,50,1
+Style: Internal Dialogue Top,Open Sans Semibold,54,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,-1,0,0,100,100,0,0,1,3,1.5,8,5,5,50,1
+Style: Episode Number,Open Sans Semibold,45,&H00CCCCCC,&H000000FF,&H0000005F,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,9,41,175,276,1
+Style: Series Title,Open Sans Semibold,50,&H006EFFFD,&H000000FF,&H00000093,&H00000000,-1,0,0,0,100,100,0,15,1,3,0,2,403,41,161,1
+Style: Episode Title,Open Sans Semibold,50,&H0000005F,&H000000FF,&H00CCCCCC,&H00000000,-1,0,0,0,100,100,0,0,1,3,0,7,201,41,48,1
+Style: OP BR,Monotype Corsiva,40,&H00FFFFFF,&H000000FF,&H00373737,&H96000000,-1,0,0,0,100,100,0,0,1,2,0,3,30,30,8,1
+Style: OP Romaji,Please write me a song,50,&H00FFFFFF,&H00B19D65,&H00373737,&H96F4F4F4,-1,0,0,0,100,100,5,0,1,2,1,7,30,30,10,1
+Style: OP Kanji,Monotype Corsiva,40,&H00FFFFFF,&H00B19D65,&H00373737,&H96000000,0,0,0,0,100,100,0,0,1,2,0,7,30,30,70,1
+Style: Credits GriloSub,Tahoma,30,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,2,0,4,10,10,10,1
+Style: Locais,Arial,40,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,1,0,4,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:05.35,0:00:06.65,Main Dialogue,Imagawa ninja,0,0,0,,Isso é verdade?
+Dialogue: 0,0:00:07.34,0:00:11.18,Main Dialogue,Imagawa ninja,0,0,0,,Nobunaga realmente chegou em Kyoto?
+Dialogue: 0,0:00:11.18,0:00:12.19,Main Dialogue,Denjiro,0,0,0,,Sim.
+Dialogue: 0,0:00:12.60,0:00:17.13,Main Dialogue,Denjiro,0,0,0,,Yoshimoto passou anos se preparando para isso.
+Dialogue: 0,0:00:17.13,0:00:20.96,Main Dialogue,Denjiro,0,0,0,,E Nobunaga realizou isso sem nenhum esforço, \N com apenas vinte soldados montados.
+Dialogue: 0,0:00:20.96,0:00:25.12,Main Dialogue,Imagawa ninja,0,0,0,,Ele foi aos territórios de \N Azai e Rokkaku com apenas vinte soldados?
+Dialogue: 0,0:00:25.12,0:00:26.48,Main Dialogue,Denjiro,0,0,0,,Sim.
+Dialogue: 0,0:00:26.48,0:00:31.20,Main Dialogue,Denjiro,0,0,0,,Ele é mais estúpido do que ousado.
+Dialogue: 0,0:00:31.20,0:00:33.09,Main Dialogue,Imagawa ninja,0,0,0,,Um verdadeiro tolo.
+Dialogue: 0,0:00:33.86,0:00:38.79,Main Dialogue,Denjiro,0,0,0,,Mas ele não apenas apresentou-se para \N o Shogun, ele também recebeu uma espada.
+Dialogue: 0,0:00:38.79,0:00:40.15,Main Dialogue,Imagawa ninja,0,0,0,,Do Shogun?
+Dialogue: 0,0:00:40.26,0:00:42.02,Main Dialogue,Denjiro,0,0,0,,Ele realmente é um mistério.
+Dialogue: 0,0:00:42.87,0:00:44.49,Main Dialogue,Denjiro,0,0,0,,Apesar de que,
+Dialogue: 0,0:00:44.49,0:00:49.19,Main Dialogue,Denjiro,0,0,0,,agora que Dousan Saito está morto, \N Nobunaga não tem nada para temer.
+Dialogue: 0,0:00:50.12,0:00:54.07,Main Dialogue,Denjiro,0,0,0,,É uma boa hora para que o exército de Yoshimoto aja.
+Dialogue: 0,0:01:05.83,0:01:07.92,Episode Number,Text,0,0,0,,Episódio 4
+Dialogue: 0,0:01:05.83,0:01:07.92,Episode Title,Text,0,0,0,,A Batalha em\N Okehazama
+Dialogue: 0,0:01:10.73,0:01:14.26,Main Dialogue,Saburo,0,0,0,,Aqui não diz nada a \N respeito de Imagawa-san.
+Dialogue: 0,0:01:21.81,0:01:22.97,Main Dialogue,Saburo,0,0,0,,Certo!
+Dialogue: 0,0:01:36.62,0:01:37.65,Main Dialogue,Saburo,0,0,0,,Hã?
+Dialogue: 0,0:01:38.91,0:01:42.03,Main Dialogue,Saburo,0,0,0,,O Sr. Cavalinho está tão limpo hoje!
+Dialogue: 0,0:01:42.95,0:01:46.62,Main Dialogue,Denjiro,0,0,0,,Is-Isso é porque eu cuidei bem dele.
+Dialogue: 0,0:01:47.57,0:01:49.03,Main Dialogue,Saburo,0,0,0,,Ah é?
+Dialogue: 0,0:01:49.86,0:01:53.59,Main Dialogue,Saburo,0,0,0,,Hã? Você...
+Dialogue: 0,0:01:57.20,0:01:58.91,Main Dialogue,Saburo,0,0,0,,Nunca te vi antes.
+Dialogue: 0,0:01:58.91,0:01:59.68,Main Dialogue,Saburo,0,0,0,,Você é novo?
+Dialogue: 0,0:02:00.19,0:02:03.89,Main Dialogue,Denjiro,0,0,0,,Sim! Meu nome é \N Tokichiro Kinoshita.
+Dialogue: 0,0:02:03.89,0:02:04.82,Main Dialogue,Saburo,0,0,0,,Entendi.
+Dialogue: 0,0:02:04.82,0:02:06.14,Main Dialogue,Saburo,0,0,0,,Muito obrigado.
+Dialogue: 0,0:02:06.14,0:02:08.09,Main Dialogue,Saburo,0,0,0,,Certo, estou indo ver alguns amigos.
+Dialogue: 0,0:02:21.12,0:02:22.10,Main Dialogue,Saburo,0,0,0,,Entenderam?
+Dialogue: 0,0:02:22.10,0:02:24.06,Main Dialogue,Saburo,0,0,0,,Preciso que cooperem comigo.
+Dialogue: 0,0:02:24.06,0:02:24.95,Main Dialogue,Masa,0,0,0,,Certo.
+Dialogue: 0,0:02:24.95,0:02:27.47,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:02:27.47,0:02:28.62,Main Dialogue,Saburo,0,0,0,,É o Tsune-chan.
+Dialogue: 0,0:02:28.90,0:02:33.63,Main Dialogue,Tsune,0,0,0,,Você realmente não deveria \N deixar o castelo numa hora dessas!
+Dialogue: 0,0:02:35.05,0:02:40.25,Main Dialogue,Tsune,0,0,0,,Meu senhor, não compreende \N a situação atual da família Oda?!
+Dialogue: 0,0:02:38.76,0:02:40.25,Main Dialogue Top,Saburo,0,0,0,,Claro, claro.
+Dialogue: 0,0:02:40.25,0:02:42.10,Main Dialogue,Saburo,0,0,0,,Me desculpe.
+Dialogue: 0,0:02:42.10,0:02:45.19,Main Dialogue,Saburo,0,0,0,,Certo, então, \N conto com vocês.
+Dialogue: 0,0:02:45.19,0:02:46.43,Main Dialogue,Masa,0,0,0,,Deixe isso conosco!
+Dialogue: 0,0:02:47.21,0:02:48.67,Main Dialogue,Saburo,0,0,0,,Ei, esperem!
+Dialogue: 0,0:02:48.67,0:02:50.77,Main Dialogue,Saburo,0,0,0,,Vamos escolher um líder.
+Dialogue: 0,0:02:51.46,0:02:52.39,Main Dialogue,Masa,0,0,0,,"Líder?"
+Dialogue: 0,0:02:52.57,0:02:53.31,Main Dialogue,Masa,0,0,0,,"Líder?"
+Dialogue: 0,0:02:54.49,0:02:55.61,Main Dialogue,Saburo,0,0,0,,Eu escolho você!
+Comment: 0,0:02:54.49,0:02:55.61,Internal Dialogue Top,Nota,0,0,0,,Nota: Pokémon Feelings
+Dialogue: 0,0:02:56.69,0:02:57.28,Main Dialogue,Masa,0,0,0,,Hã?
+Dialogue: 0,0:02:58.17,0:03:01.23,Main Dialogue,Saburo,0,0,0,,Você tem cara de líder.
+Dialogue: 0,0:03:01.42,0:03:04.28,Main Dialogue,Saburo,0,0,0,,Quero você no comando.
+Dialogue: 0,0:03:04.64,0:03:05.20,Main Dialogue,Saburo,0,0,0,,Seu nome?
+Dialogue: 0,0:03:05.62,0:03:06.12,Main Dialogue,Masa,0,0,0,,Masa.
+Dialogue: 0,0:03:06.44,0:03:09.12,Main Dialogue,Saburo,0,0,0,,Masa. Você é o líder.
+Dialogue: 0,0:03:10.09,0:03:11.04,Main Dialogue,Saburo,0,0,0,,Certo.
+Dialogue: 0,0:03:11.66,0:03:13.38,Main Dialogue,Masa,0,0,0,,O que é um "líder"?
+Dialogue: 0,0:03:13.38,0:03:13.98,Main Dialogue,Youth A,0,0,0,,Quem sabe...
+Dialogue: 0,0:03:13.98,0:03:14.67,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:03:15.13,0:03:19.75,Main Dialogue,Tsune,0,0,0,,Não é hora de ficar se divertindo com os aldeões.
+Dialogue: 0,0:03:19.75,0:03:21.28,Main Dialogue,Tsune,0,0,0,,Precisamos criar estratégias imediatamente.
+Dialogue: 0,0:03:21.28,0:03:22.31,Main Dialogue,Saburo,0,0,0,,Tsune-chan!
+Dialogue: 0,0:03:23.40,0:03:26.22,Main Dialogue,Saburo,0,0,0,,Estou pensando também! \N Acha que estou de brincadeira?
+Dialogue: 0,0:03:29.32,0:03:31.26,Main Dialogue,Tsune,0,0,0,,Me perdoe.
+Dialogue: 0,0:03:32.46,0:03:35.12,Main Dialogue,Tsune,0,0,0,,E no que está pensando?
+Dialogue: 0,0:03:37.56,0:03:39.38,Main Dialogue,Saburo,0,0,0,,Estou com fome...
+Dialogue: 0,0:03:39.86,0:03:42.25,Main Dialogue,Saburo,0,0,0,,Ei, Kichou, vamos para casa.
+Dialogue: 0,0:03:42.25,0:03:44.87,Main Dialogue,Kichou,0,0,0,,Você fica faminto rapidamente, meu senhor.
+Dialogue: 0,0:03:46.36,0:03:50.56,Main Dialogue,Tsune,0,0,0,,Conhecendo meu senhor, \N com certeza tem algum plano!
+Dialogue: 0,0:03:51.16,0:03:52.31,Main Dialogue,,0,0,0,,Isso.
+Dialogue: 0,0:03:53.17,0:03:56.77,Internal Dialogue Top,Narrator,0,0,0,,Nessa noite, os homens de \N Oda fizeram uma reunião
+Dialogue: 0,0:03:56.77,0:04:01.74,Internal Dialogue Top,Narrator,0,0,0,,para discutir qual seria a melhor \N maneira de enfrentar Imagawa.
+Dialogue: 0,0:03:57.17,0:04:02.51,Locais,,0,0,0,,{\pos(60,600)\fade(100,100)}Owari / Castelo de Kiyosu
+Dialogue: 0,0:04:02.84,0:04:04.44,Main Dialogue,A,0,0,0,,Precisamos nos preparar para a guerra!
+Dialogue: 0,0:04:04.44,0:04:09.68,Main Dialogue,A,0,0,0,,Quarenta mil homens de Imagawa \N irão atacar Kiyosu dentro de dois dias!
+Dialogue: 0,0:04:09.89,0:04:15.14,Main Dialogue,B,0,0,0,,Na melhor das hipóteses, \N temos três mil homens.
+Dialogue: 0,0:04:15.14,0:04:17.12,Main Dialogue,B,0,0,0,,Não teremos chance com essa enorme diferença.
+Dialogue: 0,0:04:17.12,0:04:18.91,Main Dialogue,C,0,0,0,,Então, está sugerindo que nos rendamos?
+Dialogue: 0,0:04:18.91,0:04:23.38,Main Dialogue,B,0,0,0,,Talvez devêssemos ficar recuados \N no castelo e esperar que venham até nós.
+Dialogue: 0,0:04:23.38,0:04:24.94,Main Dialogue,A,0,0,0,,Está propondo para \N que os deixemos fazer um cerco
+Dialogue: 0,0:04:24.94,0:04:26.20,Main Dialogue,A,0,0,0,,pelo fato de que não \N iremos receber reforços?
+Dialogue: 0,0:04:25.56,0:04:26.20,Main Dialogue Top,Shibata,0,0,0,,Meu senhor!
+Dialogue: 0,0:04:28.11,0:04:31.63,Main Dialogue,Shibata,0,0,0,,Você é o comandante supremo da família Oda.
+Dialogue: 0,0:04:31.63,0:04:36.29,Main Dialogue,Shibata,0,0,0,,Caso decida guerrear, iremos cumprir vossa ordem.
+Dialogue: 0,0:04:38.22,0:04:41.51,Main Dialogue,Shibata,0,0,0,,O que pretende fazer?
+Dialogue: 0,0:04:50.62,0:04:52.77,Main Dialogue,Saburo,0,0,0,,Tudo o que tenho a dizer é:
+Dialogue: 0,0:04:54.16,0:04:56.14,Main Dialogue,Saburo,0,0,0,,comam bem, durmam bem!
+Dialogue: 0,0:04:56.14,0:04:57.62,Main Dialogue,Saburo,0,0,0,,Isso é tudo!
+Dialogue: 0,0:05:02.53,0:05:04.90,Main Dialogue,Saburo,0,0,0,,Então, todos vocês, boa noite.
+Dialogue: 0,0:05:14.42,0:05:17.00,Main Dialogue,A,0,0,0,,Esse maldito senhor...
+Dialogue: 0,0:05:17.00,0:05:18.57,Main Dialogue,B,0,0,0,,Estou sem palavras.
+Dialogue: 0,0:05:20.59,0:05:23.88,Main Dialogue,B,0,0,0,,Parece que será o fim da família Oda.
+Dialogue: 0,0:05:26.24,0:05:28.04,Main Dialogue,Denjiro,0,0,0,,Aqui está, senhor.
+Dialogue: 0,0:05:31.95,0:05:35.89,Main Dialogue,Denjiro,0,0,0,,Devo preparar os cavalos para a batalha?
+Dialogue: 0,0:05:36.33,0:05:38.44,Main Dialogue,Denjiro,0,0,0,,Não iremos precisar deles.
+Dialogue: 0,0:05:38.44,0:05:40.84,Main Dialogue,Denjiro,0,0,0,,Iremos deixar que façam um cerco.
+Dialogue: 0,0:05:41.71,0:05:44.25,Main Dialogue,Denjiro,0,0,0,,É isso mesmo?
+Dialogue: 0,0:05:47.17,0:05:50.04,Main Dialogue,Denjiro,0,0,0,,Um cerco, é? \N Entediante.
+Dialogue: 0,0:05:51.79,0:05:55.54,Main Dialogue,Denjiro,0,0,0,,Estava esperando até mesmo que um tolo
+Dialogue: 0,0:05:56.20,0:05:58.69,Main Dialogue,Denjiro,0,0,0,,fosse decidir por algo mais interessante.
+Dialogue: 0,0:05:58.95,0:06:00.88,Main Dialogue,Denjiro,0,0,0,,Acho que esperei muito
+Dialogue: 0,0:06:00.88,0:06:04.06,Main Dialogue,Denjiro,0,0,0,,de você Nobunaga.
+Dialogue: 0,0:06:13.65,0:06:16.23,Internal Dialogue,Denjiro,0,0,0,,A família Oda irá esperar por um cerco.
+Dialogue: 0,0:06:16.51,0:06:18.72,Internal Dialogue,Denjiro,0,0,0,,Saiam sem preocupações.
+Dialogue: 0,0:06:27.33,0:06:28.77,Main Dialogue,Kichou,0,0,0,,Meu senhor?
+Dialogue: 0,0:06:28.77,0:06:33.08,Main Dialogue,Kichou,0,0,0,,Você irá pegar um resfriado, \N dormindo num lugar como esse.
+Dialogue: 0,0:06:35.70,0:06:38.32,Main Dialogue,Kichou,0,0,0,,Volte para o quarto, por favor!
+Dialogue: 0,0:06:49.24,0:06:52.35,Main Dialogue,Saburo,0,0,0,,Não se preocupe, pode ir dormir um pouco.
+Dialogue: 0,0:06:55.58,0:07:00.12,Main Dialogue,Kichou,0,0,0,,As empregadas estão dizendo \N que iremos esperar por um cerco.
+Dialogue: 0,0:07:00.51,0:07:03.72,Main Dialogue,Kichou,0,0,0,,E aqui está você, meu senhor,
+Dialogue: 0,0:07:03.72,0:07:06.14,Main Dialogue,Kichou,0,0,0,,aparentemente, esperando que algo aconteça.
+Dialogue: 0,0:07:08.04,0:07:11.24,Main Dialogue,Saburo,0,0,0,,Sim, estou. Estou esperando.
+Dialogue: 0,0:07:14.48,0:07:17.54,Main Dialogue,Kichou,0,0,0,,Então você tem um plano!
+Dialogue: 0,0:07:17.54,0:07:22.11,Main Dialogue,Kichou,0,0,0,,Não é de seu feito simplesmente \N se esconder no castelo.
+Dialogue: 0,0:07:23.16,0:07:26.45,Main Dialogue,Saburo,0,0,0,,Bem, não podemos apenas \N esperar aqui no castelo, podemos?
+Dialogue: 0,0:07:28.92,0:07:32.41,Main Dialogue,Saburo,0,0,0,,Temos que ganhar o confronto com Imagawa-san.
+Dialogue: 0,0:07:37.53,0:07:38.31,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:07:39.76,0:07:41.63,Main Dialogue,Tsune,0,0,0,,Um mensageiro montado chegou agora pouco.
+Dialogue: 0,0:07:41.63,0:07:43.62,Main Dialogue,Tsune,0,0,0,,As fortalezas de Marune e Washizu
+Dialogue: 0,0:07:43.62,0:07:45.32,Main Dialogue,Tsune,0,0,0,,foram cercadas pelas forças de Imagawa.
+Dialogue: 0,0:07:45.32,0:07:47.44,Main Dialogue,Tsune,0,0,0,,Estão sob ataque.
+Dialogue: 0,0:07:48.19,0:07:51.19,Main Dialogue,Tsune,0,0,0,,À frente das forças de \N Imagawa está o exército de Mikawa,
+Dialogue: 0,0:07:51.19,0:07:53.16,Main Dialogue,Tsune,0,0,0,,liderados por Motoyasu Matsudaira.
+Dialogue: 0,0:07:53.40,0:07:55.50,Main Dialogue,Saburo,0,0,0,,Motoyasu Matsudaira?
+Dialogue: 0,0:07:56.55,0:07:58.30,Main Dialogue,Saburo,0,0,0,,Não é esse...
+Dialogue: 0,0:07:58.30,0:07:59.10,Main Dialogue,Sasa,0,0,0,,Meu senhor!
+Dialogue: 0,0:07:59.87,0:08:04.04,Main Dialogue,Sasa,0,0,0,,Um homem nomeado "Líder" está nos portões, \N exigindo encontrar-se contigo.
+Dialogue: 0,0:08:04.04,0:08:05.26,Main Dialogue,Tsune,0,0,0,,Líder?!
+Dialogue: 0,0:08:05.26,0:08:07.46,Main Dialogue,Tsune,0,0,0,,Não temos tempo para isso. \N Mande-o embora.
+Dialogue: 0,0:08:07.46,0:08:08.94,Main Dialogue,Saburo,0,0,0,,Bem na hora!
+Dialogue: 0,0:08:11.64,0:08:12.66,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:08:15.62,0:08:20.74,Main Dialogue,Tsune,0,0,0,,O que ele está pensando, \N num momento como esse?
+Dialogue: 0,0:08:21.45,0:08:22.95,Main Dialogue,Kichou,0,0,0,,Ele pretende vencer.
+Dialogue: 0,0:08:25.30,0:08:29.69,Main Dialogue,Kichou,0,0,0,,O senhor pretende vencer o \N exército de Imagawa de quarenta mil.
+Dialogue: 0,0:08:31.56,0:08:32.65,Main Dialogue,Saburo,0,0,0,,Tsune-chan!
+Dialogue: 0,0:08:33.39,0:08:35.85,Main Dialogue,Saburo,0,0,0,,O que está fazendo? Vamos logo!
+Dialogue: 0,0:08:35.85,0:08:37.03,Main Dialogue,Saburo,0,0,0,,Estamos partindo!
+Dialogue: 0,0:08:47.29,0:08:48.84,Main Dialogue,Saburo,0,0,0,,Ah, olá.
+Dialogue: 0,0:08:49.78,0:08:52.46,Main Dialogue,Denjiro,0,0,0,,Meu senhor, o que está fazendo?
+Dialogue: 0,0:08:53.19,0:08:55.01,Main Dialogue,Denjiro,0,0,0,,Não iríamos esperar por um cerco?
+Dialogue: 0,0:08:57.00,0:08:59.69,Main Dialogue,Saburo,0,0,0,,Eu nunca disse isso.
+Dialogue: 0,0:09:03.16,0:09:04.14,Main Dialogue,Saburo,0,0,0,,Mas—
+Dialogue: 0,0:09:12.44,0:09:13.91,Main Dialogue,Masa,0,0,0,,Ah! Nobunaga-sama!
+Dialogue: 0,0:09:16.01,0:09:18.53,Main Dialogue,Saburo,0,0,0,,Olá, líder! Alguma notícia?
+Dialogue: 0,0:09:18.53,0:09:21.60,Main Dialogue,Masa,0,0,0,,Senhor, Yoshimoto Imagawa \N está no Castelo de Kutsukake.
+Dialogue: 0,0:09:21.60,0:09:24.66,Main Dialogue,Masa,0,0,0,,Os homens de lá disseram \N que irão partir ao amanhecer.
+Dialogue: 0,0:09:25.04,0:09:26.54,Main Dialogue,Masa,0,0,0,,Suponho que se sairmos agora,
+Dialogue: 0,0:09:26.54,0:09:30.71,Main Dialogue,Masa,0,0,0,,iremos encontrá-los em \N Dengakuhazama ou Okehazama.
+Dialogue: 0,0:09:31.17,0:09:32.25,Main Dialogue,Saburo,0,0,0,,Okehazama?
+Dialogue: 0,0:09:33.37,0:09:36.90,Main Dialogue,Saburo,0,0,0,,Essa não é a \N "Batalha de Okehazama"?
+Dialogue: 0,0:09:36.90,0:09:38.46,Main Dialogue,Saburo,0,0,0,,Aquela, a famosa.
+Dialogue: 0,0:09:38.46,0:09:40.35,Main Dialogue,Masa,0,0,0,,Eu não sei.
+Dialogue: 0,0:09:41.11,0:09:42.06,Main Dialogue,Saburo,0,0,0,,De qualquer maneira.
+Dialogue: 0,0:09:42.06,0:09:42.97,Main Dialogue,Masa,0,0,0,,E também,
+Dialogue: 0,0:09:42.97,0:09:46.44,Main Dialogue,Masa,0,0,0,,os homens de Imagawa acreditam que a \N família Oda está esperando por um cerco.
+Dialogue: 0,0:09:46.72,0:09:49.71,Main Dialogue,Saburo,0,0,0,,Sério? Bom trabalho em descobrir isso.
+Dialogue: 0,0:09:49.71,0:09:50.27,Main Dialogue,Saburo,0,0,0,,Obrigado.
+Dialogue: 0,0:09:50.27,0:09:53.36,Main Dialogue,Masa,0,0,0,,Temos alguns dos nossos no exército de Imagawa.
+Dialogue: 0,0:09:53.36,0:09:55.53,Main Dialogue,Masa,0,0,0,,Iremos lhe informar caso \N descubramos algo o mais rápido possível.
+Dialogue: 0,0:09:55.53,0:09:57.36,Main Dialogue,Saburo,0,0,0,,Vocês com certeza são confiáveis.
+Dialogue: 0,0:09:58.53,0:09:59.48,Main Dialogue,Saburo,0,0,0,,Abram o portão!
+Dialogue: 0,0:09:59.48,0:10:03.52,Main Dialogue,Masa,0,0,0,,Ah, e sabíamos \N que estaria escuro,
+Dialogue: 0,0:10:03.52,0:10:05.92,Main Dialogue,Masa,0,0,0,,então os aldeões prepararam tochas.
+Dialogue: 0,0:10:11.31,0:10:13.30,Main Dialogue,Saburo,0,0,0,,Vocês estão tão sérios!
+Dialogue: 0,0:10:14.32,0:10:15.17,Main Dialogue,Tsune,0,0,0,,Meu senhor!
+Dialogue: 0,0:10:15.84,0:10:17.42,Main Dialogue,Sasa,0,0,0,,Estamos indo para um ataque surpresa?
+Dialogue: 0,0:10:17.42,0:10:19.84,Main Dialogue,Mori,0,0,0,,Sabia que o senhor não \N ficaria esperando no castelo.
+Dialogue: 0,0:10:24.92,0:10:28.62,Main Dialogue,Saburo,0,0,0,,Todos vocês, esqueçam \N que estamos num número menor!
+Dialogue: 0,0:10:28.62,0:10:32.56,Main Dialogue,Saburo,0,0,0,,Caso derrotemos \N seu general, venceremos.
+Dialogue: 0,0:10:34.40,0:10:36.32,Main Dialogue,Saburo,0,0,0,,Não pensem em olhar para os outros.
+Dialogue: 0,0:10:38.72,0:10:41.12,Main Dialogue,,0,0,0,,Estamos atrás de apenas um:
+Dialogue: 0,0:10:41.70,0:10:42.49,Main Dialogue,,0,0,0,,O general
+Dialogue: 0,0:10:43.66,0:10:45.93,Main Dialogue,,0,0,0,,Yoshimoto Imagawa!
+Dialogue: 0,0:10:52.35,0:10:53.46,Main Dialogue,Denjiro,0,0,0,,Impossível.
+Dialogue: 0,0:10:53.72,0:10:55.63,Main Dialogue,Denjiro,0,0,0,,Derrotar Yoshimoto?
+Dialogue: 0,0:10:56.29,0:10:57.89,Main Dialogue,Denjiro,0,0,0,,Ele não poderia.
+Dialogue: 0,0:10:57.89,0:11:01.69,Main Dialogue,Denjiro,0,0,0,,Não há chances de que Nobunaga vença!
+Dialogue: 0,0:11:03.81,0:11:05.06,Main Dialogue,Civ 1,0,0,0,,Nobunaga-sama!
+Dialogue: 0,0:11:05.06,0:11:06.93,Main Dialogue,Civ 2,0,0,0,,Proteja Owari!
+Dialogue: 0,0:11:07.60,0:11:10.60,Main Dialogue,Shibata follower,0,0,0,,Shibata-sama, nosso senhor \N acabou de partir para a batalha.
+Dialogue: 0,0:11:10.60,0:11:11.02,Main Dialogue,Shibata,0,0,0,,O quê?
+Dialogue: 0,0:11:11.97,0:11:13.31,Main Dialogue,Shibata,0,0,0,,O que acabou de dizer?
+Dialogue: 0,0:11:13.79,0:11:16.69,Main Dialogue,Shibata follower,0,0,0,,Isso, nosso senhor partiu para batalha.
+Dialogue: 0,0:11:17.60,0:11:18.89,Main Dialogue,Shibata,0,0,0,,Para batalha?
+Dialogue: 0,0:11:19.65,0:11:20.74,Main Dialogue,Shibata,0,0,0,,Não pode ser...
+Dialogue: 0,0:11:24.10,0:11:25.40,Main Dialogue,Shibata,0,0,0,,Estamos indo para o castelo.
+Dialogue: 0,0:11:25.40,0:11:26.10,Main Dialogue,Shibata follower,0,0,0,,Senhor!
+Dialogue: 0,0:11:27.07,0:11:29.75,Main Dialogue,A,0,0,0,,O senhor está partindo. Rápido!
+Dialogue: 0,0:11:29.92,0:11:31.25,Main Dialogue,B,0,0,0,,Preparem os cavalos.
+Dialogue: 0,0:11:33.67,0:11:36.41,Main Dialogue,Denjiro,0,0,0,,Caramba... se acalme.
+Dialogue: 0,0:11:36.70,0:11:39.73,Main Dialogue,Denjiro,0,0,0,,Um ataque surpresa \N não funcionará tão facilmente.
+Dialogue: 0,0:11:40.49,0:11:43.86,Main Dialogue,Denjiro,0,0,0,,Duvido que Imagawa possa ser derrotado.
+Dialogue: 0,0:11:48.25,0:11:50.35,Main Dialogue,Tsune,0,0,0,,Espere, meu senhor!
+Dialogue: 0,0:11:51.12,0:11:52.07,Main Dialogue,Saburo,0,0,0,,O quê?
+Dialogue: 0,0:11:56.02,0:11:58.94,Main Dialogue,Tsune,0,0,0,,Não há nenhuma possibilidade de irmos \N para a batalha com apenas cinco homens.
+Dialogue: 0,0:11:59.27,0:12:01.32,Main Dialogue,Tsune,0,0,0,,Peço que espere pelos outros.
+Dialogue: 0,0:12:02.01,0:12:02.90,Main Dialogue,Saburo,0,0,0,,Hã?
+Dialogue: 0,0:12:03.27,0:12:06.37,Main Dialogue,Saburo,0,0,0,,Ah, nossa, só há cinco de nós aqui.
+Dialogue: 0,0:12:07.24,0:12:09.20,Main Dialogue,Saburo,0,0,0,,Por que eles estão demorando tanto?
+Dialogue: 0,0:12:10.23,0:12:15.38,Main Dialogue,Tsune,0,0,0,,Talvez, seja pelo fato do \Nsenhor ter saído tão rápidamente.
+Dialogue: 0,0:12:18.24,0:12:19.22,Main Dialogue,Saburo,0,0,0,,Tanto faz.
+Dialogue: 0,0:12:25.82,0:12:29.22,Main Dialogue,Saburo,0,0,0,,Irei apenas tirar uma \N soneca enquanto esperamos.
+Dialogue: 0,0:12:31.93,0:12:33.52,Main Dialogue,B,0,0,0,,O que está havendo?
+Dialogue: 0,0:12:33.78,0:12:36.13,Main Dialogue,A,0,0,0,,Não íamos esperar por um cerco?
+Dialogue: 0,0:12:36.13,0:12:38.18,Main Dialogue,C,0,0,0,,Não temos chances de ganhar \N essa batalha contra Imagawa.
+Dialogue: 0,0:12:38.18,0:12:40.60,Main Dialogue,B,0,0,0,,Será que nosso senhor \N pretende acabar com a família Oda?
+Dialogue: 0,0:12:40.60,0:12:44.86,Main Dialogue,Shibata,0,0,0,,Não iremos fazer nada se \N continuarmos discutindo aqui.
+Dialogue: 0,0:12:45.50,0:12:47.06,Main Dialogue,C,0,0,0,,Shibata-dono.
+Dialogue: 0,0:12:47.06,0:12:52.81,Main Dialogue,Shibata,0,0,0,,Se nosso senhor foi batalhar, \N então devemos segui-lo.
+Dialogue: 0,0:12:54.77,0:12:59.74,Main Dialogue,A,0,0,0,,Mas podemos morrer em vão, entrando \N numa batalha que não há como vencer.
+Dialogue: 0,0:12:59.74,0:13:04.17,Main Dialogue,Shibata,0,0,0,,O comandante supremo da \N família Oda é Nobunaga-sama!
+Dialogue: 0,0:13:05.54,0:13:11.46,Main Dialogue,Shibata,0,0,0,,Se nosso senhor escolheu \N lutar, então irei segui-lo.
+Dialogue: 0,0:13:11.97,0:13:13.15,Main Dialogue,Shibata,0,0,0,,Com licença.
+Dialogue: 0,0:13:18.81,0:13:21.11,Main Dialogue,Saburo,0,0,0,,Tsune-chan...
+Dialogue: 0,0:13:22.24,0:13:24.03,Main Dialogue,Tsune,0,0,0,,Você acordou?
+Dialogue: 0,0:13:24.85,0:13:29.54,Main Dialogue,Saburo,0,0,0,,Quer saber, não é bom \N dormir com uma armadura.
+Dialogue: 0,0:13:30.01,0:13:33.93,Main Dialogue,Saburo,0,0,0,,É pesada, dura e dolorosa.
+Dialogue: 0,0:13:33.93,0:13:36.76,Main Dialogue,Saburo,0,0,0,,Isso é muito desconfortável.
+Dialogue: 0,0:13:36.76,0:13:38.67,Main Dialogue,Tsune,0,0,0,,Isso deveria ser óbvio.
+Dialogue: 0,0:13:42.46,0:13:45.38,Main Dialogue,Saburo,0,0,0,,Vejam quantas pessoas \Napareceram enquanto eu estava deitado.
+Dialogue: 0,0:13:47.15,0:13:50.05,Main Dialogue,Saburo,0,0,0,,Certo, então vamos.
+Dialogue: 0,0:13:52.83,0:13:53.77,Main Dialogue,Tsune,0,0,0,,Quem está aí?
+Dialogue: 0,0:13:55.19,0:13:56.69,Main Dialogue,Masa,0,0,0,,Não sou uma ameaça.
+Dialogue: 0,0:13:57.15,0:13:59.18,Main Dialogue,Saburo,0,0,0,,Olá, líder.
+Dialogue: 0,0:13:59.42,0:14:01.11,Main Dialogue,Saburo,0,0,0,,Alguma notícia?
+Dialogue: 0,0:14:02.20,0:14:07.58,Main Dialogue,Masa,0,0,0,,O exército de Imagawa está \N se preparando para descansar.
+Dialogue: 0,0:14:08.10,0:14:10.82,Main Dialogue,Masa,0,0,0,,Seu general, Yoshimoto Imagawa, \N também está lá.
+Dialogue: 0,0:14:11.32,0:14:12.08,Main Dialogue,Saburo,0,0,0,,Aonde?
+Dialogue: 0,0:14:12.68,0:14:14.12,Main Dialogue,Masa,0,0,0,,Em Dengakuhazama.
+Dialogue: 0,0:14:16.40,0:14:17.43,Main Dialogue,Saburo,0,0,0,,Entendi.
+Dialogue: 0,0:14:17.80,0:14:19.11,Main Dialogue,Saburo,0,0,0,,Muito obrigado.
+Dialogue: 0,0:14:19.47,0:14:21.06,Main Dialogue,Saburo,0,0,0,,Já pode voltar para sua aldeia.
+Dialogue: 0,0:14:21.28,0:14:22.06,Main Dialogue,Masa,0,0,0,,Certo!
+Dialogue: 0,0:14:22.64,0:14:24.77,Main Dialogue,Saburo,0,0,0,,Bem, então.
+Dialogue: 0,0:14:25.40,0:14:29.39,Main Dialogue,Saburo,0,0,0,,Agora que sabemos onde \N eles estão, já podemos partir.
+Dialogue: 0,0:14:32.93,0:14:36.88,Main Dialogue,Saburo,0,0,0,,Todos vocês, siga-me.
+Dialogue: 0,0:14:57.04,0:14:58.66,Main Dialogue,Shibata,0,0,0,,Encontraram nosso senhor?
+Dialogue: 0,0:14:59.25,0:15:00.75,Main Dialogue,A,0,0,0,,Não, ainda não.
+Dialogue: 0,0:15:00.92,0:15:02.53,Main Dialogue,Shibata,0,0,0,,Então encontre-o!
+Dialogue: 0,0:15:03.04,0:15:04.46,Main Dialogue,Cavalry,0,0,0,,Shibata-sama.
+Dialogue: 0,0:15:08.68,0:15:09.97,Main Dialogue,Shibata,0,0,0,,Encontraram nosso senhor?
+Dialogue: 0,0:15:09.97,0:15:13.30,Main Dialogue,Cavalry,0,0,0,,Sim, agora mesmo, \N em Dengakuhazama...
+Dialogue: 0,0:15:14.20,0:15:17.56,Main Dialogue,Shibata,0,0,0,,Ele... ele foi derrotado?
+Dialogue: 0,0:15:19.91,0:15:23.74,Main Dialogue,Cavalry,0,0,0,,Ele derrotou \N Yoshimoto Imagawa!
+Dialogue: 0,0:15:27.48,0:15:30.69,Main Dialogue,Shibata,0,0,0,,Ele derrotou Imagawa.
+Dialogue: 0,0:15:33.97,0:15:34.91,Main Dialogue,Saburo,0,0,0,,Mouri-san!
+Dialogue: 0,0:15:34.91,0:15:35.62,Main Dialogue,Mouri,0,0,0,,Senhor!
+Dialogue: 0,0:15:38.81,0:15:42.05,Main Dialogue,Shibata,0,0,0,,E pensar que ele \N conseguiu derrotar o Imagawa.
+Dialogue: 0,0:15:42.05,0:15:46.67,Main Dialogue,Niwa,0,0,0,,Que havia tanta coisa por trás \N de seu "comam bem, durmam bem".
+Dialogue: 0,0:15:47.40,0:15:51.70,Main Dialogue,Shibata,0,0,0,,Realmente, nós deveríamos saber.
+Dialogue: 0,0:15:52.43,0:15:56.61,Main Dialogue,Shibata,0,0,0,,Que haveriam espiões \N dentro de nossas tropas.
+Dialogue: 0,0:15:57.54,0:16:04.40,Main Dialogue,Shibata,0,0,0,,Nosso senhor é tão cuidadoso, \N que levou isso em consideração.
+Dialogue: 0,0:16:07.23,0:16:08.71,Internal Dialogue,Denjiro,0,0,0,,Yoshimoto...
+Dialogue: 0,0:16:09.49,0:16:12.90,Internal Dialogue,Denjiro,0,0,0,,Foi um erro pensar que a família \N Oda iria apenas esperar por um cerco.
+Dialogue: 0,0:16:14.81,0:16:18.41,Internal Dialogue,Denjiro,0,0,0,,Nobunaga nunca iria \N aceitar uma coisa dessas.
+Dialogue: 0,0:16:22.16,0:16:27.15,Internal Dialogue,Denjiro,0,0,0,,Parece que eu o subestimei.
+Dialogue: 0,0:16:31.13,0:16:32.31,Main Dialogue,Denjiro,0,0,0,,Maldito!
+Dialogue: 0,0:16:40.15,0:16:41.52,Main Dialogue,Denjiro,0,0,0,,O que é isso?
+Dialogue: 0,0:16:48.04,0:16:51.23,Main Dialogue,Imakawa ninja,0,0,0,,Então, você nos traiu?
+Dialogue: 0,0:16:53.35,0:16:56.56,Main Dialogue,Imakawa ninja,0,0,0,,Yoshimoto sempre confiou em você.
+Dialogue: 0,0:16:57.02,0:17:00.53,Main Dialogue,Imakawa ninja,0,0,0,,Você disse que eles esperariam \N por um cerco, e ele acreditou nisso.
+Dialogue: 0,0:17:01.61,0:17:03.47,Main Dialogue,Denjiro,0,0,0,,O que está tentando dizer?
+Dialogue: 0,0:17:03.47,0:17:06.47,Main Dialogue,Imakawa ninja,0,0,0,,Você intencionalmente \N entregou informações falsas
+Dialogue: 0,0:17:06.47,0:17:11.38,Main Dialogue,Imakawa ninja,0,0,0,,para baixar a guarda de Yoshimoto e \N permitir que Nobunaga atacasse.
+Dialogue: 0,0:17:12.92,0:17:15.92,Main Dialogue,Imakawa ninja,0,0,0,,Essa não é a explicação mais óbvia?
+Dialogue: 0,0:17:21.65,0:17:25.60,Main Dialogue,Imakawa ninja,0,0,0,,Não é, Tokichiro?
+Dialogue: 0,0:17:27.56,0:17:31.32,Main Dialogue,Denjiro,0,0,0,,Claro. Creio que sim.
+Dialogue: 0,0:17:32.03,0:17:33.44,Main Dialogue,Saburo,0,0,0,,Ei! Líder!
+Dialogue: 0,0:17:33.44,0:17:34.38,Main Dialogue,,0,0,0,,Ei!
+Dialogue: 0,0:17:35.81,0:17:37.11,Main Dialogue,Saburo,0,0,0,,Venha aqui.
+Dialogue: 0,0:17:39.64,0:17:46.08,Main Dialogue,Saburo,0,0,0,,Foi graças as suas informações precisas \N que nosso ataque surpresa foi um sucesso.
+Dialogue: 0,0:17:46.64,0:17:52.64,Main Dialogue,Saburo,0,0,0,,Então, irei oferecer para o líder, \N Masa-kun, uma recompensa.
+Dialogue: 0,0:17:54.30,0:17:59.30,Main Dialogue,Saburo,0,0,0,,Masa-kun é um fazendeiro, \N então ele não tem um sobrenome oficial.
+Dialogue: 0,0:17:59.30,0:18:01.86,Main Dialogue,Saburo,0,0,0,,Então nós dois pensamos a \N respeito, e decidimos juntos.
+Dialogue: 0,0:18:01.86,0:18:02.96,Main Dialogue,Saburo,0,0,0,,Aqui está!
+Dialogue: 0,0:18:06.85,0:18:09.19,Main Dialogue,Masa,0,0,0,,Meu nome é Masatsuna Yanada.
+Dialogue: 0,0:18:10.80,0:18:12.51,Main Dialogue,Saburo,0,0,0,,Muito legal, não é?
+Dialogue: 0,0:18:12.51,0:18:16.80,Main Dialogue,Saburo,0,0,0,,Ah, e estou lhes dando essa \N terra para dividi-la entre vocês.
+Dialogue: 0,0:18:16.80,0:18:19.20,Main Dialogue,Niwa,0,0,0,,Eu entendo que \N sua informação foi útil,
+Dialogue: 0,0:18:19.20,0:18:24.45,Main Dialogue,Niwa,0,0,0,,mas ele está dando a maior parte da \N glória ao fazendeiro, que sequer esteve em batalha...
+Dialogue: 0,0:18:25.34,0:18:34.55,Main Dialogue,Shibata,0,0,0,,Ele pode ser mais \N brilhante do que imaginamos.
+Dialogue: 0,0:18:31.12,0:18:32.19,Main Dialogue Top,Saburo,0,0,0,,Bom trabalho!
+Dialogue: 0,0:18:32.93,0:18:34.55,Main Dialogue Top,Men,0,0,0,,"Booom trabalhooo!"
+Dialogue: 0,0:18:39.99,0:18:41.14,Main Dialogue,Denjiro,0,0,0,,Caramba...
+Dialogue: 0,0:18:43.17,0:18:45.66,Main Dialogue,Denjiro,0,0,0,,Isso doeu.
+Dialogue: 0,0:18:46.98,0:18:49.08,Main Dialogue,Denjiro,0,0,0,,Mas está feito.
+Dialogue: 0,0:18:49.73,0:18:54.59,Main Dialogue,Denjiro,0,0,0,,Agora, ninguém do lado de \N Imagawa conhece meu rosto..
+Dialogue: 0,0:18:57.38,0:19:02.21,Main Dialogue,Denjiro,0,0,0,,Então irei estabelecer-me ao lado de Oda.
+Dialogue: 0,0:19:03.09,0:19:05.08,Main Dialogue,Denjiro,0,0,0,,Nobunaga...
+Dialogue: 0,0:19:05.08,0:19:09.88,Main Dialogue,Denjiro,0,0,0,,E algum dia, irei \N me livrar dessa humilhação.
+Dialogue: 0,0:19:10.73,0:19:13.96,Main Dialogue,Denjiro,0,0,0,,Irei eliminar a família Oda!
+Dialogue: 0,0:19:21.74,0:19:25.77,Main Dialogue,A,0,0,0,,E então, quando eu estava \N rodeado pelos soldados de Imagawa,
+Dialogue: 0,0:19:25.77,0:19:29.47,Main Dialogue,A,0,0,0,,os ignorei e continuei avançando.
+Dialogue: 0,0:19:39.64,0:19:43.81,Main Dialogue,Kichou,0,0,0,,Você realmente deseja ficar \N aqui num momento desses?
+Dialogue: 0,0:19:44.28,0:19:45.50,Main Dialogue,Saburo,0,0,0,,Hã? Claro.
+Dialogue: 0,0:19:45.50,0:19:47.83,Main Dialogue,Saburo,0,0,0,,Disse a eles que estava \N cansado e iria para a cama.
+Dialogue: 0,0:19:49.07,0:19:52.94,Main Dialogue,Saburo,0,0,0,,Ah, aqui, sabia que estava aqui. \N A Batalha de Okehazama.
+Dialogue: 0,0:19:53.24,0:19:55.82,Main Dialogue,Saburo,0,0,0,,Sabia que isso soava familiar.
+Dialogue: 0,0:19:56.29,0:20:03.34,Main Dialogue,Saburo,0,0,0,,"1560: Nobunaga Oda derrotou  \N Yoshimoto Imagawa em Okehazama."
+Dialogue: 0,0:20:05.00,0:20:05.95,Main Dialogue,Saburo,0,0,0,,Hã?
+Dialogue: 0,0:20:05.95,0:20:08.78,Main Dialogue,Saburo,0,0,0,,Ah, então fala sobre \NImagawa-san aqui.
+Dialogue: 0,0:20:09.87,0:20:11.03,Main Dialogue,Saburo,0,0,0,,Ah!
+Dialogue: 0,0:20:11.03,0:20:15.23,Main Dialogue,Saburo,0,0,0,,Hoje não seria a \N Batalha de Okehazama?
+Dialogue: 0,0:20:16.80,0:20:20.23,Main Dialogue,Saburo,0,0,0,,Eu acabei de fazer história.
+Dialogue: 0,0:20:20.23,0:20:21.82,Main Dialogue,Saburo,0,0,0,,Nossa...
+Dialogue: 0,0:20:21.82,0:20:22.96,Main Dialogue,Kichou,0,0,0,,Meu senhor?
+Dialogue: 0,0:20:22.96,0:20:23.83,Main Dialogue,Saburo,0,0,0,,Hã?
+Dialogue: 0,0:20:24.33,0:20:28.65,Main Dialogue,Saburo,0,0,0,,Mas isso foi em Dengaku-hazama, \N não em Okehazama.
+Dialogue: 0,0:20:30.79,0:20:32.79,Main Dialogue,Saburo,0,0,0,,Bem, quem se importa com os detalhes.
+Dialogue: 0,0:20:32.79,0:20:34.29,Main Dialogue,Saburo,0,0,0,,Já estudei o bastante.
+Dialogue: 0,0:20:34.87,0:20:37.81,Main Dialogue,Saburo,0,0,0,,Estou cansado. Irei dormir.
+Dialogue: 0,0:20:38.62,0:20:40.27,Main Dialogue,Saburo,0,0,0,,Boa noite.
+Dialogue: 0,0:20:42.51,0:20:44.41,Main Dialogue,Kichou,0,0,0,,Boa noite.
+Dialogue: 0,0:20:47.75,0:20:49.01,Main Dialogue,Kichou,0,0,0,,Ele já adormeceu.
+Dialogue: 0,0:21:03.40,0:21:05.78,Main Dialogue,Kichou,0,0,0,,Estou feliz que esteja seguro.
+Comment: 0,0:21:23.68,0:21:23.68,Default,,0,0,0,,ED HERE
+Comment: 0,0:21:23.68,0:21:23.68,Default,,0,0,0,,ED HERE
+Comment: 0,0:21:23.68,0:21:23.68,Default,,0,0,0,,ED Romanji Start
+Dialogue: 0,0:21:23.68,0:21:26.26,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k39}Wake {\k20}in {\k33}lone{\k17}li{\k50}ness! {\k33}Lone{\k17}li{\k41}ness!
+Dialogue: 0,0:21:26.26,0:21:28.56,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k54}Falling {\k59}inside {\k35}your {\k82}story
+Dialogue: 0,0:21:28.56,0:21:31.06,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k65}Walking {\k48}after {\k48}you! {\k49}After {\k40}you!
+Dialogue: 0,0:21:31.06,0:21:34.73,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k31}I {\k27}will {\k65}share {\k41}my {\k168}ti{\k35}me
+Dialogue: 0,0:22:05.34,0:22:07.68,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k56}Mayoi {\k45}konda {\k69}sekai {\k64}de
+Dialogue: 0,0:22:07.68,0:22:11.51,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k49}Boku {\k23}wa {\k29}kage {\k19}to {\k143}kasanatte {\k121}ima
+Dialogue: 0,0:22:11.51,0:22:14.27,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k37}I {\k59}can't {\k35}go {\k117}back
+Dialogue: 0,0:22:14.27,0:22:16.85,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k113}Ketteiteki {\k46}boku {\k13}no {\k60}shomei {\k27}wa
+Dialogue: 0,0:22:16.85,0:22:19.81,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k63}Jidai {\k19}o {\k31}ima {\k45}koete {\k138}monogataru
+Dialogue: 0,0:22:19.81,0:22:26.49,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k37}You {\k80}Know? {\k18}I {\k29}will {\k40}be {\k13}the {\k38}brand {\k19}new {\k60}age {\k33}from {\k39}this {\k261}day
+Dialogue: 0,0:22:28.11,0:22:32.66,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k23}I {\k30}will {\k46}save {\k129}myself, {\k45}and {\k29}the {\k49}time {\k42}is {\k61}now!
+Dialogue: 0,0:22:32.66,0:22:35.25,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k64}Kill {\k21}my {\k88}weakness! {\k86}Weakness!
+Dialogue: 0,0:22:35.25,0:22:37.54,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k76}Kanarazu {\k41}koete {\k42}nagete {\k70}satte
+Dialogue: 0,0:22:37.54,0:22:39.92,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k58}And {\k13}I {\k42}stay {\k47}alive! {\k39}Stay {\k39}alive!
+Dialogue: 0,0:22:39.92,0:22:42.38,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k53}Saigo {\k18}o {\k96}shinjitaku {\k79}wanakute!
+Dialogue: 0,0:22:42.38,0:22:44.76,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k64}Kill {\k21}my {\k88}weakness! {\k86}Weakness!
+Dialogue: 0,0:22:44.76,0:22:47.09,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k61}Itsuka {\k69}kidzuita {\k27}to {\k53}shite {\k24}mo
+Dialogue: 0,0:22:47.09,0:22:51.10,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k43}I {\k32}will {\k40}prove {\k62}myself {\k25}that {\k38}I {\k23}have {\k8}to {\k33}live {\k96}today
+Dialogue: 0,0:22:51.10,0:22:53.10,OP Romaji,,0,0,0,,{\be1\fad(100,100)}{\k87}Starting {\k113}now!
+Comment: 0,0:21:23.68,0:21:23.68,OP Kanji,,0,0,0,,ED Romanji End
+Comment: 0,0:21:23.68,0:21:23.68,OP Kanji,,0,0,0,,ED Kanji Start
+Dialogue: 0,0:22:05.34,0:22:07.68,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k56}迷い{\k45}込んだ{\k69}世界{\k64}で
+Dialogue: 0,0:22:07.68,0:22:11.51,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k49}僕{\k23}は{\k29}影{\k19}と{\k143}重なって{\k121}今
+Dialogue: 0,0:22:14.27,0:22:16.85,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k113}決定的{\k46}僕{\k13}の{\k60}証明{\k27}は
+Dialogue: 0,0:22:16.85,0:22:19.81,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k63}時代{\k19}を{\k31}今{\k45}越えて{\k138}物語る
+Dialogue: 0,0:22:35.25,0:22:37.54,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k76}必ず{\k41}越えて{\k42}投げて{\k70}去って
+Dialogue: 0,0:22:39.92,0:22:42.38,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k53}最後{\k18}を{\k96}信じたく{\k79}はなくて!
+Dialogue: 0,0:22:44.76,0:22:47.09,OP Kanji,,0,0,0,,{\be1\fad(100,100)}{\k61}いつか{\k69}気づいた{\k27}と{\k53}して{\k24}も
+Comment: 0,0:21:23.68,0:21:23.68,OP Kanji,,0,0,0,,ED Kanji End
+Comment: 0,0:21:23.68,0:21:23.68,Default,,0,0,0,,ED Br Start
+Dialogue: 0,0:21:23.68,0:21:26.26,OP BR,,0,0,0,,Despertei na solidão! Solidão!
+Dialogue: 0,0:21:26.26,0:21:28.56,OP BR,,0,0,0,,Caindo dentro de sua história
+Dialogue: 0,0:21:28.56,0:21:31.06,OP BR,,0,0,0,,Caminhando após você! Após você!
+Dialogue: 0,0:21:31.06,0:21:34.73,OP BR,,0,0,0,,Lhe partilharei meu tempo
+Dialogue: 0,0:22:05.34,0:22:07.68,OP BR,,0,0,0,,Num mundo totalmente perdido
+Dialogue: 0,0:22:07.68,0:22:11.51,OP BR,,0,0,0,,Agora estou junto à minha sombra
+Dialogue: 0,0:22:11.51,0:22:14.27,OP BR,,0,0,0,,Não posso voltar
+Dialogue: 0,0:22:14.27,0:22:16.85,OP BR,,0,0,0,,Minha prova decisiva é
+Dialogue: 0,0:22:16.85,0:22:19.81,OP BR,,0,0,0,,Narrar ao longo da era agora
+Dialogue: 0,0:22:19.81,0:22:26.49,OP BR,,0,0,0,,Quer saber? Marcarei essa nova era a partir de hoje
+Dialogue: 0,0:22:28.11,0:22:32.66,OP BR,,0,0,0,,Irei salvar-me, e a hora é agora!
+Dialogue: 0,0:22:32.66,0:22:35.25,OP BR,,0,0,0,,Destrua minha fraqueza! Fraqueza!
+Dialogue: 0,0:22:35.25,0:22:37.54,OP BR,,0,0,0,,Certamente chorando além da distância
+Dialogue: 0,0:22:37.54,0:22:39.92,OP BR,,0,0,0,,E eu ficarei vivo! Ficarei vivo!
+Dialogue: 0,0:22:39.92,0:22:42.38,OP BR,,0,0,0,,Não quero acreditar no fim desse conto de fadas
+Dialogue: 0,0:22:42.38,0:22:44.76,OP BR,,0,0,0,,Destrua minha fraqueza! Fraqueza!
+Dialogue: 0,0:22:44.76,0:22:47.09,OP BR,,0,0,0,,Mesmo sendo notada algum dia
+Dialogue: 0,0:22:47.09,0:22:51.10,OP BR,,0,0,0,,Irei provar a mim mesmo que preciso viver hoje
+Dialogue: 0,0:22:51.10,0:22:53.10,OP BR,,0,0,0,,Começando agora!
+Comment: 0,0:21:23.68,0:21:23.68,Default,,0,0,0,,ED Br End
+Comment: 0,0:21:23.68,0:21:23.68,Default,,0,0,0,,ED Credits Start
+Dialogue: 0,0:21:39.15,0:21:42.15,Credits GriloSub,,0,0,0,,{\pos(840,680)}Tradução          Grilo
+Dialogue: 0,0:21:42.15,0:21:45.15,Credits GriloSub,,0,0,0,,{\pos(1015,270)}Revisão \N GabrielCosta \N KaueGodoy
+Dialogue: 0,0:21:45.15,0:21:48.16,Credits GriloSub,,0,0,0,,{\pos(535,590)}Karaokê       Grilo
+Dialogue: 0,0:21:48.16,0:21:50.95,Credits GriloSub,,0,0,0,,{\pos(300,670)}Revisão final     Grilo
+Dialogue: 0,0:21:54.16,0:21:57.17,Credits GriloSub,,0,0,0,,{\pos(410,480)}Tradução          Grilo  \N do Karaokê       KaueGodoy
+Dialogue: 0,0:22:33.49,0:22:53.10,Credits GriloSub,,0,0,0,,{\pos(1115,520)\a6}GriloSub \N\N Feito de fã para fã.  \N\N #GriloSub@irc.rizon.net
+Comment: 0,0:21:23.68,0:21:23.68,Default,,0,0,0,,ED Credits End
