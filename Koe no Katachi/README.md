@@ -1,0 +1,2 @@
+- Tradução "Speedsub" do filme **Koe no Katachi**
+- Créditos: 35mm & Grilo, oi(tário), Alê
