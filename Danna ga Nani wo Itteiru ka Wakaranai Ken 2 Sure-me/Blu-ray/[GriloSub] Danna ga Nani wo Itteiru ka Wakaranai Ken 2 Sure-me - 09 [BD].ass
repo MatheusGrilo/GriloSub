@@ -29,7 +29,7 @@ Dialogue: 10,0:00:05.27,0:00:07.07,Danna ga Nani Main I,Kaoru,0,0,0,,Será que t
 Dialogue: 0,0:00:07.07,0:00:08.32,Sign,sign,0,0,0,,{\blur4\alpha&H80&\p1\c&H5198C4&\fscx1629\fscy1757\pos(222.4,642.8)}m 0 0 l 23 0 l 23 6 l 0 6 l 0 0
 Dialogue: 1,0:00:07.07,0:00:08.32,Sign,sign,0,0,0,,{\bord2\1a&HFF&\blur0.7\fnHGPSoeiKakupoptai-CP\c&HCDD931&\pos(222.4,643.2)\fscx177\fscy187\3c&H424A41&}No Outro Dia
 Dialogue: 1,0:00:07.07,0:00:08.32,Sign,sign,0,0,0,,{\bord0\blur0.7\fnHGPSoeiKakupoptai-CP\c&HCDD931&\pos(222.4,643.2)\fscx177\fscy187\3c&H424A41&}No Outro Dia
-Dialogue: 10,0:00:08.32,0:00:09.94,Danna ga Nani Main,Hajime,0,0,0,,Estou com as Bruxas.
+Dialogue: 10,0:00:08.32,0:00:09.94,Danna ga Nani Main,Hajime,0,0,0,,Estou com as Witches.
 Dialogue: 10,0:00:09.94,0:00:11.49,Danna ga Nani Main,Kaoru,0,0,0,,Apenas tolere...
 Dialogue: 0,0:00:12.32,0:00:15.32,Danna ga Nani Main,title,0,0,0,,{\c&HF9F9F9&\3c&HF9F9F9&\an7\pos(0,0)\p1}m 0 0 l 1280 0 1280 720 0 720 0 0
 Dialogue: 0,0:00:12.32,0:00:15.32,Danna ga Nani Main,title,0,0,0,,{\q2\fs40\alpha&H20&\blur1\fnKG Summer Sunshine\an5\c&H19191A&\3c&HEFEFEF&\fscx106\fscy124\pos(940,196)}a
